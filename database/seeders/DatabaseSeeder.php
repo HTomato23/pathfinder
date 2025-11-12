@@ -41,12 +41,6 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('acceptance1234!'),
         ]);
 
-        $authors = Author::factory(5)->create();
-
-        Blog::factory(20)->create([
-            'author_id' => fn() => $authors->random()->id,
-        ]);
-
         // Likert Seeder
         $this->call([
             DatasetSeeder::class,
