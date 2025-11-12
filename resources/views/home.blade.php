@@ -23,7 +23,7 @@
                 <a href="{{ route('login') }}" class="btn text-white !bg-green-800 hover:opacity-90 rounded-full border-0 w-full md:w-1/2 lg:w-1/3 xl:w-1/4"> Get Started <span aria-hidden="true">&rarr;</span> </a>
             </div>
             <div class="reveal flex items-center w-full">
-                <img src="{{ Vite::asset('resources/images/svg/education.svg') }}" alt="educationSVG" />
+                <img src="{{ asset('resources/images/svg/education.svg') }}" alt="educationSVG" />
             </div>
         </div>
     </main>
@@ -36,7 +36,7 @@
                 <div class="flex justify-center flex-col lg:flex-row gap-2">
                     <div class="reveal-stagger card w-full lg:w-96 font-outfit">
                         <figure>
-                            <img src="{{ Vite::asset('resources/images/svg/Dashboard-amico.svg') }}" alt="DashboardSVG" />
+                            <img src="{{ asset('resources/images/svg/Dashboard-amico.svg') }}" alt="DashboardSVG" />
                         </figure>
                         <div class="card-body">
                             <h2 class="font-semibold text-lg text-center">Get Started in Seconds</h2>
@@ -45,7 +45,7 @@
                     </div>
                     <div class="reveal-stagger card w-full lg:w-96 font-outfit">
                         <figure>
-                            <img src="{{ Vite::asset('resources/images/svg/Exams-rafiki.svg') }}" alt="ExamsSVG" />
+                            <img src="{{ asset('resources/images/svg/Exams-rafiki.svg') }}" alt="ExamsSVG" />
                         </figure>
                         <div class="card-body">
                             <h2 class="font-semibold text-lg text-center">Discover Your Strengths</h2>
@@ -54,7 +54,7 @@
                     </div>
                     <div class="reveal-stagger card w-full lg:w-96 font-outfit">
                         <figure>
-                            <img src="{{ Vite::asset('resources/images/svg/Progress overview-cuate.svg') }}" alt="ProgressSVG" />
+                            <img src="{{ asset('resources/images/svg/Progress overview-cuate.svg') }}" alt="ProgressSVG" />
                         </figure>
                         <div class="card-body">
                             <h2 class="font-semibold text-lg text-center">Track Your Growth</h2>
@@ -63,7 +63,7 @@
                     </div>
                     <div class="reveal-stagger card w-full lg:w-96 font-outfit">
                         <figure>
-                            <img src="{{ Vite::asset('resources/images/svg/Job hunt-bro.svg') }}" alt="JobSVG" />
+                            <img src="{{ asset('resources/images/svg/Job hunt-bro.svg') }}" alt="JobSVG" />
                         </figure>
                         <div class="card-body">
                             <h2 class="font-semibold text-lg text-center">Find Your Best Path</h2>
@@ -97,7 +97,7 @@
                     </div>
                 </div>
                 <div class="w-full">
-                    <img src="{{ Vite::asset('resources/images/svg/Group Chat-amico.svg') }}" alt="GroupChat" />
+                    <img src="{{ asset('resources/images/svg/Group Chat-amico.svg') }}" alt="GroupChat" />
                 </div>
             </div>
         </div>
@@ -111,7 +111,7 @@
                 <div class="flex justify-around flex-col lg:flex-row gap-5">
                     <div :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'" class="reveal-stagger card w-full lg:w-96 shadow-sm font-outfit transform transition-transform duration-300 hover:scale-105">
                         <figure>
-                            <img src="{{ Vite::asset('resources/images/statistics.png') }}" alt="statistics" />
+                            <img src="{{ asset('resources/images/statistics.png') }}" alt="statistics" />
                         </figure>
                         <div class="card-body">
                             <h2 class="card-title">Personalized Career Dashboard</h2>
@@ -120,7 +120,7 @@
                     </div>
                     <div :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'" class="reveal-stagger card w-full lg:w-96 shadow-sm font-outfit transform transition-transform duration-300 hover:scale-105">
                         <figure>
-                            <img src="{{ Vite::asset('resources/images/future.png') }}" alt="future" />
+                            <img src="{{ asset('resources/images/future.png') }}" alt="future" />
                         </figure>
                         <div class="card-body">
                             <h2 class="card-title">Your Future Starts Here</h2>
@@ -129,7 +129,7 @@
                     </div>
                     <div :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'" class="reveal-stagger card w-full lg:w-96 shadow-sm font-outfit transform transition-transform duration-300 hover:scale-105">
                         <figure>
-                            <img src="{{ Vite::asset('resources/images/support.png') }}" alt="support" />
+                            <img src="{{ asset('resources/images/support.png') }}" alt="support" />
                         </figure>
                         <div class="card-body">
                             <h2 class="card-title">Support You Can Trust</h2>
