@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&display=swap');
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark, cupcake;
+  exclude: rootscrollgutter;
+}
+
+@theme {
+    --font-outfit: Outfit, sans-serif;
+    --font-sans: Instrument Sans, sans-serif;
+}
+
+[x-cloak] { display: none !important; }
