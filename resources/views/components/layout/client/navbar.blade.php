@@ -7,7 +7,7 @@
         <a href="{{ route('home') }}" class="flex items-center gap-2">
             <div class="avatar">
                 <div class="w-10 rounded-full">
-                    <img src="{{ Vite::asset('resources/images/plp-logo.png') }}" />
+                    <img src="{{ asset('resources/images/plp-logo.png') }}" />
                 </div>
             </div>
             <div class="font-poppins text-lg font-medium">Pathfinder</div>

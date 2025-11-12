@@ -6,7 +6,7 @@
             <a href="{{ route('dashboard') }}">
                 <div class="avatar">
                     <div class="w-10 rounded-full">
-                        <img src="{{ Vite::asset('resources/images/plp-logo.png') }}" />
+                        <img src="{{ asset('resources/images/plp-logo.png') }}" />
                     </div>
                 </div>
                 <span class="text-lg font-medium">Pathfinder</span>
