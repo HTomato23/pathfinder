@@ -1,1 +1,1 @@
-web: bash -c "apt-get update -qq && apt-get install -y python3 python3-pip && pip3 install --break-system-packages -r requirements.txt && php artisan serve --host=0.0.0.0 --port=$PORT"
+web: bash start.sh
