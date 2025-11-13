@@ -58,6 +58,23 @@ Route::middleware('guest.client')->group(function () {
     Route::post('/contact/send', [ContactController::class, 'send'])->name('contact.send');
 });
 
+// Email Verification Routes (MOVED OUTSIDE AUTH PREFIX)
+Route::middleware('auth')->group(function () {
+    // Email verification notice
+    Route::get('/email/verify', [EmailClientVerificationController::class, 'notice'])
+        ->name('verification.notice');
+
+    // Email verification handler
+    Route::get('/email/verify/{id}/{hash}', [EmailClientVerificationController::class, 'verify'])
+        ->middleware('signed')
+        ->name('verification.verify');
+
+    // Email verification resend
+    Route::post('/email/verification-notification', [EmailClientVerificationController::class, 'resend'])
+        ->middleware('throttle:3,1')
+        ->name('verification.send');
+});
+
 // Client Authentication Routes
 Route::prefix('/auth')->group(function () {
     Route::middleware('guest.client')->group(function () {
@@ -81,20 +98,6 @@ Route::prefix('/auth')->group(function () {
     Route::middleware('auth')->group(function () {
         // Client Logout
         Route::post('/logout', [SessionClientController::class, 'destroy'])->name('logout');
-
-        // Email verification notice
-        Route::get('/email/verify', [EmailClientVerificationController::class, 'notice'])
-            ->name('verification.notice');
-
-        // Email verification handler
-        Route::get('/email/verify/{id}/{hash}', [EmailClientVerificationController::class, 'verify'])
-            ->middleware('signed')
-            ->name('verification.verify');
-
-        // Email verification resend
-        Route::post('/email/verification-notification', [EmailClientVerificationController::class, 'resend'])
-            ->middleware('throttle:3,1')
-            ->name('verification.send');
     });
 });
 
