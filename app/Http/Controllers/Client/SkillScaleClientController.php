@@ -86,12 +86,11 @@ class SkillScaleClientController extends Controller
 
     private function runPythonPrediction($userId)
     {
-        $pythonDir = base_path('storage/app/python');
-        $scriptName = 'predictions.py';
-        $userId = (int) $userId; // Sanitize user input
+        $scriptPath = base_path('storage/app/python/predictions.py');
+        $userId = (int) $userId;
 
-        // Linux command for Railway
-        $command = "cd {$pythonDir} && python3 {$scriptName} predict {$userId} 2>&1";
+        // Use absolute path instead of cd
+        $command = "python3 {$scriptPath} predict {$userId} 2>&1";
 
         $output = shell_exec($command);
 
