@@ -998,7 +998,7 @@
                                     'title' => 'Research & Development Computing',
                                     'field' => 'research_development_computing',
                                     'match_field' => 'research_development_computing_match',
-                                    'average_field' => 'research_development_computing_match'
+                                    'average_field' => 'research_development_computing_average'
                                 ],
                                 [
                                     'id' => '05',
@@ -1026,7 +1026,7 @@
                                     'title' => 'Data Analyst',
                                     'field' => 'data_analyst',
                                     'match_field' => 'data_analyst_match',
-                                    'average_field' => 'data_analyst_match',
+                                    'average_field' => 'data_analyst_average'
                                 ],
                                 [
                                     'id' => '09',
@@ -1061,7 +1061,7 @@
                                     'title' => 'System Administrator',
                                     'field' => 'systems_administrator',
                                     'match_field' => 'systems_administrator_match',
-                                    'average_field' => 'systems_admnistrator_average'
+                                    'average_field' => 'systems_administrator_average'
                                 ],
                                 [
                                     'id' => '14',
