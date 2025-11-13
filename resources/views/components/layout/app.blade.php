@@ -26,17 +26,30 @@
             
             // Store for Alpine to read later
             window.__INITIAL_THEME__ = savedTheme;
+            
+            // Lock scroll on initial load
+            document.body.classList.add('loader-active');
         })();
     </script>
 
     {{-- Inline CSS for immediate loading spinner --}}
     <style>
+        /* Prevent scrolling when loader is active */
+        body.loader-active {
+            overflow: hidden !important;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+        }
+        
         #page-loader {
             position: fixed;
             top: 0;
             left: 0;
             right: 0;
             bottom: 0;
+            width: 100%;
+            height: 100%;
             background: rgba(255, 255, 255, 0.8);
             backdrop-filter: blur(8px);
             display: flex;
@@ -45,6 +58,7 @@
             z-index: 9999;
             opacity: 1;
             transition: opacity 0.3s ease;
+            overflow: hidden;
         }
         
         #page-loader.hide {
@@ -57,7 +71,7 @@
         }
 
         [data-theme="light"] #page-loader {
-            background: rgba(255, 255, 255, 255);
+            background: rgba(255, 255, 255, 1);
         }
         
         [data-theme="dark"] .spinner {
@@ -93,11 +107,21 @@
     @stack('scripts')
     
     <script>
+        // Helper function to lock/unlock scroll
+        function lockScroll() {
+            document.body.classList.add('loader-active');
+        }
+        
+        function unlockScroll() {
+            document.body.classList.remove('loader-active');
+        }
+        
         // Hide loader when page is fully loaded
         window.addEventListener('load', function() {
             const loader = document.getElementById('page-loader');
             if (loader) {
                 loader.classList.add('hide');
+                unlockScroll();
             }
         });
                 
@@ -110,6 +134,7 @@
                     const loader = document.getElementById('page-loader');
                     if (loader) {
                         loader.classList.remove('hide');
+                        lockScroll();
                         
                         // Close all modals when loader is shown
                         for (let i = 1; i <= 6; i++) {
@@ -128,6 +153,7 @@
             const loader = document.getElementById('page-loader');
             if (loader) {
                 loader.classList.remove('hide');
+                lockScroll();
                 
                 // Close all modals when loader is shown
                 for (let i = 1; i <= 6; i++) {
