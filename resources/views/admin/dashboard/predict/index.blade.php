@@ -200,11 +200,11 @@
                                             client.employability === 'Employable' ? 'badge-success' : 'badge-error'
                                         ].join(' ')"
                                         size="sm"
-                                        x-text="client.employability">
+                                        x-text="client.employability || 'N/A'">
                                     </x-ui.badge>
                                 </td>
-                                <td x-text="client.employability_probability"></td>
-                                <td x-text="client.predicted_employment_rate"></td>
+                                <td x-text="client.employability_probability || 'N/A'"></td>
+                                <td x-text="client.predicted_employment_rate || 'N/A'"></td>
                                 <td>
                                     <a :href="`/admin/dashboard/client/${client.id}`" :class="$store.theme.isDark() ? 'btn-soft' : ''" class="btn btn-primary btn-sm">View</a>
                                 </td>

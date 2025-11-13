@@ -64,10 +64,6 @@
                     <div class="flex flex-col md:flex-row">
                         <div class="flex flex-col gap-y-3 w-full">
                             <div>
-                                <label class="text-gray-600 text-sm">ID</label>
-                                <p class="text-sm">{{ $client->id ?? '0' }}</p>
-                            </div>
-                            <div>
                                 <label class="text-gray-600 text-sm">First name</label>
                                 <p class="text-sm">{{ $client->first_name ?? 'Guest Client' }}</p>
                             </div>
@@ -79,12 +75,12 @@
                                 <label class="text-gray-600 text-sm">Email address</label>
                                 <p class="text-sm">{{ $client->email ?? 'Guest Client' }}</p>
                             </div>
-                        </div>
-                        <div class="flex flex-col gap-y-3 w-full">
                             <div>
                                 <label class="text-gray-600 text-sm">Sex</label>
                                 <p class="text-sm">{{ $client->sex ?? 'Guest Client' }}</p>
                             </div>
+                        </div>
+                        <div class="flex flex-col gap-y-3 w-full">
                             <div>
                                 <label class="text-gray-600 text-sm">Age</label>
                                 <p class="text-sm">{{ $client->age ?? 0 }}</p>
