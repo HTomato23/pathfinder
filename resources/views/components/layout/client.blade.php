@@ -14,6 +14,21 @@
     <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('images/favicons/android-chrome-192x192.png') }}">
     <link rel="icon" type="image/png" sizes="512x512" href="{{ asset('images/favicons/android-chrome-512x512.png') }}">
     
+    {{-- Apply theme early to prevent flicker --}}
+    <script>
+        (function() {
+            // Priority: localStorage > server preference > default
+            const serverTheme = '{{ Auth::guard("admin")->check() ? Auth::guard("admin")->user()->theme_preference : "light" }}';
+            const savedTheme = localStorage.getItem('theme') || serverTheme;
+            
+            // Apply immediately to prevent flicker
+            document.documentElement.setAttribute('data-theme', savedTheme);
+            
+            // Store for Alpine to read later
+            window.__INITIAL_THEME__ = savedTheme;
+        })();
+    </script>
+
     {{-- Inline CSS for immediate loading spinner --}}
     <style>
         /* Prevent scrolling when loader is active */
@@ -65,30 +80,16 @@
             border-color: rgba(255, 255, 255, 0.1);
             border-left-color: currentColor;
         }
+
+        dialog::backdrop {
+            z-index: 1000 !important;
+        }
     </style>
-    
-    {{-- Apply theme early to prevent flicker --}}
-    <script>
-        (function() {
-            // Priority: localStorage > server preference > default
-            const serverTheme = '{{ Auth::check() ? Auth::user()->theme_preference : "light" }}';
-            const savedTheme = localStorage.getItem('theme') || serverTheme;
-            
-            // Apply immediately to prevent flicker
-            document.documentElement.setAttribute('data-theme', savedTheme);
-            
-            // Store for Alpine to read later
-            window.__INITIAL_THEME__ = savedTheme;
-            
-            // Lock scroll on initial load
-            document.body.classList.add('loader-active');
-        })();
-    </script>
     
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @stack('head')
 </head>
-<body>
+<body class="loader-active">
     <!-- Loading spinner (shows IMMEDIATELY on page load) -->
     <div id="page-loader">
         <span class="loading loading-ring loading-xs text-success"></span>
@@ -139,17 +140,6 @@
                                 modal.close();
                             }
                         }
-                        
-                        // Close submit_modal and cancel_modal
-                        const submitModal = document.getElementById('submit_modal');
-                        if (submitModal && submitModal.open) {
-                            submitModal.close();
-                        }
-                        
-                        const cancelModal = document.getElementById('cancel_modal');
-                        if (cancelModal && cancelModal.open) {
-                            cancelModal.close();
-                        }
                     }
                 }
             }
@@ -169,20 +159,9 @@
                         modal.close();
                     }
                 }
-                
-                // Close submit_modal and cancel_modal
-                const submitModal = document.getElementById('submit_modal');
-                if (submitModal && submitModal.open) {
-                    submitModal.close();
-                }
-                
-                const cancelModal = document.getElementById('cancel_modal');
-                if (cancelModal && cancelModal.open) {
-                    cancelModal.close();
-                }
             }
         });
-        
+
         document.addEventListener('alpine:init', () => {
             Alpine.store('theme', {
                 // Use the theme we already applied
@@ -202,7 +181,7 @@
                     localStorage.setItem('theme', this.current);
                     
                     try {
-                        await fetch('{{ route("dashboard.settings.appearance.update") }}', {
+                        await fetch('{{ route("admin.dashboard.settings.appearance.update") }}', {
                             method: 'POST',
                             headers: {
                                 'Content-Type': 'application/json',

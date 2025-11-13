@@ -26,9 +26,6 @@
             
             // Store for Alpine to read later
             window.__INITIAL_THEME__ = savedTheme;
-            
-            // Lock scroll on initial load
-            document.body.classList.add('loader-active');
         })();
     </script>
 
@@ -92,7 +89,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @stack('head')
 </head>
-<body>
+<body class="loader-active">
     <!-- Loading spinner (shows IMMEDIATELY on page load) -->
     <div id="page-loader">
         <span class="loading loading-ring loading-xs text-success"></span>
