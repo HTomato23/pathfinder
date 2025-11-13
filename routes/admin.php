@@ -47,21 +47,24 @@ Route::prefix('admin/auth')->group(function () {
     Route::middleware('admin')->group(function () {
         // Admin Logout
         Route::post('/logout', [SessionAdminController::class, 'destroy'])->name('admin.logout');
-
-        // Email verification notice
-        Route::get('/email/verify', [EmailAdminVerificationController::class, 'notice'])
-            ->name('admin.verification.notice');
-
-        // Email verification handler
-        Route::get('/email/verify/{id}/{hash}', [EmailAdminVerificationController::class, 'verify'])
-            ->middleware('signed')
-            ->name('admin.verification.verify');
-
-        // Email verification resend
-        Route::post('/email/verification-notification', [EmailAdminVerificationController::class, 'resend'])
-            ->middleware('throttle:3,1')
-            ->name('admin.verification.send');
     });
+});
+
+// Admin Email Verification Routes (MOVED OUTSIDE AUTH PREFIX)
+Route::prefix('admin')->middleware('admin')->group(function () {
+    // Email verification notice
+    Route::get('/email/verify', [EmailAdminVerificationController::class, 'notice'])
+        ->name('admin.verification.notice');
+
+    // Email verification handler
+    Route::get('/email/verify/{id}/{hash}', [EmailAdminVerificationController::class, 'verify'])
+        ->middleware('signed')
+        ->name('admin.verification.verify');
+
+    // Email verification resend
+    Route::post('/email/verification-notification', [EmailAdminVerificationController::class, 'resend'])
+        ->middleware('throttle:3,1')
+        ->name('admin.verification.send');
 });
 
 // Admin Dashboard Routes
