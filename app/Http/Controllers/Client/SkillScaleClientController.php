@@ -88,11 +88,14 @@ class SkillScaleClientController extends Controller
     {
         $pythonDir = base_path('storage/app/python');
         $scriptName = 'predictions.py';
+        $userId = (int) $userId; // Sanitize user input
 
-        // Windows command with UTF-8 encoding
-        $command = "chcp 65001 > nul && cd /d {$pythonDir} && python {$scriptName} predict {$userId} 2>&1";
+        // Linux command for Railway
+        $command = "cd {$pythonDir} && python3 {$scriptName} predict {$userId} 2>&1";
 
-        exec($command);
+        $output = shell_exec($command);
+
+        return $output;
     }
     
     private function updateHospitalityManagement(Request $request, User $client)

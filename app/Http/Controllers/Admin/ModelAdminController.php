@@ -155,26 +155,19 @@ class ModelAdminController extends Controller
             }
 
             // Run Python training script
-            $pythonDir = base_path('storage/app/python');
-            $scriptName = 'predictions.py';
+            $scriptPath = base_path('storage/app/python/predictions.py');
 
-            // Windows command with UTF-8 encoding
-            $command = "chcp 65001 > nul && cd /d {$pythonDir} && python {$scriptName} train 2>&1";
+            // Linux command for Railway
+            $command = "python3 {$scriptPath} train 2>&1";
 
             $output = [];
             $returnVar = 0;
-
-            Log::info('Starting automatic model training after sync');
 
             exec($command, $output, $returnVar);
 
             $outputText = implode("\n", $output);
 
             if ($returnVar === 0) {
-                Log::info('Model training completed successfully', [
-                    'output' => $outputText
-                ]);
-
                 // Get the latest metrics from database
                 $latestMetrics = DB::table('model')
                     ->latest('created_at')
@@ -190,20 +183,12 @@ class ModelAdminController extends Controller
                     'message' => $successMessage
                 ];
             } else {
-                Log::error('Model training failed', [
-                    'error' => $outputText
-                ]);
-
                 return [
                     'success' => false,
-                    'message' => 'Check logs for details'
+                    'message' => 'Model training failed. Error: ' . $outputText
                 ];
             }
         } catch (\Exception $e) {
-            Log::error('Exception during model training', [
-                'error' => $e->getMessage()
-            ]);
-
             return [
                 'success' => false,
                 'message' => $e->getMessage()
