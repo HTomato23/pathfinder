@@ -115,7 +115,7 @@ class BlogsAdminController extends Controller
     {
         $validated = $request->validate([
             'author_id' => ['required', 'integer', 'min:1'],
-            'title' => ['required', 'string', 'unique:blogs,title', 'min:3', 'max:100'],
+            'title' => ['required', 'string', 'unique:blogs,title', 'min:3', 'max:150'],
             'description' => ['required', 'string', 'min:1'],
             'status' => ['required', 'string'],
             'header_1' => ['nullable', 'string'],

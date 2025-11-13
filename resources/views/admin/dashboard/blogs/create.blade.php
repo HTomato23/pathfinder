@@ -53,7 +53,7 @@
                     class="shadow-sm rounded-sm p-5 w-full">
                     <fieldset class="fieldset w-full">
                         <legend class="fieldset-legend">Title <span class="text-red-700">*</span></legend>
-                        <x-ui.form-input class="validator input-primary" name="title" type="text" minlength="3" maxlength="30" placeholder="Title" required />
+                        <x-ui.form-input class="validator input-primary" name="title" type="text" minlength="3" maxlength="150" placeholder="Title" required />
                         <p class="text-gray-500">Set a title for the blog.</p>
                     </fieldset>
                     <fieldset class="fieldset w-full">
