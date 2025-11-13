@@ -83,7 +83,7 @@
             <span class="flex gap-2 items-center font-semibold text-primary"><x-heroicon-o-exclamation-triangle class="w-5 h-5"/>Note:</span>
             <p class="text-sm">
                 This test consists of 50 questions designed to understand different aspects of your personality.
-                Please read each statement carefully and select the number that best represents you using the scale below:
+                Please read each statement carefully and choose the best represents you using the scale below:
             </p>
         </div>
 
