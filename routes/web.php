@@ -27,12 +27,22 @@ use App\Http\Controllers\Client\SoftSkillTestClientController;
 use App\Http\Controllers\Client\PersonalityTestClientController;
 use App\Http\Controllers\Client\EmailClientVerificationController;
 use App\Http\Controllers\Client\PersonalExperienceClientController;
+use Illuminate\Support\Facades\Artisan;
 
 /* ===========================
    CLIENT ROUTES
 =========================== */
 
 // Client Public Pages
+
+Route::get('/clear-cache-now', function () {
+    Artisan::call('config:clear');
+    Artisan::call('cache:clear');
+    Artisan::call('route:clear');
+    Artisan::call('view:clear');
+
+    return 'All caches cleared! Configs reloaded.';
+});
 
 Route::middleware('guest.client')->group(function () {
     // Public static pages
