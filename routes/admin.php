@@ -28,6 +28,17 @@ use App\Http\Controllers\Admin\EmailAdminVerificationController;
    ADMIN ROUTES
 =========================== */
 
+Route::get('/admin/train-model', function () {
+    $scriptPath = base_path('storage/app/python/predictions.py');
+    $command = "python3 {$scriptPath} train 2>&1";
+    $output = shell_exec($command);
+
+    return response()->json([
+        'success' => true,
+        'output' => $output
+    ]);
+})->middleware('auth');
+
 // Admin Authentication Routes
 Route::prefix('admin/auth')->group(function () {
     Route::middleware('guest.admin')->group(function () {
