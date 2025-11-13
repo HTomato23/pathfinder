@@ -24,8 +24,6 @@ if sys.platform == 'win32':
 # Suppress warnings
 warnings.filterwarnings("ignore")
 
-import os
-
 # MySQL Configuration - reads from Railway environment variables
 DB_CONFIG = {
     'host': os.getenv('MYSQLHOST', os.getenv('DB_HOST', 'localhost')),
@@ -35,10 +33,13 @@ DB_CONFIG = {
     'database': os.getenv('MYSQLDATABASE', os.getenv('DB_DATABASE', 'railway'))
 }
 
-# Model file paths
-MODEL_FILE = 'rf_model.pkl'
-SCALER_FILE = 'scaler.pkl'
-LR_MODEL_FILE = 'lr_model.pkl'
+# Get the directory where this script is located
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Model file paths - use absolute paths
+MODEL_FILE = os.path.join(SCRIPT_DIR, 'rf_model.pkl')
+SCALER_FILE = os.path.join(SCRIPT_DIR, 'scaler.pkl')
+LR_MODEL_FILE = os.path.join(SCRIPT_DIR, 'lr_model.pkl')
 
 def get_db_connection():
     """Create MySQL database connection"""
@@ -547,6 +548,10 @@ def predict_students(predict_df, connection):
     
     if not os.path.exists(MODEL_FILE) or not os.path.exists(SCALER_FILE) or not os.path.exists(LR_MODEL_FILE):
         print("[ERROR] Model files not found! Please train the model first using: python script.py train")
+        print(f"  Looking for models in: {SCRIPT_DIR}")
+        print(f"  MODEL_FILE: {MODEL_FILE}")
+        print(f"  SCALER_FILE: {SCALER_FILE}")
+        print(f"  LR_MODEL_FILE: {LR_MODEL_FILE}")
         return None
     
     try:
