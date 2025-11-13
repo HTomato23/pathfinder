@@ -28,11 +28,11 @@ import os
 
 # MySQL Configuration - reads from Railway environment variables
 DB_CONFIG = {
-    'host': os.getenv('DB_HOST', 'localhost'),
-    'port': int(os.getenv('DB_PORT', 3306)),
-    'user': os.getenv('DB_USERNAME', 'root'),
-    'password': os.getenv('DB_PASSWORD', ''),
-    'database': os.getenv('DB_DATABASE', 'railway')
+    'host': os.getenv('MYSQLHOST', os.getenv('DB_HOST', 'localhost')),
+    'port': int(os.getenv('MYSQLPORT', os.getenv('DB_PORT', 3306))),
+    'user': os.getenv('MYSQLUSER', os.getenv('DB_USERNAME', 'root')),
+    'password': os.getenv('MYSQLPASSWORD', os.getenv('DB_PASSWORD', '')),
+    'database': os.getenv('MYSQLDATABASE', os.getenv('DB_DATABASE', 'railway'))
 }
 
 # Model file paths
