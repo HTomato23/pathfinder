@@ -196,6 +196,10 @@
                         <p class="text-sm">{{ $client->second_choice ?? 'N/A' }}</p>
                     </div>
                     <div>
+                        <label class="text-gray-600 text-sm">CPGA</label>
+                        <p class="text-sm">{{ $client->CPGA ?? 'N/A' }}</p>
+                    </div>
+                    <div>
                         <label class="text-gray-600 text-sm">Leadership Experience</label>
                         <p class="text-sm">{{ $client->leadership_experience ? 'Yes' : 'No' }}</p>
                     </div>
@@ -898,8 +902,8 @@
                                     'id' => '17',
                                     'title' => 'Concierge',
                                     'field' => 'concierge_crm',
-                                    'match_field' => 'concierge_crm_match',
-                                    'average_field' => 'concierge_crm_average'
+                                    'match_field' => 'concierge_match',
+                                    'average_field' => 'concierge_average'
                                 ],
                                 [
                                     'id' => '18',
