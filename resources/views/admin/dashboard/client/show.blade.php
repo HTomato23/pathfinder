@@ -901,7 +901,7 @@
                                 [
                                     'id' => '17',
                                     'title' => 'Concierge',
-                                    'field' => 'concierge_crm',
+                                    'field' => 'concierge',
                                     'match_field' => 'concierge_match',
                                     'average_field' => 'concierge_average'
                                 ],
