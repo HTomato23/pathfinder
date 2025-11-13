@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Log;
 
 class SkillScaleClientController extends Controller
 {
@@ -87,12 +88,31 @@ class SkillScaleClientController extends Controller
     private function runPythonPrediction($userId)
     {
         $scriptPath = base_path('storage/app/python/predictions.py');
-        $userId = $userId;
+        $userId = (int) $userId;
 
-        // Use absolute path instead of cd
+        // Use absolute path
         $command = "python3 {$scriptPath} predict {$userId} 2>&1";
 
+        Log::info('Running Python prediction', [
+            'user_id' => $userId,
+            'command' => $command
+        ]);
+
         $output = shell_exec($command);
+
+        Log::info('Python prediction output', [
+            'user_id' => $userId,
+            'output' => $output
+        ]);
+
+        // Also check the database
+        $user = \App\Models\User::find($userId);
+        Log::info('User after prediction', [
+            'user_id' => $userId,
+            'is_assessment_completed' => $user->is_assessment_completed ?? 'NULL',
+            'employability' => $user->employability ?? 'NULL',
+            'employability_probability' => $user->employability_probability ?? 'NULL'
+        ]);
 
         return $output;
     }
