@@ -11,6 +11,7 @@ use App\Http\Controllers\Client\JobClientController;
 use App\Http\Controllers\Client\BlogsClientController;
 use App\Http\Controllers\Client\ResetClientController;
 use App\Http\Controllers\Client\ForgotClientController;
+use App\Http\Controllers\Client\CommentClientController;
 use App\Http\Controllers\Client\SummaryClientController;
 use App\Http\Controllers\Client\ProfileClientController;
 use App\Http\Controllers\Client\SessionClientController;
@@ -21,7 +22,6 @@ use App\Http\Controllers\Client\DashboardClientController;
 use App\Http\Controllers\Client\AppearanceClientController;
 use App\Http\Controllers\Client\SkillScaleClientController;
 use App\Http\Controllers\Client\AssessmentClientController;
-use App\Http\Controllers\Client\CommentClientController;
 use App\Http\Controllers\Client\ConsultationClientController;
 use App\Http\Controllers\Client\SoftSkillTestClientController;
 use App\Http\Controllers\Client\PersonalityTestClientController;
@@ -48,21 +48,46 @@ Route::middleware('guest.client')->group(function () {
     Route::post('/contact/send', [ContactController::class, 'send'])->name('contact.send');
 });
 
-// Email Verification Routes (MOVED OUTSIDE AUTH PREFIX)
-Route::middleware('auth')->group(function () {
-    // Email verification notice
-    Route::get('/email/verify', [EmailClientVerificationController::class, 'notice'])
-        ->name('verification.notice');
+Route::get('/debug-verification', function () {
+    $user = \App\Models\User::first();
 
-    // Email verification handler
-    Route::get('/email/verify/{id}/{hash}', [EmailClientVerificationController::class, 'verify'])
-        ->middleware('signed')
-        ->name('verification.verify');
+    if (!$user) {
+        return 'No users found';
+    }
 
-    // Email verification resend
-    Route::post('/email/verification-notification', [EmailClientVerificationController::class, 'resend'])
-        ->middleware('throttle:3,1')
-        ->name('verification.send');
+    // Generate a test verification URL
+    $testUrl = \Illuminate\Support\Facades\URL::temporarySignedRoute(
+        'verification.verify',
+        now()->addMinutes(60),
+        [
+            'id' => $user->id,
+            'hash' => sha1($user->email)
+        ]
+    );
+
+    return [
+        'config_app_url' => config('app.url'),
+        'config_app_key' => substr(config('app.key'), 0, 30) . '...',
+        'config_app_env' => config('app.env'),
+        'request_url' => request()->url(),
+        'request_root' => request()->root(),
+        'generated_verification_url' => $testUrl,
+        'url_has_railway_domain' => str_contains($testUrl, 'railway.app'),
+        'route_exists' => \Illuminate\Support\Facades\Route::has('verification.verify'),
+        'click_to_test' => $testUrl,
+    ];
+});
+
+Route::get('/test-signed-url', function () {
+    $user = \App\Models\User::first();
+
+    $url = \Illuminate\Support\Facades\URL::temporarySignedRoute(
+        'verification.verify',
+        now()->addMinutes(60),
+        ['id' => $user->id, 'hash' => sha1($user->email)]
+    );
+
+    return redirect($url);
 });
 
 // Client Authentication Routes
@@ -89,6 +114,23 @@ Route::prefix('/auth')->group(function () {
         // Client Logout
         Route::post('/logout', [SessionClientController::class, 'destroy'])->name('logout');
     });
+});
+
+// Email Verification Routes (MOVED OUTSIDE AUTH PREFIX)
+Route::middleware('auth')->group(function () {
+    // Email verification notice
+    Route::get('/email/verify', [EmailClientVerificationController::class, 'notice'])
+        ->name('verification.notice');
+
+    // Email verification handler
+    Route::get('/email/verify/{id}/{hash}', [EmailClientVerificationController::class, 'verify'])
+        ->middleware('signed')
+        ->name('verification.verify');
+
+    // Email verification resend
+    Route::post('/email/verification-notification', [EmailClientVerificationController::class, 'resend'])
+        ->middleware('throttle:3,1')
+        ->name('verification.send');
 });
 
 // Client Dashboard Routes
