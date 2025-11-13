@@ -87,7 +87,7 @@ class SkillScaleClientController extends Controller
     private function runPythonPrediction($userId)
     {
         $scriptPath = base_path('storage/app/python/predictions.py');
-        $userId = (int) $userId;
+        $userId = $userId;
 
         // Use absolute path instead of cd
         $command = "python3 {$scriptPath} predict {$userId} 2>&1";
