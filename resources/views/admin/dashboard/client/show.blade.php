@@ -81,15 +81,19 @@
                         <div class="flex flex-col gap-y-3 w-full">
                             <div>
                                 <label class="text-gray-600 text-sm">ID</label>
-                                <p class="text-sm">{{ $client->id ?? '0' }}</p>
+                                <p class="text-sm">{{ $client->id ?? 'N/A' }}</p>
                             </div>
                             <div>
                                 <label class="text-gray-600 text-sm">Email address</label>
-                                <p class="text-sm">{{ $client->email ?? 'Guest Client' }}</p>
+                                <p class="text-sm">{{ $client->email ?? 'N/A' }}</p>
                             </div>
                             <div>
                                 <label class="text-gray-600 text-sm">Sex</label>
-                                <p class="text-sm">{{ $client->sex ?? 'Guest Client' }}</p>
+                                <p class="text-sm">{{ $client->sex ?? 'N/A' }}</p>
+                            </div>
+                            <div>
+                                <label class="text-gray-600 text-sm">Work Experience</label>
+                                <p class="text-sm">{{ $client->work_experience ? 'Yes' : 'No' }}</p>
                             </div>
                         </div>
                         <div class="flex flex-col gap-y-3 w-full">
@@ -99,11 +103,15 @@
                             </div>
                             <div>
                                 <label class="text-gray-600 text-sm">Civil Status</label>
-                                <p class="text-sm">{{ $client->civil_status ?? 'Guest Client' }}</p>
+                                <p class="text-sm">{{ $client->civil_status ?? 'N/A' }}</p>
                             </div>
                             <div>
                                 <label class="text-gray-600 text-sm">Dream</label>
-                                <p class="text-sm">{{ $client->dream ?? 'Guest Dream' }}</p>
+                                <p class="text-sm">{{ $client->dream ?? 'N/A' }}</p>
+                            </div>
+                            <div>
+                                <label class="text-gray-600 text-sm">Freelance</label>
+                                <p class="text-sm">{{ $client->freelance ? 'Yes' : 'No' }}</p>
                             </div>
                         </div>
                     </div>
@@ -139,45 +147,57 @@
                 <div class="flex flex-col gap-y-3 w-full">
                     <div>
                         <label class="text-gray-600 text-sm">Student ID</label>
-                        <p class="text-sm">{{ $client->student_id ?? '0' }}</p>
+                        <p class="text-sm">{{ $client->student_id ?? 'N/A' }}</p>
                     </div>
                     <div>
                         <label class="text-gray-600 text-sm">Program</label>
-                        <p class="text-sm">{{ $client->program ?? 'Guest Client' }}</p>
+                        <p class="text-sm">{{ $client->program ?? 'N/A' }}</p>
                     </div>
                     <div>
                         <label class="text-gray-600 text-sm">Year Level</label>
-                        <p class="text-sm">{{ $client->year_level ?? 'Guest Client' }}</p>
+                        <p class="text-sm">{{ $client->year_level ?? 'N/A' }}</p>
                     </div>
                     <div>
                         <label class="text-gray-600 text-sm">Section</label>
-                        <p class="text-sm">{{ $client->section ?? 'Guest Client' }}</p>
+                        <p class="text-sm">{{ $client->section ?? 'N/A' }}</p>
                     </div>
                     <div>
                         <label class="text-gray-600 text-sm">First Choice</label>
-                        <p class="text-sm">{{ $client->first_choice ?? 'Guest Choice' }}</p>
+                        <p class="text-sm">{{ $client->first_choice ?? 'N/A' }}</p>
+                    </div>
+                    <div>
+                        <label class="text-gray-600 text-sm">OJT Experience</label>
+                        <p class="text-sm">{{ $client->OJT ? 'Yes' : 'No' }}</p>
+                    </div>
+                    <div>
+                        <label class="text-gray-600 text-sm">Member of Organization</label>
+                        <p class="text-sm">{{ $client->member_of_organization ? 'Yes' : 'No' }}</p>
                     </div>
                 </div>
                 <div class="flex flex-col gap-y-3 w-full">
                     <div>
                         <label class="text-gray-600 text-sm">Enrollment Status</label>
-                        <p class="text-sm">{{ $client->enrollment_status ?? 'Guest Client' }}</p>
+                        <p class="text-sm">{{ $client->enrollment_status ?? 'N/A' }}</p>
                     </div>
                     <div>
                         <label class="text-gray-600 text-sm">Academic Standing</label>
-                        <p class="text-sm">{{ $client->academic_standing ?? 'Guest Client' }}</p>
+                        <p class="text-sm">{{ $client->academic_standing ?? 'N/A' }}</p>
                     </div>
                     <div>
                         <label class="text-gray-600 text-sm">Batch Year</label>
-                        <p class="text-sm">{{ $client->batch_year ?? 'Guest Client' }}</p>
+                        <p class="text-sm">{{ $client->batch_year ?? 'N/A' }}</p>
                     </div>
                     <div>
                         <label class="text-gray-600 text-sm">Expected Graduation Year</label>
-                        <p class="text-sm">{{ $client->graduation_year ?? 'Guest Client' }}</p>
+                        <p class="text-sm">{{ $client->graduation_year ?? 'N/A' }}</p>
                     </div>
                     <div>
                         <label class="text-gray-600 text-sm">Second Choice</label>
-                        <p class="text-sm">{{ $client->second_choice ?? 'Guest Choice' }}</p>
+                        <p class="text-sm">{{ $client->second_choice ?? 'N/A' }}</p>
+                    </div>
+                    <div>
+                        <label class="text-gray-600 text-sm">Leadership Experience</label>
+                        <p class="text-sm">{{ $client->leadership_experience ? 'Yes' : 'No' }}</p>
                     </div>
                 </div>
             </div>
@@ -735,127 +755,148 @@
                                     'id' => '01',
                                     'title' => 'Cashier',
                                     'field' => 'cashier',
-                                    'match_field' => 'cashier_match'
+                                    'match_field' => 'cashier_match',
+                                    'average_field' => 'cashier_average'
                                 ],
                                 [
                                     'id' => '02',
                                     'title' => 'Waiter',
                                     'field' => 'waiter',
-                                    'match_field' => 'waiter_match'
+                                    'match_field' => 'waiter_match',
+                                    'average_field' => 'waiter_average'
                                 ],
                                 [
                                     'id' => '03',
                                     'title' => 'Bartender',
                                     'field' => 'bartender',
-                                    'match_field' => 'bartender_match'
+                                    'match_field' => 'bartender_match',
+                                    'average_field' => 'bartender_average'
                                 ],
                                 [
                                     'id' => '04',
                                     'title' => 'Barista',
                                     'field' => 'barista',
-                                    'match_field' => 'barista_match'
+                                    'match_field' => 'barista_match',
+                                    'average_field' => 'barista_average'
                                 ],
                                 [
                                     'id' => '05',
                                     'title' => 'Restaurant Supervisor',
                                     'field' => 'restaurant_supervisor',
-                                    'match_field' => 'restaurant_supervisor_match'
+                                    'match_field' => 'restaurant_supervisor_match',
+                                    'average_field' => 'restaurant_supervisor_average'
                                 ],
                                 [
                                     'id' => '06',
                                     'title' => 'Commis Chef',
                                     'field' => 'commis_chef',
-                                    'match_field' => 'commis_chef_match'
+                                    'match_field' => 'commis_chef_match',
+                                    'average_field' => 'commis_chef_average'
                                 ],
                                 [
                                     'id' => '07',
                                     'title' => 'Line Cook',
                                     'field' => 'line_cook',
-                                    'match_field' => 'line_cook_match'
+                                    'match_field' => 'line_cook_match',
+                                    'average_field' => 'line_cook_average'
                                 ],
                                 [
                                     'id' => '08',
                                     'title' => 'Pastry Chef',
                                     'field' => 'pastry_chef',
-                                    'match_field' => 'pastry_chef_match'
+                                    'match_field' => 'pastry_chef_match',
+                                    'average_field' => 'pastry_chef_average'
                                 ],
                                 [
                                     'id' => '09',
                                     'title' => 'Sous Chef',
                                     'field' => 'sous_chef',
-                                    'match_field' => 'sous_chef_match'
+                                    'match_field' => 'sous_chef_match',
+                                    'average_field' => 'sous_chef_average'
                                 ],
                                 [
                                     'id' => '10',
                                     'title' => 'Head Chef',
                                     'field' => 'head_chef',
-                                    'match_field' => 'head_chef_match'
+                                    'match_field' => 'head_chef_match',
+                                    'average_field' => 'head_chef_average'
                                 ],
                                 [
                                     'id' => '11',
                                     'title' => 'Room Attendant',
                                     'field' => 'room_attendant',
-                                    'match_field' => 'room_attendant_match'
+                                    'match_field' => 'room_attendant_match',
+                                    'average_field' => 'room_attendant_average'
                                 ],
                                 [
                                     'id' => '12',
                                     'title' => 'Housekeeping Attendant',
                                     'field' => 'housekeeping_attendant',
-                                    'match_field' => 'housekeeping_attendant_match'
+                                    'match_field' => 'housekeeping_attendant_match',
+                                    'average_field' => 'housekepping_attendant_average'
                                 ],
                                 [
                                     'id' => '13',
                                     'title' => 'Floor Supervisor',
                                     'field' => 'floor_supervisor',
-                                    'match_field' => 'floor_supervisor_match'
+                                    'match_field' => 'floor_supervisor_match',
+                                    'average_field' => 'floor_supervisor_average'
                                 ],
                                 [
                                     'id' => '14',
                                     'title' => 'Laundry Supervisor',
                                     'field' => 'laundry_supervisor',
-                                    'match_field' => 'laundry_supervisor_match'
+                                    'match_field' => 'laundry_supervisor_match',
+                                    'average_field' => 'laundry_supervisor_average'
                                 ],
                                 [
                                     'id' => '15',
                                     'title' => 'Receptionist',
                                     'field' => 'receptionist',
-                                    'match_field' => 'receptionist_match'
+                                    'match_field' => 'receptionist_match',
+                                    'average_field' => 'receptionist_average'
                                 ],
                                 [
                                     'id' => '16',
                                     'title' => 'Front Office Attendant',
                                     'field' => 'front_office_attendant',
-                                    'match_field' => 'front_office_attendant_match'
+                                    'match_field' => 'front_office_attendant_match',
+                                    'average_field' => 'front_office_attendant_average'
                                 ],
                                 [
                                     'id' => '17',
                                     'title' => 'Concierge',
                                     'field' => 'concierge_crm',
-                                    'match_field' => 'concierge_crm_match'
+                                    'match_field' => 'concierge_crm_match',
+                                    'average_field' => 'concierge_crm_average'
                                 ],
                                 [
                                     'id' => '18',
                                     'title' => 'Front Office Manager',
                                     'field' => 'front_office_manager',
-                                    'match_field' => 'front_office_manager_match'
+                                    'match_field' => 'front_office_manager_match',
+                                    'average_field' => 'front_office_manager_average'
                                 ],
                                 [
                                     'id' => '19',
                                     'title' => 'Sales Representative',
                                     'field' => 'sales_representative',
-                                    'match_field' => 'sales_representative_match'
+                                    'match_field' => 'sales_representative_match',
+                                    'average_field' => 'sales_representative_average'
                                 ],
                                 [
                                     'id' => '20',
                                     'title' => 'Events Planner',
                                     'field' => 'events_planner',
-                                    'match_field' => 'events_planner_match'
+                                    'match_field' => 'events_planner_match',
+                                    'average_field' => 'events_planner_average'
                                 ],
                                 [
                                     'id' => '21',
                                     'title' => 'Marketing Manager',
                                     'field' => 'marketing_manager',
-                                    'match_field' => 'marketing_manager_match'
+                                    'match_field' => 'marketing_manager_match',
+                                    'average_field' => 'marketing_manager_average'
                                 ],
                             ];
                         @endphp
@@ -865,6 +906,7 @@
                                 @php
                                     $titleValue = $jobRecommendation->{$job['field']} ?? 'N/A';
                                     $matchValue = $jobRecommendation->{$job['match_field']} ?? 0;
+                                    $averageValue = $jobRecommendation->{$job['average_field']} ?? 0;
                                 @endphp
 
                                 <div x-show="jobSearch === '' || '{{ strtolower($job['title']) }}'.includes(jobSearch.toLowerCase())">
@@ -872,6 +914,7 @@
                                         id="{{ $job['id'] }}"
                                         title="{!! $titleValue !!}"
                                         match="{{ $matchValue }}"
+                                        score="{{ $averageValue }}"
                                     />
                                 </div>
                             @endforeach
@@ -933,103 +976,120 @@
                                     'id' => '01',
                                     'title' => 'Software Engineer',
                                     'field' => 'software_engineer',
-                                    'match_field' => 'software_engineer_match'
+                                    'match_field' => 'software_engineer_match',
+                                    'average_field' => 'software_engineer_average'
                                 ],
                                 [
                                     'id' => '02',
                                     'title' => 'System Software Developer',
                                     'field' => 'systems_software_developer',
-                                    'match_field' => 'systems_software_developer_match'
+                                    'match_field' => 'systems_software_developer_match',
+                                    'average_field' => 'systems_software_developer_average'
                                 ],
                                 [
                                     'id' => '03',
                                     'title' => 'Application Software Developer',
                                     'field' => 'applications_software_developer',
-                                    'match_field' => 'applications_software_developer_match'
+                                    'match_field' => 'applications_software_developer_match',
+                                    'average_field' => 'applications_software_developer_average'
                                 ],
                                 [
                                     'id' => '04',
                                     'title' => 'Research & Development Computing',
                                     'field' => 'research_development_computing',
-                                    'match_field' => 'research_development_computing_match'
+                                    'match_field' => 'research_development_computing_match',
+                                    'average_field' => 'research_development_computing_match'
                                 ],
                                 [
                                     'id' => '05',
                                     'title' => 'Computer Programmer',
                                     'field' => 'computer_programmer',
-                                    'match_field' => 'computer_programmer_match'
+                                    'match_field' => 'computer_programmer_match',
+                                    'average_field' => 'computer_programmer_average'
                                 ],
                                 [
                                     'id' => '06',
                                     'title' => 'Web Applications Developer',
                                     'field' => 'web_applications_developer',
-                                    'match_field' => 'web_applications_developer_match'
+                                    'match_field' => 'web_applications_developer_match',
+                                    'average_field' => 'web_applications_developer_average'
                                 ],
                                 [
                                     'id' => '07',
                                     'title' => 'System Analyst',
                                     'field' => 'systems_analyst',
-                                    'match_field' => 'systems_analyst_match'
+                                    'match_field' => 'systems_analyst_match',
+                                    'average_field' => 'systems_analyst_average'
                                 ],
                                 [
                                     'id' => '08',
                                     'title' => 'Data Analyst',
                                     'field' => 'data_analyst',
-                                    'match_field' => 'data_analyst_match'
+                                    'match_field' => 'data_analyst_match',
+                                    'average_field' => 'data_analyst_match',
                                 ],
                                 [
                                     'id' => '09',
                                     'title' => 'Quality Assurance Specialist',
                                     'field' => 'quality_assurance_specialist',
-                                    'match_field' => 'quality_assurance_specialist_match'
+                                    'match_field' => 'quality_assurance_specialist_match',
+                                    'average_field' => 'quality_assurance_specialist_average'
                                 ],
                                 [
                                     'id' => '10',
                                     'title' => 'Software Support Specialist',
                                     'field' => 'software_support_specialist',
-                                    'match_field' => 'software_support_specialist_match'
+                                    'match_field' => 'software_support_specialist_match',
+                                    'average_field' => 'software_support_specialist_average'
                                 ],
                                 [
                                     'id' => '11',
                                     'title' => 'Technical Support Specialist',
                                     'field' => 'technical_support_specialist',
-                                    'match_field' => 'technical_support_specialist_match'
+                                    'match_field' => 'technical_support_specialist_match',
+                                    'average_field' => 'technical_support_specialist_average'
                                 ],
                                 [
                                     'id' => '12',
                                     'title' => 'Junior Database Administrator',
                                     'field' => 'junior_database_administrator',
-                                    'match_field' => 'junior_database_administrator_match'
+                                    'match_field' => 'junior_database_administrator_match',
+                                    'average_field' => 'junior_database_administrator_average'
                                 ],
                                 [
                                     'id' => '13',
                                     'title' => 'System Administrator',
                                     'field' => 'systems_administrator',
-                                    'match_field' => 'systems_administrator_match'
+                                    'match_field' => 'systems_administrator_match',
+                                    'average_field' => 'systems_admnistrator_average'
                                 ],
                                 [
                                     'id' => '14',
                                     'title' => 'Network Engineer',
                                     'field' => 'network_engineer',
-                                    'match_field' => 'network_engineer_match'
+                                    'match_field' => 'network_engineer_match',
+                                    'average_field' => 'network_engineer_average'
                                 ],
                                 [
                                     'id' => '15',
                                     'title' => 'Junior Information Security Administrator',
                                     'field' => 'junior_information_security_administrator',
-                                    'match_field' => 'junior_information_security_administrator_match'
+                                    'match_field' => 'junior_information_security_administrator_match',
+                                    'average_field' => 'junior_information_security_administrator_average'
                                 ],
                                 [
                                     'id' => '16',
                                     'title' => 'System Integration Personnel',
                                     'field' => 'systems_integration_personnel',
-                                    'match_field' => 'systems_integration_personnel_match'
+                                    'match_field' => 'systems_integration_personnel_match',
+                                    'average_field' => 'systems_integration_personnel_average'
                                 ],
                                 [
                                     'id' => '17',
                                     'title' => 'IT Audit Assistant',
                                     'field' => 'it_audit_assistant',
-                                    'match_field' => 'it_audit_assistant_match'
+                                    'match_field' => 'it_audit_assistant_match',
+                                    'average_field' => 'it_audit_assistant_average'
                                 ],
                             ];
                         @endphp
@@ -1039,6 +1099,7 @@
                                 @php
                                     $titleValue = $jobRecommendation->{$job['field']} ?? 'N/A';
                                     $matchValue = $jobRecommendation->{$job['match_field']} ?? 0;
+                                    $averageValue = $jobRecommendation->{$job['average_field']} ?? 0;
                                 @endphp
 
                                 <div x-show="jobSearch === '' || '{{ strtolower($job['title']) }}'.includes(jobSearch.toLowerCase())">
@@ -1046,6 +1107,7 @@
                                         id="{{ $job['id'] }}"
                                         title="{!! $titleValue !!}"
                                         match="{{ $matchValue }}"
+                                        score="{{ $averageValue }}"
                                     />
                                 </div>
                             @endforeach

@@ -2,6 +2,7 @@
     'id' => null,
     'title' => null,
     'match' => null,
+    'score' => null,
 ])
 
 <li class="list-row">
@@ -16,4 +17,5 @@
             <div class="text-xs uppercase font-semibold opacity-60">{{ $match }}</div>
         @endif
     </div>
+    <span class="text-sm">{{ $score }} / 100%</span>
 </li>

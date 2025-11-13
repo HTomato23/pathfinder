@@ -43,7 +43,7 @@
                         @endif
                         
                         <div class="flex flex-col">
-                            <span class="text-sm mb-1">{{ $client->first_name . ' ' . $client->last_name ?? 'Guest Client' }}</span>
+                            <span class="text-sm mb-1">{{ $client->first_name . ' ' . $client->last_name ?? 'N/A' }}</span>
                             @if ($client->status === 'Online')
                                 <x-ui.badge color="success" size="sm">{{ $client->status ??  'Unknown'}}</x-ui.badge>
                             @elseif ($client->status === 'Offline')
@@ -65,19 +65,23 @@
                         <div class="flex flex-col gap-y-3 w-full">
                             <div>
                                 <label class="text-gray-600 text-sm">First name</label>
-                                <p class="text-sm">{{ $client->first_name ?? 'Guest Client' }}</p>
+                                <p class="text-sm">{{ $client->first_name ?? 'N/A' }}</p>
                             </div>
                             <div>
                                 <label class="text-gray-600 text-sm">Last name</label>
-                                <p class="text-sm">{{ $client->last_name ?? 'Guest Client' }}</p>
+                                <p class="text-sm">{{ $client->last_name ?? 'N/A' }}</p>
                             </div>
                             <div>
                                 <label class="text-gray-600 text-sm">Email address</label>
-                                <p class="text-sm">{{ $client->email ?? 'Guest Client' }}</p>
+                                <p class="text-sm">{{ $client->email ?? 'N/A' }}</p>
                             </div>
                             <div>
                                 <label class="text-gray-600 text-sm">Sex</label>
-                                <p class="text-sm">{{ $client->sex ?? 'Guest Client' }}</p>
+                                <p class="text-sm">{{ $client->sex ?? 'N/A' }}</p>
+                            </div>
+                            <div>
+                                <label class="text-gray-600 text-sm">Work Experience</label>
+                                <p class="text-sm">{{ $client->work_experience ? 'Yes' : 'No' }}</p>
                             </div>
                         </div>
                         <div class="flex flex-col gap-y-3 w-full">
@@ -87,11 +91,15 @@
                             </div>
                             <div>
                                 <label class="text-gray-600 text-sm">Civil Status</label>
-                                <p class="text-sm">{{ $client->civil_status ?? 'Guest Client' }}</p>
+                                <p class="text-sm">{{ $client->civil_status ?? 'N/A' }}</p>
                             </div>
                             <div>
                                 <label class="text-gray-600 text-sm">Dream</label>
                                 <p class="text-sm">{{ $client->dream ?? 'Guest Dream' }}</p>
+                            </div>
+                            <div>
+                                <label class="text-gray-600 text-sm">Freelance</label>
+                                <p class="text-sm">{{ $client->freelance ? 'Yes' : 'No' }}</p>
                             </div>
                         </div>
                     </div>
@@ -104,45 +112,57 @@
                         <div class="flex flex-col gap-y-3 w-full">
                             <div>
                                 <label class="text-gray-600 text-sm">Student ID</label>
-                                <p class="text-sm">{{ $client->student_id ?? '0' }}</p>
+                                <p class="text-sm">{{ $client->student_id ?? 'N/A' }}</p>
                             </div>
                             <div>
                                 <label class="text-gray-600 text-sm">Program</label>
-                                <p class="text-sm">{{ $client->program ?? 'Guest Client' }}</p>
+                                <p class="text-sm">{{ $client->program ?? 'N/A' }}</p>
                             </div>
                             <div>
                                 <label class="text-gray-600 text-sm">Year Level</label>
-                                <p class="text-sm">{{ $client->year_level ?? 'Guest Client' }}</p>
+                                <p class="text-sm">{{ $client->year_level ?? 'N/A' }}</p>
                             </div>
                             <div>
                                 <label class="text-gray-600 text-sm">Section</label>
-                                <p class="text-sm">{{ $client->section ?? 'Guest Client' }}</p>
+                                <p class="text-sm">{{ $client->section ?? 'N/A' }}</p>
                             </div>
                             <div>
                                 <label class="text-gray-600 text-sm">First Choice</label>
-                                <p class="text-sm">{{ $client->first_choice ?? 'Guest Choice' }}</p>
+                                <p class="text-sm">{{ $client->first_choice ?? 'N/A' }}</p>
+                            </div>
+                            <div>
+                                <label class="text-gray-600 text-sm">OJT Experience</label>
+                                <p class="text-sm">{{ $client->OJT ? 'Yes' : 'No' }}</p>
+                            </div>
+                            <div>
+                                <label class="text-gray-600 text-sm">Member of Organization</label>
+                                <p class="text-sm">{{ $client->member_of_organization ? 'Yes' : 'No' }}</p>
                             </div>
                         </div>
                         <div class="flex flex-col gap-y-3 w-full">
                             <div>
                                 <label class="text-gray-600 text-sm">Enrollment Status</label>
-                                <p class="text-sm">{{ $client->enrollment_status ?? 'Guest Client' }}</p>
+                                <p class="text-sm">{{ $client->enrollment_status ?? 'N/A' }}</p>
                             </div>
                             <div>
                                 <label class="text-gray-600 text-sm">Academic Standing</label>
-                                <p class="text-sm">{{ $client->academic_standing ?? 'Guest Client' }}</p>
+                                <p class="text-sm">{{ $client->academic_standing ?? 'N/A' }}</p>
                             </div>
                             <div>
                                 <label class="text-gray-600 text-sm">Batch Year</label>
-                                <p class="text-sm">{{ $client->batch_year ?? 'Guest Client' }}</p>
+                                <p class="text-sm">{{ $client->batch_year ?? 'N/A' }}</p>
                             </div>
                             <div>
                                 <label class="text-gray-600 text-sm">Expected Graduation Year</label>
-                                <p class="text-sm">{{ $client->graduation_year ?? 'Guest Client' }}</p>
+                                <p class="text-sm">{{ $client->graduation_year ?? 'N/A' }}</p>
                             </div>
                             <div>
                                 <label class="text-gray-600 text-sm">Second Choice</label>
-                                <p class="text-sm">{{ $client->second_choice ?? 'Guest Choice' }}</p>
+                                <p class="text-sm">{{ $client->second_choice ?? 'N/A' }}</p>
+                            </div>
+                            <div>
+                                <label class="text-gray-600 text-sm">Leadership Experience</label>
+                                <p class="text-sm">{{ $client->leadership_experience ? 'Yes' : 'No' }}</p>
                             </div>
                         </div>
                     </div>
