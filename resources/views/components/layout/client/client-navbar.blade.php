@@ -13,7 +13,7 @@
 
                 {{-- Dashboard Link --}}
                 <li>
-                    <a href="{{ route('dashboard') }}" class="{{ request()->routeIs('dashboard') ? 'active' : '' }}">
+                    <a href="{{ route('dashboard') }}" class="{{ request()->routeIs('dashboard') ? 'menu-active' : '' }}">
                         <x-heroicon-o-cube class="w-4 h-4"/> Dashboard
                     </a>
                 </li>
@@ -25,12 +25,12 @@
                     </span>
                     <ul class="p-2">
                         <li>
-                            <a href="{{ route('dashboard.assessment') }}" class="{{ request()->routeIs('dashboard.assessment') ? 'active' : '' }}">
+                            <a href="{{ route('dashboard.assessment') }}" class="{{ request()->routeIs('dashboard.assessment') ? 'menu-active' : '' }}">
                                 Before You Start
                             </a>
                         </li>
                         <li class="{{ auth()->user()->is_personality_completed ? 'menu-disabled' : 'menu-disabled' }}">
-                            <a href="{{ route('dashboard.assessment.personality') }}" class="{{ request()->routeIs('dashboard.assessment.personality') ? 'active' : '' }}">
+                            <a href="{{ route('dashboard.assessment.personality') }}" class="{{ request()->routeIs('dashboard.assessment.personality') ? 'menu-active' : '' }}">
                                 Personality Test
                                 @if(auth()->user()->is_personality_completed)
                                     <span class="badge badge-success badge-xs">✓</span>
@@ -38,7 +38,7 @@
                             </a>
                         </li>
                         <li class="{{ (!auth()->user()->is_personality_completed || auth()->user()->is_softskill_completed) ? 'menu-disabled' : '' }}">
-                            <a href="{{ route('dashboard.assessment.softskill') }}" class="{{ request()->routeIs('dashboard.assessment.softskill') ? 'active' : '' }}">
+                            <a href="{{ route('dashboard.assessment.softskill') }}" class="{{ request()->routeIs('dashboard.assessment.softskill') ? 'menu-active' : '' }}">
                                 Soft Skill Test
                                 @if(auth()->user()->is_softskill_completed)
                                     <span class="badge badge-success badge-xs">✓</span>
@@ -46,7 +46,7 @@
                             </a>
                         </li>
                         <li class="{{ (!auth()->user()->is_softskill_completed || auth()->user()->is_academic_completed) ? 'menu-disabled' : '' }}">
-                            <a href="{{ route('dashboard.assessment.academic') }}" class="{{ request()->routeIs('dashboard.assessment.academic') ? 'active' : '' }}">
+                            <a href="{{ route('dashboard.assessment.academic') }}" class="{{ request()->routeIs('dashboard.assessment.academic') ? 'menu-active' : '' }}">
                                 Academic
                                 @if(auth()->user()->is_academic_completed)
                                     <span class="badge badge-success badge-xs">✓</span>
@@ -54,7 +54,7 @@
                             </a>
                         </li>
                         <li class="{{ (!auth()->user()->is_academic_completed || auth()->user()->is_personal_completed) ? 'menu-disabled' : '' }}">
-                            <a href="{{ route('dashboard.assessment.personal') }}" class="{{ request()->routeIs('dashboard.assessment.personal') ? 'active' : '' }}">
+                            <a href="{{ route('dashboard.assessment.personal') }}" class="{{ request()->routeIs('dashboard.assessment.personal') ? 'menu-active' : '' }}">
                                 Personal Experience
                                 @if(auth()->user()->is_personal_completed)
                                     <span class="badge badge-success badge-xs">✓</span>
@@ -62,7 +62,7 @@
                             </a>
                         </li>
                         <li class="{{ (!auth()->user()->is_personal_completed || auth()->user()->is_skill_completed) ? 'menu-disabled' : '' }}">
-                            <a href="{{ route('dashboard.assessment.skill') }}" class="{{ request()->routeIs('dashboard.assessment.skill') ? 'active' : '' }}">
+                            <a href="{{ route('dashboard.assessment.skill') }}" class="{{ request()->routeIs('dashboard.assessment.skill') ? 'menu-active' : '' }}">
                                 Skill Scale
                                 @if(auth()->user()->is_skill_completed)
                                     <span class="badge badge-success badge-xs">✓</span>
@@ -74,21 +74,21 @@
 
                 {{-- Consultations --}}
                 <li>
-                    <a href="{{ route('dashboard.consultation') }}" class="{{ request()->routeIs('dashboard.consultation') ? 'active' : '' }}">
+                    <a href="{{ route('dashboard.consultation') }}" class="{{ request()->routeIs('dashboard.consultation') ? 'menu-active' : '' }}">
                         <x-heroicon-o-chat-bubble-left-right class="w-4 h-4"/> Consultations
                     </a>
                 </li>
 
                 {{-- Comment --}}
                 <li>
-                    <a href="{{ route('dashboard.comment') }}" class="{{ request()->routeIs('dashboard.comment') ? 'active' : '' }}">
+                    <a href="{{ route('dashboard.comment') }}" class="{{ request()->routeIs('dashboard.comment') ? 'menu-active' : '' }}">
                         <x-heroicon-o-chat-bubble-bottom-center-text class="w-4 h-4"/> Comment
                     </a>
                 </li>
 
                 {{-- Browse Jobs --}}
                 <li>
-                    <a href="{{ route('browse.jobs') }}" class="{{ request()->routeIs('browse.jobs') ? 'active' : '' }}">
+                    <a href="{{ route('browse.jobs') }}" class="{{ request()->routeIs('browse.jobs') ? 'menu-active' : '' }}">
                         <x-heroicon-o-briefcase class="w-4 h-4"/> Browse Jobs
                     </a>
                 </li>
@@ -100,17 +100,17 @@
                     </span>
                     <ul class="p-2">
                         <li>
-                            <a href="{{ route('dashboard.settings.profile') }}" class="{{ request()->routeIs('dashboard.settings.profile') ? 'active' : '' }}">
+                            <a href="{{ route('dashboard.settings.profile') }}" class="{{ request()->routeIs('dashboard.settings.profile') ? 'menu-active' : '' }}">
                                 Profile
                             </a>
                         </li>
                         <li>
-                            <a href="{{ route('dashboard.settings.password') }}" class="{{ request()->routeIs('dashboard.settings.password') ? 'active' : '' }}">
+                            <a href="{{ route('dashboard.settings.password') }}" class="{{ request()->routeIs('dashboard.settings.password') ? 'menu-active' : '' }}">
                                 Change Password
                             </a>
                         </li>
                         <li>
-                            <a href="{{ route('dashboard.settings.appearance') }}" class="{{ request()->routeIs('dashboard.settings.appearance') ? 'active' : '' }}">
+                            <a href="{{ route('dashboard.settings.appearance') }}" class="{{ request()->routeIs('dashboard.settings.appearance') ? 'menu-active' : '' }}">
                                 Appearance
                             </a>
                         </li>

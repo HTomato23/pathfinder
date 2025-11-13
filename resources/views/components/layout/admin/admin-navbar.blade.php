@@ -12,37 +12,37 @@
             <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-xl z-40 mt-5 w-52 p-2 shadow">
 
                 <li>
-                    <a href="{{ route('admin.dashboard') }}" class="{{ request()->routeIs('admin.dashboard') ? 'active' : '' }}">
+                    <a href="{{ route('admin.dashboard') }}" class="{{ request()->routeIs('admin.dashboard') ? 'menu-active' : '' }}">
                         <x-heroicon-o-cube class="w-4 h-4"/> Dashboard
                     </a>
                 </li>
 
                 <li>
-                    <a href="{{ route('admin.dashboard.model') }}" class="{{ request()->routeIs('admin.dashboard.model') ? 'active' : '' }}">
+                    <a href="{{ route('admin.dashboard.model') }}" class="{{ request()->routeIs('admin.dashboard.model') ? 'menu-active' : '' }}">
                         <x-heroicon-o-arrow-path class="w-4 h-4"/> Model Configuration
                     </a>
                 </li>
 
                 <li>
-                    <a href="{{ route('admin.dashboard.control') }}" class="{{ request()->routeIs('admin.dashboard.control') || request()->is('admin/dashboard/control/*') ? 'active' : '' }}">
+                    <a href="{{ route('admin.dashboard.control') }}" class="{{ request()->routeIs('admin.dashboard.control') || request()->is('admin/dashboard/control/*') ? 'menu-active' : '' }}">
                         <x-heroicon-o-shield-check class="w-4 h-4"/> Control
                     </a>
                 </li>
 
                 <li>
-                    <a href="{{ route('admin.dashboard.client') }}" class="{{ request()->routeIs('admin.dashboard.client') || request()->is('admin/dashboard/client/*') ? 'active' : '' }}">
+                    <a href="{{ route('admin.dashboard.client') }}" class="{{ request()->routeIs('admin.dashboard.client') || request()->is('admin/dashboard/client/*') ? 'menu-active' : '' }}">
                         <x-heroicon-o-users class="w-4 h-4"/> Client
                     </a>
                 </li>
 
                 <li>
-                    <a href="{{ route('admin.dashboard.consultation') }}" class="{{ request()->routeIs('admin.dashboard.consultation') || request()->is('admin/dashboard/consultation/*') ? 'active' : '' }}">
+                    <a href="{{ route('admin.dashboard.consultation') }}" class="{{ request()->routeIs('admin.dashboard.consultation') || request()->is('admin/dashboard/consultation/*') ? 'menu-active' : '' }}">
                         <x-heroicon-o-chat-bubble-left-right class="w-4 h-4"/> Consultations
                     </a>
                 </li>
 
                 <li>
-                    <a href="{{ route('admin.dashboard.predict') }}" class="{{ request()->routeIs('admin.dashboard.predict') ? 'active' : '' }}">
+                    <a href="{{ route('admin.dashboard.predict') }}" class="{{ request()->routeIs('admin.dashboard.predict') ? 'menu-active' : '' }}">
                         <x-heroicon-o-chart-pie class="w-4 h-4"/> Predict & Analysis
                     </a>
                 </li>
@@ -53,12 +53,12 @@
                     </span>
                     <ul class="p-2">
                         <li>
-                            <a href="{{ route('admin.dashboard.blogs') }}" class="{{ (request()->is('admin/dashboard/blogs*') && !request()->is('admin/dashboard/blogs/authors*')) ? 'active' : '' }}">
+                            <a href="{{ route('admin.dashboard.blogs') }}" class="{{ (request()->is('admin/dashboard/blogs*') && !request()->is('admin/dashboard/blogs/authors*')) ? 'menu-active' : '' }}">
                                 Blog
                             </a>
                         </li>
                         <li>
-                            <a href="{{ route('admin.dashboard.blogs.authors') }}" class="{{ request()->is('admin/dashboard/blogs/authors*') ? 'active' : '' }}">
+                            <a href="{{ route('admin.dashboard.blogs.authors') }}" class="{{ request()->is('admin/dashboard/blogs/authors*') ? 'menu-active' : '' }}">
                                 Author
                             </a>
                         </li>
@@ -71,22 +71,22 @@
                     </span>
                     <ul class="p-2">
                         <li>
-                            <a href="{{ route('admin.dashboard.settings.profile') }}" class="{{ request()->routeIs('admin.dashboard.settings.profile') ? 'active' : '' }}">
+                            <a href="{{ route('admin.dashboard.settings.profile') }}" class="{{ request()->routeIs('admin.dashboard.settings.profile') ? 'menu-active' : '' }}">
                                 Profile
                             </a>
                         </li>
                         <li>
-                            <a href="{{ route('admin.dashboard.settings.password') }}" class="{{ request()->routeIs('admin.dashboard.settings.password') ? 'active' : '' }}">
+                            <a href="{{ route('admin.dashboard.settings.password') }}" class="{{ request()->routeIs('admin.dashboard.settings.password') ? 'menu-active' : '' }}">
                                 Change Password
                             </a>
                         </li>
                         <li>
-                            <a href="{{ route('admin.dashboard.settings.activitylog') }}" class="{{ request()->routeIs('admin.dashboard.settings.activitylog') ? 'active' : '' }}">
+                            <a href="{{ route('admin.dashboard.settings.activitylog') }}" class="{{ request()->routeIs('admin.dashboard.settings.activitylog') ? 'menu-active' : '' }}">
                                 Activity Log
                             </a>
                         </li>
                         <li>
-                            <a href="{{ route('admin.dashboard.settings.appearance') }}" class="{{ request()->routeIs('admin.dashboard.settings.appearance') ? 'active' : '' }}">
+                            <a href="{{ route('admin.dashboard.settings.appearance') }}" class="{{ request()->routeIs('admin.dashboard.settings.appearance') ? 'menu-active' : '' }}">
                                 Appearance
                             </a>
                         </li>
