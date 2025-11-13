@@ -21,10 +21,17 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        if (config('app.env') === 'production') {
+        // Force HTTPS and correct URL in production
+        if ($this->app->environment('production')) {
             URL::forceScheme('https');
+
+            // Force the root URL to match APP_URL from environment
+            if ($appUrl = config('app.url')) {
+                URL::forceRootUrl($appUrl);
+            }
         }
 
+        // Prevent lazy loading in all environments
         Model::preventLazyLoading();
     }
 }
