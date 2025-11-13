@@ -90,7 +90,7 @@
             <span class="flex gap-2 items-center font-semibold text-primary"><x-heroicon-o-exclamation-triangle class="w-5 h-5"/>Note:</span>
             <p class="text-sm">
                 This soft skills test contains 35 questions designed to assess different areas of your interpersonal abilities.
-                Please read each statement carefully and choose the number that best represents your level of agreement using the scale below:
+                Please read each statement carefully and choose the best represents your level of agreement using the scale below:
             </p>
         </div>
 

@@ -670,6 +670,37 @@
             </div>
         @endif
 
+        {{-- Job Recommendation Standardization --}}
+        <div class="flex flex-col xl:flex-row gap-2">
+            <div x-cloak :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'" class="stats shadow w-full">
+                <div class="stat text-success">
+                    <div class="stat-figure">
+                        <x-heroicon-o-briefcase class="w-8 h-8" />
+                    </div>
+                    <div class="stat-title">High Match</div>
+                    <div class="stat-value">75% - 100%</div>
+                </div>
+            </div>
+            <div x-cloak :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'"class="stats shadow w-full">
+                <div class="stat text-warning">
+                    <div class="stat-figure">
+                        <x-heroicon-o-briefcase class="w-8 h-8" />
+                    </div>
+                    <div class="stat-title">Good Match</div>
+                    <div class="stat-value">50% - 74%</div>
+                </div>
+            </div>
+            <div x-cloak :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'" class="stats shadow w-full">
+                <div class="stat text-error">
+                    <div class="stat-figure">
+                        <x-heroicon-o-briefcase class="w-8 h-8" />
+                    </div>
+                    <div class="stat-title">Low Match</div>
+                    <div class="stat-value">0% - 49%</div>
+                </div>
+            </div>
+        </div>
+
         <div x-cloak 
             x-data="{ 
                 jobSearch: '',
