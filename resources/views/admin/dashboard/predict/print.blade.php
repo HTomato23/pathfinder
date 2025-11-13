@@ -29,9 +29,9 @@
                     <td>{{ $client->first_name }} {{ $client->last_name }}</td>
                     <td>{{ $client->program }}</td>
                     <td>{{ $client->year_level }}</td>
-                    <td>{{ $client->employability }}</td>
-                    <td>{{ $client->employability_probability }}</td>
-                    <td>{{ $client->predicted_employment_rate }}</td>
+                    <td>{{ $client->employability ?? 'N/A'}}</td>
+                    <td>{{ $client->employability_probability ?? 'N/A'}}</td>
+                    <td>{{ $client->predicted_employment_rate? ? 'N/A'}}</td>
                 </tr>
             @endforeach
         </tbody>
