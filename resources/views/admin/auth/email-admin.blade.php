@@ -32,7 +32,7 @@
 
             <fieldset x-data="{ show: false }" class="fieldset bg-base-100 border-base-300 rounded-md border p-7">
                 <h1 class="font-outfit text-3xl font-semibold">Forgot Password</h1>
-                <p>Please enter your email address!</p>
+                <p>Please wait around 5 minutes for the email to arrive.</p>
 
                 <!-- Email -->
                 <x-ui.form-label required>Email</x-ui.form-label>

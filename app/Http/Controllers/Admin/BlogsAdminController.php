@@ -150,7 +150,7 @@ class BlogsAdminController extends Controller
     {
         $validated = $request->validate([
             'author_id' => ['required', 'integer', 'min:1'],
-            'title' => ['required', 'string', Rule::unique('blogs', 'title')->ignore($blog->id, 'id'), 'min:3', 'max:100'],
+            'title' => ['required', 'string', Rule::unique('blogs', 'title')->ignore($blog->id, 'id'), 'min:3', 'max:150'],
             'description' => ['required', 'string', 'min:1'],
             'status' => ['required', 'string'],
             'header_1' => ['nullable', 'string'],

@@ -72,7 +72,7 @@
                     class="shadow-sm rounded-sm p-5 w-full">
                     <fieldset class="fieldset w-full">
                         <legend class="fieldset-legend">1st Header</legend>
-                        <x-ui.form-input class="validator input-primary" name="header_1" type="text" minlength="3" maxlength="30" placeholder="header" />
+                        <x-ui.form-input class="validator input-primary" name="header_1" type="text" minlength="3" placeholder="header" />
                         <p class="text-gray-500">Provide a clear and concise title for this section of your blog.</p>
                     </fieldset>
                     <fieldset class="fieldset w-full">
@@ -86,7 +86,7 @@
                     class="shadow-sm rounded-sm p-5 w-full">
                     <fieldset class="fieldset w-full">
                         <legend class="fieldset-legend">2nd Header</legend>
-                        <x-ui.form-input class="validator input-primary" name="header_2" type="text" minlength="3" maxlength="30" placeholder="header" />
+                        <x-ui.form-input class="validator input-primary" name="header_2" type="text" minlength="3" placeholder="header" />
                         <p class="text-gray-500">Use this title to introduce the next part of your content.</p>
                     </fieldset>
                     <fieldset class="fieldset w-full">
@@ -105,7 +105,7 @@
                     class="shadow-sm rounded-sm p-5 w-full">
                     <fieldset class="fieldset w-full">
                         <legend class="fieldset-legend">3rd Header</legend>
-                        <x-ui.form-input class="validator input-primary" name="header_3" type="text" minlength="3" maxlength="30" placeholder="header" />
+                        <x-ui.form-input class="validator input-primary" name="header_3" type="text" minlength="3" placeholder="header" />
                         <p class="text-gray-500">This section header should reflect the theme of the following paragraph.</p>
                     </fieldset>
                     <fieldset class="fieldset w-full">
@@ -119,7 +119,7 @@
                     class="shadow-sm rounded-sm p-5 w-full">
                     <fieldset class="fieldset w-full">
                         <legend class="fieldset-legend">4th Header</legend>
-                        <x-ui.form-input class="validator input-primary" name="header_4" type="text" minlength="3" maxlength="30" placeholder="header" />
+                        <x-ui.form-input class="validator input-primary" name="header_4" type="text" minlength="3" placeholder="header" />
                         <p class="text-gray-500">Add a descriptive label that sums up this section.</p>
                     </fieldset>
                     <fieldset class="fieldset w-full">
@@ -138,7 +138,7 @@
                     class="shadow-sm rounded-sm p-5 w-full">
                     <fieldset class="fieldset w-full">
                         <legend class="fieldset-legend">5th Header</legend>
-                        <x-ui.form-input class="validator input-primary" name="header_5" type="text" minlength="3" maxlength="30" placeholder="header" />
+                        <x-ui.form-input class="validator input-primary" name="header_5" type="text" minlength="3" placeholder="header" />
                         <p class="text-gray-500">Keep it short and relevant to the content that follows.</p>
                     </fieldset>
                     <fieldset class="fieldset w-full">
@@ -152,7 +152,7 @@
                     class="shadow-sm rounded-sm p-5 w-full">
                     <fieldset class="fieldset w-full">
                         <legend class="fieldset-legend">6th Header</legend>
-                        <x-ui.form-input class="validator input-primary" name="header_6" type="text" minlength="3" maxlength="30" placeholder="header" />
+                        <x-ui.form-input class="validator input-primary" name="header_6" type="text" minlength="3" placeholder="header" />
                         <p class="text-gray-500">Title this part of the blog to guide your readers smoothly.</p>
                     </fieldset>
                     <fieldset class="fieldset w-full">
