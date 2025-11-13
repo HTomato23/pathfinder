@@ -81,7 +81,7 @@
             </div>
         </div>
 
-        <div class="flex flex-wrap justify-between gap-2">
+        <div class="flex flex-col xl:justify-between gap-2">
             <div x-cloak :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'" class="flex flex-col flex-1 w-full gap-2 h-[300px] rounded-sm shadow-sm p-4">
                 <h1 class="font-medium text-primary">Users Overview</h1>
                 <div class="w-full h-full">
