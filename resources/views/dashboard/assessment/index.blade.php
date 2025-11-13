@@ -45,7 +45,7 @@
                 </div>
             </div>
             <div class="reveal p-5 w-full">
-                <img src="{{ Vite::asset('resources/images/svg/Online test-amico.svg') }}" alt="educationSVG" />
+                <img src="{{ asset('images/svg/Online test-amico.svg') }}" alt="educationSVG" />
             </div>
         </div>
 
