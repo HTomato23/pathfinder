@@ -193,7 +193,8 @@
                                 <td x-text="client.program"></td>
                                 <td x-text="client.year_level"></td>
                                 <td>
-                                    <x-ui.badge
+                                   <x-ui.badge
+                                        class="whitespace-nowrap"
                                         x-bind:class="[
                                             $store.theme.isDark() ? 'badge-soft' : '',
                                             client.employability === 'Employable' ? 'badge-success' : 'badge-error'
