@@ -24,12 +24,15 @@ if sys.platform == 'win32':
 # Suppress warnings
 warnings.filterwarnings("ignore")
 
-# MySQL Configuration
+import os
+
+# MySQL Configuration - reads from Railway environment variables
 DB_CONFIG = {
-    'host': 'localhost',
-    'user': 'root',
-    'password': '',
-    'database': 'pathfinder'
+    'host': os.getenv('DB_HOST', 'localhost'),
+    'port': int(os.getenv('DB_PORT', 3306)),
+    'user': os.getenv('DB_USERNAME', 'root'),
+    'password': os.getenv('DB_PASSWORD', ''),
+    'database': os.getenv('DB_DATABASE', 'railway')
 }
 
 # Model file paths
