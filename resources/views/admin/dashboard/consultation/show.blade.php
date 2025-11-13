@@ -91,26 +91,26 @@
 
                     <fieldset class="fieldset">
 
-                        <!-- Start Time -->
+                       <!-- Start Time -->
                         <x-ui.form-label required>Start Time:</x-ui.form-label>
-                        <input type="datetime-local" name="start_time" class="input w-full" />
+                        <input type="datetime-local" name="start_time" class="input w-full" value="{{ old('start_time', $consult->start_time) }}" />
 
                         <!-- End Time -->
                         <x-ui.form-label required>End Time:</x-ui.form-label>
-                        <input type="datetime-local" name="end_time" class="input w-full" />
+                        <input type="datetime-local" name="end_time" class="input w-full" value="{{ old('end_time', $consult->end_time) }}" />
 
                         <!-- Location -->
                         <x-ui.form-label required>Location:</x-ui.form-label>
-                        <x-ui.form-input type="text" name="location" placeholder="Location" maxlength="100" required />
+                        <x-ui.form-input type="text" name="location" placeholder="Location" maxlength="100" value="{{ old('location', $consult->location) }}" required />
 
                         <!-- Status -->
                         <x-ui.form-label required>Select a status:</x-ui.form-label>
                         <select class="select w-full" name="status" required>
-                            <option disabled selected>Select a status</option>
-                            <option value="Upcoming" {{ $consult->status === 'Upcoming' ? 'selected' : '' }}>Upcoming</option>
-                            <option value="Ongoing" {{ $consult->status === 'Ongoing' ? 'selected' : '' }}>Ongoing</option>
-                            <option value="Completed" {{ $consult->status === 'Completed' ? 'selected' : '' }}>Completed</option>
-                            <option value="Cancelled" {{ $consult->status === 'Cancelled' ? 'selected' : '' }}>Cancelled</option>
+                            <option disabled {{ old('status', $consult->status) ? '' : 'selected' }}>Select a status</option>
+                            <option value="Upcoming" {{ old('status', $consult->status) === 'Upcoming' ? 'selected' : '' }}>Upcoming</option>
+                            <option value="Ongoing" {{ old('status', $consult->status) === 'Ongoing' ? 'selected' : '' }}>Ongoing</option>
+                            <option value="Completed" {{ old('status', $consult->status) === 'Completed' ? 'selected' : '' }}>Completed</option>
+                            <option value="Cancelled" {{ old('status', $consult->status) === 'Cancelled' ? 'selected' : '' }}>Cancelled</option>
                         </select>
 
                         <!-- Submit Button -->
