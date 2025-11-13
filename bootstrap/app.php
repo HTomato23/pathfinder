@@ -16,6 +16,9 @@ return Application::configure(basePath: dirname(__DIR__))
         }
     )
     ->withMiddleware(function (Middleware $middleware): void {
+        // Trust all proxies (for Railway deployment)
+        $middleware->trustProxies(at: '*');
+
         $middleware->alias([
             'admin' => \App\Http\Middleware\AdminMiddleware::class,
             'admin.verified' => \App\Http\Middleware\EnsureAdminEmailIsVerified::class,
