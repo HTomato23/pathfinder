@@ -670,7 +670,7 @@
                                         'id' => '17',
                                         'title' => 'Concierge',
                                         'field' => 'concierge',
-                                        'match_field' => 'concierge_crm_match'
+                                        'match_field' => 'concierge_match'
                                     ],
                                     [
                                         'id' => '18',
