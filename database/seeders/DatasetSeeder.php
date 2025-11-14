@@ -15,7 +15,7 @@ class DatasetSeeder extends Seeder
     {
         $dataset = [
             [
-                'student_number' => '21-00835',
+                'student_id' => '21-00835',
                 'sex' => 'Male',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -36,7 +36,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.0,
             ],
             [
-                'student_number' => '22-00540',
+                'student_id' => '22-00540',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Separated',
@@ -57,7 +57,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00569',
+                'student_id' => '20-00569',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -78,7 +78,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.86,
             ],
             [
-                'student_number' => '23-00925',
+                'student_id' => '23-00925',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -99,7 +99,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.82,
             ],
             [
-                'student_number' => '21-00330',
+                'student_id' => '21-00330',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -120,7 +120,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 77.52,
             ],
             [
-                'student_number' => '21-00428',
+                'student_id' => '21-00428',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -141,7 +141,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.46,
             ],
             [
-                'student_number' => '21-00025',
+                'student_id' => '21-00025',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -162,7 +162,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.88,
             ],
             [
-                'student_number' => '21-00208',
+                'student_id' => '21-00208',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -183,7 +183,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.65,
             ],
             [
-                'student_number' => '21-00396',
+                'student_id' => '21-00396',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -204,7 +204,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '24-00653',
+                'student_id' => '24-00653',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -225,7 +225,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.96,
             ],
             [
-                'student_number' => '22-00734',
+                'student_id' => '22-00734',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -246,7 +246,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 34.05,
             ],
             [
-                'student_number' => '21-00006',
+                'student_id' => '21-00006',
                 'sex' => 'Female',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -267,7 +267,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.11,
             ],
             [
-                'student_number' => '24-00306',
+                'student_id' => '24-00306',
                 'sex' => 'Female',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -288,7 +288,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.02,
             ],
             [
-                'student_number' => '24-00034',
+                'student_id' => '24-00034',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -309,7 +309,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.97,
             ],
             [
-                'student_number' => '20-00960',
+                'student_id' => '20-00960',
                 'sex' => 'Male',
                 'age' => 26,
                 'civil_status' => 'Single',
@@ -330,7 +330,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.03,
             ],
             [
-                'student_number' => '22-00632',
+                'student_id' => '22-00632',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -351,7 +351,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.59,
             ],
             [
-                'student_number' => '24-00795',
+                'student_id' => '24-00795',
                 'sex' => 'Female',
                 'age' => 24,
                 'civil_status' => 'Annulled',
@@ -372,7 +372,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 69.76,
             ],
             [
-                'student_number' => '21-00370',
+                'student_id' => '21-00370',
                 'sex' => 'Male',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -393,7 +393,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.16,
             ],
             [
-                'student_number' => '24-00947',
+                'student_id' => '24-00947',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -414,7 +414,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.78,
             ],
             [
-                'student_number' => '23-00212',
+                'student_id' => '23-00212',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -435,7 +435,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 78.16,
             ],
             [
-                'student_number' => '24-00896',
+                'student_id' => '24-00896',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -456,7 +456,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00962',
+                'student_id' => '22-00962',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -477,7 +477,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 76.82,
             ],
             [
-                'student_number' => '21-00526',
+                'student_id' => '21-00526',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -498,7 +498,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 68.09,
             ],
             [
-                'student_number' => '24-00372',
+                'student_id' => '24-00372',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -519,7 +519,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 32.28,
             ],
             [
-                'student_number' => '20-00240',
+                'student_id' => '20-00240',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -540,7 +540,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.38,
             ],
             [
-                'student_number' => '22-00449',
+                'student_id' => '22-00449',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -561,7 +561,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.67,
             ],
             [
-                'student_number' => '23-00007',
+                'student_id' => '23-00007',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Annulled',
@@ -582,7 +582,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 86.96,
             ],
             [
-                'student_number' => '24-00091',
+                'student_id' => '24-00091',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -603,7 +603,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '24-00839',
+                'student_id' => '24-00839',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Widowed',
@@ -624,7 +624,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.99,
             ],
             [
-                'student_number' => '23-00810',
+                'student_id' => '23-00810',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -645,7 +645,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.79,
             ],
             [
-                'student_number' => '23-00274',
+                'student_id' => '23-00274',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -666,7 +666,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.34,
             ],
             [
-                'student_number' => '21-00670',
+                'student_id' => '21-00670',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -687,7 +687,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 42.84,
             ],
             [
-                'student_number' => '21-00593',
+                'student_id' => '21-00593',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -708,7 +708,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.59,
             ],
             [
-                'student_number' => '20-00302',
+                'student_id' => '20-00302',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -729,7 +729,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.56,
             ],
             [
-                'student_number' => '24-00859',
+                'student_id' => '24-00859',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -750,7 +750,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 75.18,
             ],
             [
-                'student_number' => '23-00511',
+                'student_id' => '23-00511',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -771,7 +771,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 83.01,
             ],
             [
-                'student_number' => '20-00125',
+                'student_id' => '20-00125',
                 'sex' => 'Male',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -792,7 +792,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.68,
             ],
             [
-                'student_number' => '20-00110',
+                'student_id' => '20-00110',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -813,7 +813,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '23-00755',
+                'student_id' => '23-00755',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -834,7 +834,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.92,
             ],
             [
-                'student_number' => '24-00833',
+                'student_id' => '24-00833',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -855,7 +855,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 33.55,
             ],
             [
-                'student_number' => '22-00108',
+                'student_id' => '22-00108',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -876,7 +876,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 76.07,
             ],
             [
-                'student_number' => '23-00125',
+                'student_id' => '23-00125',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -897,7 +897,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.03,
             ],
             [
-                'student_number' => '24-00934',
+                'student_id' => '24-00934',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -918,7 +918,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.15,
             ],
             [
-                'student_number' => '22-00193',
+                'student_id' => '22-00193',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -939,7 +939,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 33.31,
             ],
             [
-                'student_number' => '22-00611',
+                'student_id' => '22-00611',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -960,7 +960,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 39.71,
             ],
             [
-                'student_number' => '23-00456',
+                'student_id' => '23-00456',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -981,7 +981,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 82.8,
             ],
             [
-                'student_number' => '21-00676',
+                'student_id' => '21-00676',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -1002,7 +1002,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '21-00958',
+                'student_id' => '21-00958',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -1023,7 +1023,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.99,
             ],
             [
-                'student_number' => '23-00767',
+                'student_id' => '23-00767',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -1044,7 +1044,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 77.5,
             ],
             [
-                'student_number' => '23-00037',
+                'student_id' => '23-00037',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -1065,7 +1065,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.82,
             ],
             [
-                'student_number' => '22-00750',
+                'student_id' => '22-00750',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -1086,7 +1086,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '24-00336',
+                'student_id' => '24-00336',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -1107,7 +1107,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.09,
             ],
             [
-                'student_number' => '21-00049',
+                'student_id' => '21-00049',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -1128,7 +1128,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 80.78,
             ],
             [
-                'student_number' => '24-00817',
+                'student_id' => '24-00817',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -1149,7 +1149,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.61,
             ],
             [
-                'student_number' => '23-00100',
+                'student_id' => '23-00100',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -1170,7 +1170,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.36,
             ],
             [
-                'student_number' => '23-00692',
+                'student_id' => '23-00692',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -1191,7 +1191,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 33.05,
             ],
             [
-                'student_number' => '21-00288',
+                'student_id' => '21-00288',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -1212,7 +1212,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.07,
             ],
             [
-                'student_number' => '20-00167',
+                'student_id' => '20-00167',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -1233,7 +1233,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 77.73,
             ],
             [
-                'student_number' => '23-00780',
+                'student_id' => '23-00780',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -1254,7 +1254,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 84.56,
             ],
             [
-                'student_number' => '24-00455',
+                'student_id' => '24-00455',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -1275,7 +1275,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.03,
             ],
             [
-                'student_number' => '20-00984',
+                'student_id' => '20-00984',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Separated',
@@ -1296,7 +1296,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.85,
             ],
             [
-                'student_number' => '20-00529',
+                'student_id' => '20-00529',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -1317,7 +1317,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 39.26,
             ],
             [
-                'student_number' => '21-00016',
+                'student_id' => '21-00016',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -1338,7 +1338,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '21-00540',
+                'student_id' => '21-00540',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -1359,7 +1359,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.83,
             ],
             [
-                'student_number' => '23-00393',
+                'student_id' => '23-00393',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -1380,7 +1380,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00822',
+                'student_id' => '22-00822',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -1401,7 +1401,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.08,
             ],
             [
-                'student_number' => '21-00964',
+                'student_id' => '21-00964',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -1422,7 +1422,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.97,
             ],
             [
-                'student_number' => '20-00718',
+                'student_id' => '20-00718',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -1443,7 +1443,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.46,
             ],
             [
-                'student_number' => '23-00214',
+                'student_id' => '23-00214',
                 'sex' => 'Female',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -1464,7 +1464,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 68.07,
             ],
             [
-                'student_number' => '20-00837',
+                'student_id' => '20-00837',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -1485,7 +1485,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.65,
             ],
             [
-                'student_number' => '22-00322',
+                'student_id' => '22-00322',
                 'sex' => 'Female',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -1506,7 +1506,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.64,
             ],
             [
-                'student_number' => '20-00737',
+                'student_id' => '20-00737',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -1527,7 +1527,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 88.33,
             ],
             [
-                'student_number' => '23-00072',
+                'student_id' => '23-00072',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -1548,7 +1548,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.38,
             ],
             [
-                'student_number' => '23-00660',
+                'student_id' => '23-00660',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -1569,7 +1569,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 39.34,
             ],
             [
-                'student_number' => '23-00703',
+                'student_id' => '23-00703',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -1590,7 +1590,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 39.84,
             ],
             [
-                'student_number' => '20-00812',
+                'student_id' => '20-00812',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -1611,7 +1611,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 83.24,
             ],
             [
-                'student_number' => '20-00174',
+                'student_id' => '20-00174',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -1632,7 +1632,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.38,
             ],
             [
-                'student_number' => '20-00005',
+                'student_id' => '20-00005',
                 'sex' => 'Male',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -1653,7 +1653,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 34.72,
             ],
             [
-                'student_number' => '23-00628',
+                'student_id' => '23-00628',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -1674,7 +1674,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.72,
             ],
             [
-                'student_number' => '22-00038',
+                'student_id' => '22-00038',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -1695,7 +1695,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.12,
             ],
             [
-                'student_number' => '21-00791',
+                'student_id' => '21-00791',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -1716,7 +1716,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.32,
             ],
             [
-                'student_number' => '22-00508',
+                'student_id' => '22-00508',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -1737,7 +1737,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.33,
             ],
             [
-                'student_number' => '20-00713',
+                'student_id' => '20-00713',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -1758,7 +1758,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 42.37,
             ],
             [
-                'student_number' => '23-00426',
+                'student_id' => '23-00426',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -1779,7 +1779,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.51,
             ],
             [
-                'student_number' => '23-00877',
+                'student_id' => '23-00877',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -1800,7 +1800,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.62,
             ],
             [
-                'student_number' => '23-00665',
+                'student_id' => '23-00665',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -1821,7 +1821,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00410',
+                'student_id' => '20-00410',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -1842,7 +1842,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.54,
             ],
             [
-                'student_number' => '23-00997',
+                'student_id' => '23-00997',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -1863,7 +1863,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '24-00183',
+                'student_id' => '24-00183',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -1884,7 +1884,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 33.24,
             ],
             [
-                'student_number' => '21-00718',
+                'student_id' => '21-00718',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -1905,7 +1905,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.52,
             ],
             [
-                'student_number' => '20-00764',
+                'student_id' => '20-00764',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -1926,7 +1926,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.98,
             ],
             [
-                'student_number' => '21-00080',
+                'student_id' => '21-00080',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -1947,7 +1947,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 76.29,
             ],
             [
-                'student_number' => '22-00272',
+                'student_id' => '22-00272',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -1968,7 +1968,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 40.33,
             ],
             [
-                'student_number' => '23-00809',
+                'student_id' => '23-00809',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -1989,7 +1989,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 81.67,
             ],
             [
-                'student_number' => '23-00861',
+                'student_id' => '23-00861',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -2010,7 +2010,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.77,
             ],
             [
-                'student_number' => '22-00735',
+                'student_id' => '22-00735',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -2031,7 +2031,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 82.19,
             ],
             [
-                'student_number' => '24-00555',
+                'student_id' => '24-00555',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -2052,7 +2052,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.76,
             ],
             [
-                'student_number' => '21-00951',
+                'student_id' => '21-00951',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Married',
@@ -2073,7 +2073,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.21,
             ],
             [
-                'student_number' => '20-00680',
+                'student_id' => '20-00680',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -2094,7 +2094,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 78.76,
             ],
             [
-                'student_number' => '22-00353',
+                'student_id' => '22-00353',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -2115,7 +2115,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '24-00609',
+                'student_id' => '24-00609',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -2136,7 +2136,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.54,
             ],
             [
-                'student_number' => '24-00413',
+                'student_id' => '24-00413',
                 'sex' => 'Female',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -2157,7 +2157,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.58,
             ],
             [
-                'student_number' => '21-00809',
+                'student_id' => '21-00809',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Widowed',
@@ -2178,7 +2178,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.97,
             ],
             [
-                'student_number' => '24-00856',
+                'student_id' => '24-00856',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -2199,7 +2199,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 82.01,
             ],
             [
-                'student_number' => '23-00961',
+                'student_id' => '23-00961',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -2220,7 +2220,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 40.02,
             ],
             [
-                'student_number' => '22-00164',
+                'student_id' => '22-00164',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -2241,7 +2241,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.72,
             ],
             [
-                'student_number' => '23-00326',
+                'student_id' => '23-00326',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -2262,7 +2262,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '24-00454',
+                'student_id' => '24-00454',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -2283,7 +2283,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 33.87,
             ],
             [
-                'student_number' => '24-00699',
+                'student_id' => '24-00699',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -2304,7 +2304,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 39.19,
             ],
             [
-                'student_number' => '21-00151',
+                'student_id' => '21-00151',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Separated',
@@ -2325,7 +2325,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 39.8,
             ],
             [
-                'student_number' => '24-00494',
+                'student_id' => '24-00494',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -2346,7 +2346,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.47,
             ],
             [
-                'student_number' => '22-00409',
+                'student_id' => '22-00409',
                 'sex' => 'Female',
                 'age' => 26,
                 'civil_status' => 'Single',
@@ -2367,7 +2367,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.71,
             ],
             [
-                'student_number' => '24-00483',
+                'student_id' => '24-00483',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -2388,7 +2388,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.34,
             ],
             [
-                'student_number' => '21-00313',
+                'student_id' => '21-00313',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Separated',
@@ -2409,7 +2409,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.36,
             ],
             [
-                'student_number' => '22-00884',
+                'student_id' => '22-00884',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -2430,7 +2430,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.58,
             ],
             [
-                'student_number' => '20-00247',
+                'student_id' => '20-00247',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -2451,7 +2451,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 87.18,
             ],
             [
-                'student_number' => '24-00152',
+                'student_id' => '24-00152',
                 'sex' => 'Female',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -2472,7 +2472,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 92.0,
             ],
             [
-                'student_number' => '23-00236',
+                'student_id' => '23-00236',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Separated',
@@ -2493,7 +2493,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '21-00555',
+                'student_id' => '21-00555',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -2514,7 +2514,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.84,
             ],
             [
-                'student_number' => '20-00322',
+                'student_id' => '20-00322',
                 'sex' => 'Female',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -2535,7 +2535,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 83.16,
             ],
             [
-                'student_number' => '24-00762',
+                'student_id' => '24-00762',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -2556,7 +2556,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.35,
             ],
             [
-                'student_number' => '24-00889',
+                'student_id' => '24-00889',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -2577,7 +2577,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 75.28,
             ],
             [
-                'student_number' => '20-00118',
+                'student_id' => '20-00118',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -2598,7 +2598,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '21-00389',
+                'student_id' => '21-00389',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -2619,7 +2619,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 83.66,
             ],
             [
-                'student_number' => '20-00509',
+                'student_id' => '20-00509',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -2640,7 +2640,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 87.22,
             ],
             [
-                'student_number' => '22-00461',
+                'student_id' => '22-00461',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -2661,7 +2661,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.23,
             ],
             [
-                'student_number' => '22-00620',
+                'student_id' => '22-00620',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -2682,7 +2682,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.5,
             ],
             [
-                'student_number' => '20-00808',
+                'student_id' => '20-00808',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -2703,7 +2703,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 80.37,
             ],
             [
-                'student_number' => '24-00123',
+                'student_id' => '24-00123',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -2724,7 +2724,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '23-00730',
+                'student_id' => '23-00730',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -2745,7 +2745,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.78,
             ],
             [
-                'student_number' => '21-00102',
+                'student_id' => '21-00102',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -2766,7 +2766,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '24-00299',
+                'student_id' => '24-00299',
                 'sex' => 'Male',
                 'age' => 24,
                 'civil_status' => 'Annulled',
@@ -2787,7 +2787,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.06,
             ],
             [
-                'student_number' => '24-00103',
+                'student_id' => '24-00103',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -2808,7 +2808,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.2,
             ],
             [
-                'student_number' => '23-00109',
+                'student_id' => '23-00109',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -2829,7 +2829,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.84,
             ],
             [
-                'student_number' => '22-00797',
+                'student_id' => '22-00797',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -2850,7 +2850,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00409',
+                'student_id' => '20-00409',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -2871,7 +2871,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 42.47,
             ],
             [
-                'student_number' => '20-00573',
+                'student_id' => '20-00573',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -2892,7 +2892,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 40.1,
             ],
             [
-                'student_number' => '23-00690',
+                'student_id' => '23-00690',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -2913,7 +2913,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 34.03,
             ],
             [
-                'student_number' => '22-00336',
+                'student_id' => '22-00336',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -2934,7 +2934,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 79.94,
             ],
             [
-                'student_number' => '22-00594',
+                'student_id' => '22-00594',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -2955,7 +2955,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 32.7,
             ],
             [
-                'student_number' => '22-00931',
+                'student_id' => '22-00931',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -2976,7 +2976,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 39.5,
             ],
             [
-                'student_number' => '20-00929',
+                'student_id' => '20-00929',
                 'sex' => 'Female',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -2997,7 +2997,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.1,
             ],
             [
-                'student_number' => '23-00972',
+                'student_id' => '23-00972',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -3018,7 +3018,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.5,
             ],
             [
-                'student_number' => '23-00108',
+                'student_id' => '23-00108',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -3039,7 +3039,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 86.97,
             ],
             [
-                'student_number' => '21-00235',
+                'student_id' => '21-00235',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -3060,7 +3060,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 33.06,
             ],
             [
-                'student_number' => '21-00954',
+                'student_id' => '21-00954',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -3081,7 +3081,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 33.74,
             ],
             [
-                'student_number' => '22-00532',
+                'student_id' => '22-00532',
                 'sex' => 'Male',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -3102,7 +3102,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00026',
+                'student_id' => '20-00026',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -3123,7 +3123,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 79.84,
             ],
             [
-                'student_number' => '24-00037',
+                'student_id' => '24-00037',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -3144,7 +3144,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.26,
             ],
             [
-                'student_number' => '20-00287',
+                'student_id' => '20-00287',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -3165,7 +3165,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 87.21,
             ],
             [
-                'student_number' => '20-00787',
+                'student_id' => '20-00787',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -3186,7 +3186,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '24-00853',
+                'student_id' => '24-00853',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -3207,7 +3207,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 75.0,
             ],
             [
-                'student_number' => '22-00019',
+                'student_id' => '22-00019',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -3228,7 +3228,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.37,
             ],
             [
-                'student_number' => '21-00531',
+                'student_id' => '21-00531',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -3249,7 +3249,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 81.47,
             ],
             [
-                'student_number' => '22-00232',
+                'student_id' => '22-00232',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Married',
@@ -3270,7 +3270,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00198',
+                'student_id' => '22-00198',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Separated',
@@ -3291,7 +3291,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.38,
             ],
             [
-                'student_number' => '20-00530',
+                'student_id' => '20-00530',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -3312,7 +3312,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 67.14,
             ],
             [
-                'student_number' => '23-00064',
+                'student_id' => '23-00064',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -3333,7 +3333,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00817',
+                'student_id' => '20-00817',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -3354,7 +3354,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.27,
             ],
             [
-                'student_number' => '24-00772',
+                'student_id' => '24-00772',
                 'sex' => 'Male',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -3375,7 +3375,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '21-00575',
+                'student_id' => '21-00575',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -3396,7 +3396,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.87,
             ],
             [
-                'student_number' => '24-00799',
+                'student_id' => '24-00799',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -3417,7 +3417,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00043',
+                'student_id' => '22-00043',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -3438,7 +3438,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.04,
             ],
             [
-                'student_number' => '22-00860',
+                'student_id' => '22-00860',
                 'sex' => 'Female',
                 'age' => 25,
                 'civil_status' => 'Separated',
@@ -3459,7 +3459,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.63,
             ],
             [
-                'student_number' => '24-00663',
+                'student_id' => '24-00663',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -3480,7 +3480,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 40.96,
             ],
             [
-                'student_number' => '21-00510',
+                'student_id' => '21-00510',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Annulled',
@@ -3501,7 +3501,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.74,
             ],
             [
-                'student_number' => '23-00645',
+                'student_id' => '23-00645',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -3522,7 +3522,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 85.33,
             ],
             [
-                'student_number' => '21-00564',
+                'student_id' => '21-00564',
                 'sex' => 'Female',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -3543,7 +3543,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.66,
             ],
             [
-                'student_number' => '23-00043',
+                'student_id' => '23-00043',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -3564,7 +3564,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.74,
             ],
             [
-                'student_number' => '22-00935',
+                'student_id' => '22-00935',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -3585,7 +3585,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.63,
             ],
             [
-                'student_number' => '24-00742',
+                'student_id' => '24-00742',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -3606,7 +3606,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 92.0,
             ],
             [
-                'student_number' => '20-00958',
+                'student_id' => '20-00958',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -3627,7 +3627,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 90.9,
             ],
             [
-                'student_number' => '22-00798',
+                'student_id' => '22-00798',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -3648,7 +3648,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.29,
             ],
             [
-                'student_number' => '23-00973',
+                'student_id' => '23-00973',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -3669,7 +3669,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.32,
             ],
             [
-                'student_number' => '21-00137',
+                'student_id' => '21-00137',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Widowed',
@@ -3690,7 +3690,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.89,
             ],
             [
-                'student_number' => '22-00827',
+                'student_id' => '22-00827',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -3711,7 +3711,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 80.11,
             ],
             [
-                'student_number' => '22-00180',
+                'student_id' => '22-00180',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -3732,7 +3732,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.5,
             ],
             [
-                'student_number' => '21-00532',
+                'student_id' => '21-00532',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -3753,7 +3753,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 71.34,
             ],
             [
-                'student_number' => '23-00495',
+                'student_id' => '23-00495',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Married',
@@ -3774,7 +3774,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.57,
             ],
             [
-                'student_number' => '20-00054',
+                'student_id' => '20-00054',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -3795,7 +3795,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '23-00618',
+                'student_id' => '23-00618',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -3816,7 +3816,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 76.82,
             ],
             [
-                'student_number' => '23-00156',
+                'student_id' => '23-00156',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -3837,7 +3837,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.99,
             ],
             [
-                'student_number' => '23-00412',
+                'student_id' => '23-00412',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -3858,7 +3858,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.82,
             ],
             [
-                'student_number' => '22-00690',
+                'student_id' => '22-00690',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -3879,7 +3879,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.23,
             ],
             [
-                'student_number' => '24-00203',
+                'student_id' => '24-00203',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -3900,7 +3900,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.71,
             ],
             [
-                'student_number' => '23-00061',
+                'student_id' => '23-00061',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -3921,7 +3921,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.29,
             ],
             [
-                'student_number' => '22-00478',
+                'student_id' => '22-00478',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -3942,7 +3942,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 79.94,
             ],
             [
-                'student_number' => '23-00049',
+                'student_id' => '23-00049',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -3963,7 +3963,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 89.15,
             ],
             [
-                'student_number' => '24-00499',
+                'student_id' => '24-00499',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -3984,7 +3984,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.11,
             ],
             [
-                'student_number' => '23-00452',
+                'student_id' => '23-00452',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -4005,7 +4005,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.86,
             ],
             [
-                'student_number' => '24-00450',
+                'student_id' => '24-00450',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -4026,7 +4026,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00923',
+                'student_id' => '20-00923',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -4047,7 +4047,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.8,
             ],
             [
-                'student_number' => '22-00550',
+                'student_id' => '22-00550',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -4068,7 +4068,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.66,
             ],
             [
-                'student_number' => '23-00128',
+                'student_id' => '23-00128',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -4089,7 +4089,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.28,
             ],
             [
-                'student_number' => '20-00557',
+                'student_id' => '20-00557',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -4110,7 +4110,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 81.36,
             ],
             [
-                'student_number' => '24-00314',
+                'student_id' => '24-00314',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -4131,7 +4131,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 87.22,
             ],
             [
-                'student_number' => '24-00528',
+                'student_id' => '24-00528',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -4152,7 +4152,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.93,
             ],
             [
-                'student_number' => '20-00200',
+                'student_id' => '20-00200',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -4173,7 +4173,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 86.12,
             ],
             [
-                'student_number' => '20-00468',
+                'student_id' => '20-00468',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -4194,7 +4194,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.25,
             ],
             [
-                'student_number' => '21-00366',
+                'student_id' => '21-00366',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -4215,7 +4215,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 33.13,
             ],
             [
-                'student_number' => '22-00549',
+                'student_id' => '22-00549',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -4236,7 +4236,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 83.76,
             ],
             [
-                'student_number' => '23-00756',
+                'student_id' => '23-00756',
                 'sex' => 'Male',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -4257,7 +4257,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.16,
             ],
             [
-                'student_number' => '24-00405',
+                'student_id' => '24-00405',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -4278,7 +4278,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.59,
             ],
             [
-                'student_number' => '23-00294',
+                'student_id' => '23-00294',
                 'sex' => 'Male',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -4299,7 +4299,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '23-00856',
+                'student_id' => '23-00856',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -4320,7 +4320,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.62,
             ],
             [
-                'student_number' => '21-00725',
+                'student_id' => '21-00725',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -4341,7 +4341,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00134',
+                'student_id' => '20-00134',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -4362,7 +4362,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 75.91,
             ],
             [
-                'student_number' => '24-00794',
+                'student_id' => '24-00794',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -4383,7 +4383,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00657',
+                'student_id' => '20-00657',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -4404,7 +4404,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 32.05,
             ],
             [
-                'student_number' => '20-00658',
+                'student_id' => '20-00658',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Married',
@@ -4425,7 +4425,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.49,
             ],
             [
-                'student_number' => '24-00393',
+                'student_id' => '24-00393',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -4446,7 +4446,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 32.56,
             ],
             [
-                'student_number' => '21-00690',
+                'student_id' => '21-00690',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -4467,7 +4467,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.37,
             ],
             [
-                'student_number' => '23-00501',
+                'student_id' => '23-00501',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Separated',
@@ -4488,7 +4488,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.14,
             ],
             [
-                'student_number' => '20-00178',
+                'student_id' => '20-00178',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -4509,7 +4509,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.51,
             ],
             [
-                'student_number' => '24-00985',
+                'student_id' => '24-00985',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -4530,7 +4530,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00309',
+                'student_id' => '20-00309',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -4551,7 +4551,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.36,
             ],
             [
-                'student_number' => '20-00268',
+                'student_id' => '20-00268',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -4572,7 +4572,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '23-00443',
+                'student_id' => '23-00443',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -4593,7 +4593,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 80.76,
             ],
             [
-                'student_number' => '23-00217',
+                'student_id' => '23-00217',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Annulled',
@@ -4614,7 +4614,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 33.72,
             ],
             [
-                'student_number' => '20-00746',
+                'student_id' => '20-00746',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -4635,7 +4635,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '21-00890',
+                'student_id' => '21-00890',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -4656,7 +4656,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.41,
             ],
             [
-                'student_number' => '24-00979',
+                'student_id' => '24-00979',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -4677,7 +4677,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.02,
             ],
             [
-                'student_number' => '20-00702',
+                'student_id' => '20-00702',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -4698,7 +4698,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '23-00091',
+                'student_id' => '23-00091',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -4719,7 +4719,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.42,
             ],
             [
-                'student_number' => '22-00756',
+                'student_id' => '22-00756',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -4740,7 +4740,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '21-00538',
+                'student_id' => '21-00538',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -4761,7 +4761,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 80.55,
             ],
             [
-                'student_number' => '21-00306',
+                'student_id' => '21-00306',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -4782,7 +4782,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.1,
             ],
             [
-                'student_number' => '20-00237',
+                'student_id' => '20-00237',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Married',
@@ -4803,7 +4803,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 40.43,
             ],
             [
-                'student_number' => '24-00213',
+                'student_id' => '24-00213',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -4824,7 +4824,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 33.09,
             ],
             [
-                'student_number' => '22-00937',
+                'student_id' => '22-00937',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Annulled',
@@ -4845,7 +4845,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '23-00969',
+                'student_id' => '23-00969',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Separated',
@@ -4866,7 +4866,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 84.57,
             ],
             [
-                'student_number' => '20-00219',
+                'student_id' => '20-00219',
                 'sex' => 'Female',
                 'age' => 27,
                 'civil_status' => 'Single',
@@ -4887,7 +4887,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.69,
             ],
             [
-                'student_number' => '23-00529',
+                'student_id' => '23-00529',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -4908,7 +4908,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 73.24,
             ],
             [
-                'student_number' => '23-00219',
+                'student_id' => '23-00219',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -4929,7 +4929,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00734',
+                'student_id' => '20-00734',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -4950,7 +4950,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.95,
             ],
             [
-                'student_number' => '24-00460',
+                'student_id' => '24-00460',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -4971,7 +4971,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 34.55,
             ],
             [
-                'student_number' => '22-00389',
+                'student_id' => '22-00389',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -4992,7 +4992,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 92.0,
             ],
             [
-                'student_number' => '21-00957',
+                'student_id' => '21-00957',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -5013,7 +5013,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.54,
             ],
             [
-                'student_number' => '20-00686',
+                'student_id' => '20-00686',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -5034,7 +5034,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.67,
             ],
             [
-                'student_number' => '22-00342',
+                'student_id' => '22-00342',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -5055,7 +5055,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.53,
             ],
             [
-                'student_number' => '23-00433',
+                'student_id' => '23-00433',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -5076,7 +5076,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 82.18,
             ],
             [
-                'student_number' => '20-00443',
+                'student_id' => '20-00443',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -5097,7 +5097,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 83.07,
             ],
             [
-                'student_number' => '24-00749',
+                'student_id' => '24-00749',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Widowed',
@@ -5118,7 +5118,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '23-00160',
+                'student_id' => '23-00160',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -5139,7 +5139,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '21-00762',
+                'student_id' => '21-00762',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -5160,7 +5160,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.43,
             ],
             [
-                'student_number' => '20-00725',
+                'student_id' => '20-00725',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -5181,7 +5181,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 84.53,
             ],
             [
-                'student_number' => '24-00936',
+                'student_id' => '24-00936',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -5202,7 +5202,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 92.0,
             ],
             [
-                'student_number' => '21-00111',
+                'student_id' => '21-00111',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -5223,7 +5223,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 33.45,
             ],
             [
-                'student_number' => '22-00281',
+                'student_id' => '22-00281',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -5244,7 +5244,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.68,
             ],
             [
-                'student_number' => '22-00224',
+                'student_id' => '22-00224',
                 'sex' => 'Male',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -5265,7 +5265,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.17,
             ],
             [
-                'student_number' => '22-00245',
+                'student_id' => '22-00245',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -5286,7 +5286,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 42.52,
             ],
             [
-                'student_number' => '24-00802',
+                'student_id' => '24-00802',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -5307,7 +5307,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.51,
             ],
             [
-                'student_number' => '22-00744',
+                'student_id' => '22-00744',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -5328,7 +5328,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00790',
+                'student_id' => '22-00790',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -5349,7 +5349,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '24-00181',
+                'student_id' => '24-00181',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -5370,7 +5370,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.51,
             ],
             [
-                'student_number' => '23-00672',
+                'student_id' => '23-00672',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -5391,7 +5391,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 81.76,
             ],
             [
-                'student_number' => '21-00706',
+                'student_id' => '21-00706',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -5412,7 +5412,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.77,
             ],
             [
-                'student_number' => '23-00325',
+                'student_id' => '23-00325',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Married',
@@ -5433,7 +5433,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.54,
             ],
             [
-                'student_number' => '21-00027',
+                'student_id' => '21-00027',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -5454,7 +5454,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '23-00105',
+                'student_id' => '23-00105',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -5475,7 +5475,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.13,
             ],
             [
-                'student_number' => '20-00190',
+                'student_id' => '20-00190',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -5496,7 +5496,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.91,
             ],
             [
-                'student_number' => '23-00424',
+                'student_id' => '23-00424',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -5517,7 +5517,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 39.91,
             ],
             [
-                'student_number' => '23-00337',
+                'student_id' => '23-00337',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -5538,7 +5538,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 89.53,
             ],
             [
-                'student_number' => '23-00821',
+                'student_id' => '23-00821',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -5559,7 +5559,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 76.37,
             ],
             [
-                'student_number' => '23-00712',
+                'student_id' => '23-00712',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -5580,7 +5580,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 32.24,
             ],
             [
-                'student_number' => '21-00940',
+                'student_id' => '21-00940',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -5601,7 +5601,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 33.19,
             ],
             [
-                'student_number' => '24-00098',
+                'student_id' => '24-00098',
                 'sex' => 'Female',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -5622,7 +5622,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.05,
             ],
             [
-                'student_number' => '22-00307',
+                'student_id' => '22-00307',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -5643,7 +5643,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 89.0,
             ],
             [
-                'student_number' => '24-00989',
+                'student_id' => '24-00989',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -5664,7 +5664,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00332',
+                'student_id' => '20-00332',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -5685,7 +5685,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 82.49,
             ],
             [
-                'student_number' => '24-00875',
+                'student_id' => '24-00875',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -5706,7 +5706,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 87.38,
             ],
             [
-                'student_number' => '20-00127',
+                'student_id' => '20-00127',
                 'sex' => 'Female',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -5727,7 +5727,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 82.54,
             ],
             [
-                'student_number' => '20-00716',
+                'student_id' => '20-00716',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -5748,7 +5748,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.06,
             ],
             [
-                'student_number' => '24-00078',
+                'student_id' => '24-00078',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -5769,7 +5769,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 86.29,
             ],
             [
-                'student_number' => '22-00909',
+                'student_id' => '22-00909',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -5790,7 +5790,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 32.9,
             ],
             [
-                'student_number' => '20-00040',
+                'student_id' => '20-00040',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Annulled',
@@ -5811,7 +5811,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.27,
             ],
             [
-                'student_number' => '23-00498',
+                'student_id' => '23-00498',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -5832,7 +5832,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 82.87,
             ],
             [
-                'student_number' => '20-00545',
+                'student_id' => '20-00545',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -5853,7 +5853,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 33.1,
             ],
             [
-                'student_number' => '24-00972',
+                'student_id' => '24-00972',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -5874,7 +5874,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.94,
             ],
             [
-                'student_number' => '20-00170',
+                'student_id' => '20-00170',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -5895,7 +5895,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.05,
             ],
             [
-                'student_number' => '22-00752',
+                'student_id' => '22-00752',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -5916,7 +5916,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.71,
             ],
             [
-                'student_number' => '22-00673',
+                'student_id' => '22-00673',
                 'sex' => 'Male',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -5937,7 +5937,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 33.56,
             ],
             [
-                'student_number' => '23-00902',
+                'student_id' => '23-00902',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -5958,7 +5958,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 87.18,
             ],
             [
-                'student_number' => '22-00728',
+                'student_id' => '22-00728',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -5979,7 +5979,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 80.21,
             ],
             [
-                'student_number' => '21-00602',
+                'student_id' => '21-00602',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -6000,7 +6000,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 76.31,
             ],
             [
-                'student_number' => '23-00933',
+                'student_id' => '23-00933',
                 'sex' => 'Male',
                 'age' => 27,
                 'civil_status' => 'Single',
@@ -6021,7 +6021,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.2,
             ],
             [
-                'student_number' => '22-00107',
+                'student_id' => '22-00107',
                 'sex' => 'Female',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -6042,7 +6042,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 33.11,
             ],
             [
-                'student_number' => '24-00403',
+                'student_id' => '24-00403',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -6063,7 +6063,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 75.69,
             ],
             [
-                'student_number' => '20-00090',
+                'student_id' => '20-00090',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -6084,7 +6084,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 88.59,
             ],
             [
-                'student_number' => '24-00622',
+                'student_id' => '24-00622',
                 'sex' => 'Male',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -6105,7 +6105,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 40.82,
             ],
             [
-                'student_number' => '24-00946',
+                'student_id' => '24-00946',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -6126,7 +6126,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.09,
             ],
             [
-                'student_number' => '24-00765',
+                'student_id' => '24-00765',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -6147,7 +6147,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.94,
             ],
             [
-                'student_number' => '24-00865',
+                'student_id' => '24-00865',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -6168,7 +6168,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.79,
             ],
             [
-                'student_number' => '20-00218',
+                'student_id' => '20-00218',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -6189,7 +6189,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 84.83,
             ],
             [
-                'student_number' => '21-00994',
+                'student_id' => '21-00994',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -6210,7 +6210,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.5,
             ],
             [
-                'student_number' => '22-00958',
+                'student_id' => '22-00958',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -6231,7 +6231,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 83.09,
             ],
             [
-                'student_number' => '21-00984',
+                'student_id' => '21-00984',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -6252,7 +6252,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.55,
             ],
             [
-                'student_number' => '20-00626',
+                'student_id' => '20-00626',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -6273,7 +6273,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 81.1,
             ],
             [
-                'student_number' => '22-00013',
+                'student_id' => '22-00013',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -6294,7 +6294,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.45,
             ],
             [
-                'student_number' => '20-00083',
+                'student_id' => '20-00083',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -6315,7 +6315,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.53,
             ],
             [
-                'student_number' => '20-00119',
+                'student_id' => '20-00119',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -6336,7 +6336,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.51,
             ],
             [
-                'student_number' => '21-00683',
+                'student_id' => '21-00683',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Annulled',
@@ -6357,7 +6357,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 73.65,
             ],
             [
-                'student_number' => '22-00244',
+                'student_id' => '22-00244',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -6378,7 +6378,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.17,
             ],
             [
-                'student_number' => '23-00220',
+                'student_id' => '23-00220',
                 'sex' => 'Female',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -6399,7 +6399,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 86.81,
             ],
             [
-                'student_number' => '20-00363',
+                'student_id' => '20-00363',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -6420,7 +6420,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.26,
             ],
             [
-                'student_number' => '23-00842',
+                'student_id' => '23-00842',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -6441,7 +6441,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 32.6,
             ],
             [
-                'student_number' => '23-00136',
+                'student_id' => '23-00136',
                 'sex' => 'Male',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -6462,7 +6462,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.22,
             ],
             [
-                'student_number' => '23-00489',
+                'student_id' => '23-00489',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Annulled',
@@ -6483,7 +6483,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.83,
             ],
             [
-                'student_number' => '21-00515',
+                'student_id' => '21-00515',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Annulled',
@@ -6504,7 +6504,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.89,
             ],
             [
-                'student_number' => '21-00365',
+                'student_id' => '21-00365',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -6525,7 +6525,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 39.62,
             ],
             [
-                'student_number' => '20-00766',
+                'student_id' => '20-00766',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -6546,7 +6546,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.64,
             ],
             [
-                'student_number' => '23-00371',
+                'student_id' => '23-00371',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Married',
@@ -6567,7 +6567,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.32,
             ],
             [
-                'student_number' => '22-00069',
+                'student_id' => '22-00069',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -6588,7 +6588,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.25,
             ],
             [
-                'student_number' => '24-00575',
+                'student_id' => '24-00575',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -6609,7 +6609,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00284',
+                'student_id' => '20-00284',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -6630,7 +6630,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 32.99,
             ],
             [
-                'student_number' => '20-00819',
+                'student_id' => '20-00819',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -6651,7 +6651,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 82.36,
             ],
             [
-                'student_number' => '22-00657',
+                'student_id' => '22-00657',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Married',
@@ -6672,7 +6672,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.39,
             ],
             [
-                'student_number' => '24-00360',
+                'student_id' => '24-00360',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -6693,7 +6693,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 84.38,
             ],
             [
-                'student_number' => '24-00998',
+                'student_id' => '24-00998',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -6714,7 +6714,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.78,
             ],
             [
-                'student_number' => '21-00290',
+                'student_id' => '21-00290',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -6735,7 +6735,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.3,
             ],
             [
-                'student_number' => '23-00451',
+                'student_id' => '23-00451',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -6756,7 +6756,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 84.66,
             ],
             [
-                'student_number' => '21-00669',
+                'student_id' => '21-00669',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -6777,7 +6777,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 42.08,
             ],
             [
-                'student_number' => '20-00089',
+                'student_id' => '20-00089',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -6798,7 +6798,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 83.28,
             ],
             [
-                'student_number' => '20-00182',
+                'student_id' => '20-00182',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Married',
@@ -6819,7 +6819,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.58,
             ],
             [
-                'student_number' => '21-00866',
+                'student_id' => '21-00866',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -6840,7 +6840,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '24-00030',
+                'student_id' => '24-00030',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -6861,7 +6861,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '21-00942',
+                'student_id' => '21-00942',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -6882,7 +6882,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 33.5,
             ],
             [
-                'student_number' => '21-00581',
+                'student_id' => '21-00581',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Annulled',
@@ -6903,7 +6903,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.55,
             ],
             [
-                'student_number' => '23-00855',
+                'student_id' => '23-00855',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -6924,7 +6924,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 34.82,
             ],
             [
-                'student_number' => '21-00992',
+                'student_id' => '21-00992',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -6945,7 +6945,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.56,
             ],
             [
-                'student_number' => '21-00271',
+                'student_id' => '21-00271',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -6966,7 +6966,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00462',
+                'student_id' => '22-00462',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -6987,7 +6987,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.34,
             ],
             [
-                'student_number' => '23-00881',
+                'student_id' => '23-00881',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -7008,7 +7008,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.32,
             ],
             [
-                'student_number' => '23-00276',
+                'student_id' => '23-00276',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -7029,7 +7029,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.54,
             ],
             [
-                'student_number' => '22-00606',
+                'student_id' => '22-00606',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -7050,7 +7050,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.01,
             ],
             [
-                'student_number' => '20-00935',
+                'student_id' => '20-00935',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -7071,7 +7071,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 75.69,
             ],
             [
-                'student_number' => '22-00129',
+                'student_id' => '22-00129',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -7092,7 +7092,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.99,
             ],
             [
-                'student_number' => '23-00585',
+                'student_id' => '23-00585',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -7113,7 +7113,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.17,
             ],
             [
-                'student_number' => '23-00904',
+                'student_id' => '23-00904',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -7134,7 +7134,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 40.05,
             ],
             [
-                'student_number' => '21-00078',
+                'student_id' => '21-00078',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -7155,7 +7155,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.66,
             ],
             [
-                'student_number' => '20-00154',
+                'student_id' => '20-00154',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -7176,7 +7176,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 92.0,
             ],
             [
-                'student_number' => '21-00991',
+                'student_id' => '21-00991',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -7197,7 +7197,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 84.36,
             ],
             [
-                'student_number' => '21-00626',
+                'student_id' => '21-00626',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -7218,7 +7218,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.19,
             ],
             [
-                'student_number' => '20-00648',
+                'student_id' => '20-00648',
                 'sex' => 'Female',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -7239,7 +7239,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 92.0,
             ],
             [
-                'student_number' => '22-00831',
+                'student_id' => '22-00831',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -7260,7 +7260,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 40.95,
             ],
             [
-                'student_number' => '21-00215',
+                'student_id' => '21-00215',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -7281,7 +7281,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 82.37,
             ],
             [
-                'student_number' => '23-00405',
+                'student_id' => '23-00405',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -7302,7 +7302,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 42.37,
             ],
             [
-                'student_number' => '20-00290',
+                'student_id' => '20-00290',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -7323,7 +7323,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00208',
+                'student_id' => '22-00208',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -7344,7 +7344,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 83.5,
             ],
             [
-                'student_number' => '24-00421',
+                'student_id' => '24-00421',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -7365,7 +7365,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00012',
+                'student_id' => '20-00012',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -7386,7 +7386,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.43,
             ],
             [
-                'student_number' => '23-00535',
+                'student_id' => '23-00535',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -7407,7 +7407,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.57,
             ],
             [
-                'student_number' => '20-00499',
+                'student_id' => '20-00499',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Married',
@@ -7428,7 +7428,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.45,
             ],
             [
-                'student_number' => '24-00025',
+                'student_id' => '24-00025',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -7449,7 +7449,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 72.07,
             ],
             [
-                'student_number' => '24-00915',
+                'student_id' => '24-00915',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -7470,7 +7470,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 39.25,
             ],
             [
-                'student_number' => '24-00489',
+                'student_id' => '24-00489',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Annulled',
@@ -7491,7 +7491,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.17,
             ],
             [
-                'student_number' => '20-00017',
+                'student_id' => '20-00017',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -7512,7 +7512,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 81.24,
             ],
             [
-                'student_number' => '22-00119',
+                'student_id' => '22-00119',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Widowed',
@@ -7533,7 +7533,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.33,
             ],
             [
-                'student_number' => '23-00784',
+                'student_id' => '23-00784',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -7554,7 +7554,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 82.97,
             ],
             [
-                'student_number' => '21-00753',
+                'student_id' => '21-00753',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -7575,7 +7575,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 39.2,
             ],
             [
-                'student_number' => '21-00898',
+                'student_id' => '21-00898',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -7596,7 +7596,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 34.65,
             ],
             [
-                'student_number' => '24-00187',
+                'student_id' => '24-00187',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Married',
@@ -7617,7 +7617,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 40.24,
             ],
             [
-                'student_number' => '23-00658',
+                'student_id' => '23-00658',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -7638,7 +7638,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 32.9,
             ],
             [
-                'student_number' => '21-00468',
+                'student_id' => '21-00468',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -7659,7 +7659,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.37,
             ],
             [
-                'student_number' => '21-00780',
+                'student_id' => '21-00780',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -7680,7 +7680,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 82.85,
             ],
             [
-                'student_number' => '23-00978',
+                'student_id' => '23-00978',
                 'sex' => 'Female',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -7701,7 +7701,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 32.89,
             ],
             [
-                'student_number' => '22-00104',
+                'student_id' => '22-00104',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -7722,7 +7722,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '24-00777',
+                'student_id' => '24-00777',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -7743,7 +7743,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.11,
             ],
             [
-                'student_number' => '22-00187',
+                'student_id' => '22-00187',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -7764,7 +7764,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 34.22,
             ],
             [
-                'student_number' => '22-00137',
+                'student_id' => '22-00137',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -7785,7 +7785,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.22,
             ],
             [
-                'student_number' => '21-00452',
+                'student_id' => '21-00452',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -7806,7 +7806,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.55,
             ],
             [
-                'student_number' => '23-00981',
+                'student_id' => '23-00981',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -7827,7 +7827,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.03,
             ],
             [
-                'student_number' => '20-00194',
+                'student_id' => '20-00194',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -7848,7 +7848,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 69.73,
             ],
             [
-                'student_number' => '24-00711',
+                'student_id' => '24-00711',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Widowed',
@@ -7869,7 +7869,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 82.9,
             ],
             [
-                'student_number' => '21-00916',
+                'student_id' => '21-00916',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -7890,7 +7890,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 89.29,
             ],
             [
-                'student_number' => '24-00806',
+                'student_id' => '24-00806',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -7911,7 +7911,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.16,
             ],
             [
-                'student_number' => '21-00367',
+                'student_id' => '21-00367',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -7932,7 +7932,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 84.66,
             ],
             [
-                'student_number' => '21-00715',
+                'student_id' => '21-00715',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -7953,7 +7953,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 42.08,
             ],
             [
-                'student_number' => '24-00882',
+                'student_id' => '24-00882',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -7974,7 +7974,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '23-00536',
+                'student_id' => '23-00536',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -7995,7 +7995,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '21-00241',
+                'student_id' => '21-00241',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -8016,7 +8016,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.55,
             ],
             [
-                'student_number' => '23-00173',
+                'student_id' => '23-00173',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -8037,7 +8037,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.91,
             ],
             [
-                'student_number' => '24-00331',
+                'student_id' => '24-00331',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -8058,7 +8058,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 32.12,
             ],
             [
-                'student_number' => '21-00862',
+                'student_id' => '21-00862',
                 'sex' => 'Female',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -8079,7 +8079,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 92.0,
             ],
             [
-                'student_number' => '24-00258',
+                'student_id' => '24-00258',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -8100,7 +8100,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 84.83,
             ],
             [
-                'student_number' => '22-00706',
+                'student_id' => '22-00706',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -8121,7 +8121,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '23-00864',
+                'student_id' => '23-00864',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -8142,7 +8142,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.78,
             ],
             [
-                'student_number' => '24-00085',
+                'student_id' => '24-00085',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -8163,7 +8163,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 78.89,
             ],
             [
-                'student_number' => '21-00932',
+                'student_id' => '21-00932',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -8184,7 +8184,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.2,
             ],
             [
-                'student_number' => '20-00830',
+                'student_id' => '20-00830',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Married',
@@ -8205,7 +8205,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00014',
+                'student_id' => '22-00014',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -8226,7 +8226,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 39.74,
             ],
             [
-                'student_number' => '23-00491',
+                'student_id' => '23-00491',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -8247,7 +8247,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 80.92,
             ],
             [
-                'student_number' => '21-00988',
+                'student_id' => '21-00988',
                 'sex' => 'Female',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -8268,7 +8268,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '21-00085',
+                'student_id' => '21-00085',
                 'sex' => 'Female',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -8289,7 +8289,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 32.04,
             ],
             [
-                'student_number' => '20-00145',
+                'student_id' => '20-00145',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -8310,7 +8310,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.48,
             ],
             [
-                'student_number' => '24-00151',
+                'student_id' => '24-00151',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -8331,7 +8331,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 70.67,
             ],
             [
-                'student_number' => '21-00624',
+                'student_id' => '21-00624',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -8352,7 +8352,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 33.64,
             ],
             [
-                'student_number' => '24-00905',
+                'student_id' => '24-00905',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -8373,7 +8373,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 84.18,
             ],
             [
-                'student_number' => '20-00651',
+                'student_id' => '20-00651',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -8394,7 +8394,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 33.74,
             ],
             [
-                'student_number' => '21-00013',
+                'student_id' => '21-00013',
                 'sex' => 'Male',
                 'age' => 24,
                 'civil_status' => 'Annulled',
@@ -8415,7 +8415,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00796',
+                'student_id' => '20-00796',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -8436,7 +8436,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 92.0,
             ],
             [
-                'student_number' => '23-00301',
+                'student_id' => '23-00301',
                 'sex' => 'Female',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -8457,7 +8457,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 78.89,
             ],
             [
-                'student_number' => '20-00570',
+                'student_id' => '20-00570',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Widowed',
@@ -8478,7 +8478,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '23-00090',
+                'student_id' => '23-00090',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -8499,7 +8499,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00519',
+                'student_id' => '22-00519',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -8520,7 +8520,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.86,
             ],
             [
-                'student_number' => '21-00319',
+                'student_id' => '21-00319',
                 'sex' => 'Female',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -8541,7 +8541,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.92,
             ],
             [
-                'student_number' => '22-00592',
+                'student_id' => '22-00592',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -8562,7 +8562,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.72,
             ],
             [
-                'student_number' => '20-00919',
+                'student_id' => '20-00919',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -8583,7 +8583,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 78.62,
             ],
             [
-                'student_number' => '21-00560',
+                'student_id' => '21-00560',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -8604,7 +8604,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 39.01,
             ],
             [
-                'student_number' => '23-00938',
+                'student_id' => '23-00938',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -8625,7 +8625,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 42.97,
             ],
             [
-                'student_number' => '22-00853',
+                'student_id' => '22-00853',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -8646,7 +8646,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.91,
             ],
             [
-                'student_number' => '20-00073',
+                'student_id' => '20-00073',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -8667,7 +8667,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 42.2,
             ],
             [
-                'student_number' => '20-00469',
+                'student_id' => '20-00469',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -8688,7 +8688,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.87,
             ],
             [
-                'student_number' => '20-00714',
+                'student_id' => '20-00714',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -8709,7 +8709,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 76.94,
             ],
             [
-                'student_number' => '23-00107',
+                'student_id' => '23-00107',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -8730,7 +8730,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '24-00930',
+                'student_id' => '24-00930',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -8751,7 +8751,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.48,
             ],
             [
-                'student_number' => '24-00219',
+                'student_id' => '24-00219',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -8772,7 +8772,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 40.18,
             ],
             [
-                'student_number' => '23-00619',
+                'student_id' => '23-00619',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -8793,7 +8793,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.6,
             ],
             [
-                'student_number' => '22-00017',
+                'student_id' => '22-00017',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -8814,7 +8814,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.87,
             ],
             [
-                'student_number' => '21-00980',
+                'student_id' => '21-00980',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -8835,7 +8835,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 72.9,
             ],
             [
-                'student_number' => '23-00669',
+                'student_id' => '23-00669',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -8856,7 +8856,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 39.78,
             ],
             [
-                'student_number' => '20-00890',
+                'student_id' => '20-00890',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Widowed',
@@ -8877,7 +8877,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.94,
             ],
             [
-                'student_number' => '21-00772',
+                'student_id' => '21-00772',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -8898,7 +8898,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.64,
             ],
             [
-                'student_number' => '20-00318',
+                'student_id' => '20-00318',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -8919,7 +8919,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.24,
             ],
             [
-                'student_number' => '21-00358',
+                'student_id' => '21-00358',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -8940,7 +8940,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.74,
             ],
             [
-                'student_number' => '23-00563',
+                'student_id' => '23-00563',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -8961,7 +8961,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.41,
             ],
             [
-                'student_number' => '22-00473',
+                'student_id' => '22-00473',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -8982,7 +8982,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 33.84,
             ],
             [
-                'student_number' => '24-00359',
+                'student_id' => '24-00359',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -9003,7 +9003,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 86.25,
             ],
             [
-                'student_number' => '23-00085',
+                'student_id' => '23-00085',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Widowed',
@@ -9024,7 +9024,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.27,
             ],
             [
-                'student_number' => '22-00117',
+                'student_id' => '22-00117',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Widowed',
@@ -9045,7 +9045,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.31,
             ],
             [
-                'student_number' => '24-00907',
+                'student_id' => '24-00907',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -9066,7 +9066,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.64,
             ],
             [
-                'student_number' => '22-00607',
+                'student_id' => '22-00607',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -9087,7 +9087,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 79.39,
             ],
             [
-                'student_number' => '22-00465',
+                'student_id' => '22-00465',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -9108,7 +9108,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.71,
             ],
             [
-                'student_number' => '23-00221',
+                'student_id' => '23-00221',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -9129,7 +9129,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 39.94,
             ],
             [
-                'student_number' => '24-00725',
+                'student_id' => '24-00725',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -9150,7 +9150,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 85.89,
             ],
             [
-                'student_number' => '24-00706',
+                'student_id' => '24-00706',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -9171,7 +9171,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 80.04,
             ],
             [
-                'student_number' => '20-00598',
+                'student_id' => '20-00598',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -9192,7 +9192,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.19,
             ],
             [
-                'student_number' => '21-00672',
+                'student_id' => '21-00672',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -9213,7 +9213,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 75.02,
             ],
             [
-                'student_number' => '21-00974',
+                'student_id' => '21-00974',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -9234,7 +9234,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '21-00998',
+                'student_id' => '21-00998',
                 'sex' => 'Male',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -9255,7 +9255,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 39.56,
             ],
             [
-                'student_number' => '22-00805',
+                'student_id' => '22-00805',
                 'sex' => 'Female',
                 'age' => 27,
                 'civil_status' => 'Single',
@@ -9276,7 +9276,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.93,
             ],
             [
-                'student_number' => '24-00819',
+                'student_id' => '24-00819',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -9297,7 +9297,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '21-00553',
+                'student_id' => '21-00553',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Widowed',
@@ -9318,7 +9318,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 40.5,
             ],
             [
-                'student_number' => '24-00461',
+                'student_id' => '24-00461',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -9339,7 +9339,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.52,
             ],
             [
-                'student_number' => '22-00480',
+                'student_id' => '22-00480',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -9360,7 +9360,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.65,
             ],
             [
-                'student_number' => '20-00490',
+                'student_id' => '20-00490',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -9381,7 +9381,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.04,
             ],
             [
-                'student_number' => '24-00435',
+                'student_id' => '24-00435',
                 'sex' => 'Male',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -9402,7 +9402,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.35,
             ],
             [
-                'student_number' => '20-00502',
+                'student_id' => '20-00502',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -9423,7 +9423,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.21,
             ],
             [
-                'student_number' => '23-00785',
+                'student_id' => '23-00785',
                 'sex' => 'Male',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -9444,7 +9444,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 39.61,
             ],
             [
-                'student_number' => '21-00124',
+                'student_id' => '21-00124',
                 'sex' => 'Male',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -9465,7 +9465,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.35,
             ],
             [
-                'student_number' => '23-00475',
+                'student_id' => '23-00475',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -9486,7 +9486,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.36,
             ],
             [
-                'student_number' => '21-00502',
+                'student_id' => '21-00502',
                 'sex' => 'Female',
                 'age' => 27,
                 'civil_status' => 'Widowed',
@@ -9507,7 +9507,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.72,
             ],
             [
-                'student_number' => '24-00095',
+                'student_id' => '24-00095',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -9528,7 +9528,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 74.3,
             ],
             [
-                'student_number' => '21-00579',
+                'student_id' => '21-00579',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Annulled',
@@ -9549,7 +9549,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 32.51,
             ],
             [
-                'student_number' => '22-00583',
+                'student_id' => '22-00583',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -9570,7 +9570,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 74.11,
             ],
             [
-                'student_number' => '22-00062',
+                'student_id' => '22-00062',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -9591,7 +9591,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '24-00005',
+                'student_id' => '24-00005',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -9612,7 +9612,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.18,
             ],
             [
-                'student_number' => '23-00366',
+                'student_id' => '23-00366',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -9633,7 +9633,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.75,
             ],
             [
-                'student_number' => '20-00623',
+                'student_id' => '20-00623',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -9654,7 +9654,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 74.11,
             ],
             [
-                'student_number' => '23-00523',
+                'student_id' => '23-00523',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Married',
@@ -9675,7 +9675,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 81.9,
             ],
             [
-                'student_number' => '21-00535',
+                'student_id' => '21-00535',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -9696,7 +9696,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 79.16,
             ],
             [
-                'student_number' => '20-00943',
+                'student_id' => '20-00943',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -9717,7 +9717,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 92.0,
             ],
             [
-                'student_number' => '22-00472',
+                'student_id' => '22-00472',
                 'sex' => 'Male',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -9738,7 +9738,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 42.51,
             ],
             [
-                'student_number' => '20-00675',
+                'student_id' => '20-00675',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -9759,7 +9759,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '21-00227',
+                'student_id' => '21-00227',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Widowed',
@@ -9780,7 +9780,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 34.47,
             ],
             [
-                'student_number' => '20-00735',
+                'student_id' => '20-00735',
                 'sex' => 'Female',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -9801,7 +9801,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 40.64,
             ],
             [
-                'student_number' => '23-00905',
+                'student_id' => '23-00905',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -9822,7 +9822,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 79.16,
             ],
             [
-                'student_number' => '21-00134',
+                'student_id' => '21-00134',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -9843,7 +9843,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 33.39,
             ],
             [
-                'student_number' => '21-00012',
+                'student_id' => '21-00012',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -9864,7 +9864,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.48,
             ],
             [
-                'student_number' => '22-00921',
+                'student_id' => '22-00921',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -9885,7 +9885,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 84.3,
             ],
             [
-                'student_number' => '22-00113',
+                'student_id' => '22-00113',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Widowed',
@@ -9906,7 +9906,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 83.18,
             ],
             [
-                'student_number' => '22-00365',
+                'student_id' => '22-00365',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -9927,7 +9927,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 83.27,
             ],
             [
-                'student_number' => '23-00883',
+                'student_id' => '23-00883',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -9948,7 +9948,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00293',
+                'student_id' => '22-00293',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -9969,7 +9969,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 77.66,
             ],
             [
-                'student_number' => '23-00545',
+                'student_id' => '23-00545',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -9990,7 +9990,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 73.3,
             ],
             [
-                'student_number' => '22-00097',
+                'student_id' => '22-00097',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -10011,7 +10011,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00315',
+                'student_id' => '20-00315',
                 'sex' => 'Male',
                 'age' => 27,
                 'civil_status' => 'Single',
@@ -10032,7 +10032,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.47,
             ],
             [
-                'student_number' => '20-00995',
+                'student_id' => '20-00995',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -10053,7 +10053,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.43,
             ],
             [
-                'student_number' => '23-00257',
+                'student_id' => '23-00257',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -10074,7 +10074,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.36,
             ],
             [
-                'student_number' => '23-00707',
+                'student_id' => '23-00707',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Annulled',
@@ -10095,7 +10095,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.62,
             ],
             [
-                'student_number' => '20-00504',
+                'student_id' => '20-00504',
                 'sex' => 'Female',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -10116,7 +10116,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00479',
+                'student_id' => '22-00479',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -10137,7 +10137,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.16,
             ],
             [
-                'student_number' => '24-00618',
+                'student_id' => '24-00618',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -10158,7 +10158,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.58,
             ],
             [
-                'student_number' => '24-00477',
+                'student_id' => '24-00477',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -10179,7 +10179,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.69,
             ],
             [
-                'student_number' => '22-00468',
+                'student_id' => '22-00468',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Annulled',
@@ -10200,7 +10200,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '24-00177',
+                'student_id' => '24-00177',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Married',
@@ -10221,7 +10221,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.16,
             ],
             [
-                'student_number' => '24-00536',
+                'student_id' => '24-00536',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -10242,7 +10242,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.88,
             ],
             [
-                'student_number' => '23-00697',
+                'student_id' => '23-00697',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Widowed',
@@ -10263,7 +10263,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 83.57,
             ],
             [
-                'student_number' => '21-00143',
+                'student_id' => '21-00143',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -10284,7 +10284,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 76.86,
             ],
             [
-                'student_number' => '20-00982',
+                'student_id' => '20-00982',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -10305,7 +10305,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 81.97,
             ],
             [
-                'student_number' => '21-00084',
+                'student_id' => '21-00084',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -10326,7 +10326,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.91,
             ],
             [
-                'student_number' => '24-00426',
+                'student_id' => '24-00426',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -10347,7 +10347,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.32,
             ],
             [
-                'student_number' => '21-00011',
+                'student_id' => '21-00011',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -10368,7 +10368,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.7,
             ],
             [
-                'student_number' => '21-00177',
+                'student_id' => '21-00177',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Widowed',
@@ -10389,7 +10389,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.18,
             ],
             [
-                'student_number' => '24-00962',
+                'student_id' => '24-00962',
                 'sex' => 'Female',
                 'age' => 26,
                 'civil_status' => 'Single',
@@ -10410,7 +10410,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.33,
             ],
             [
-                'student_number' => '21-00822',
+                'student_id' => '21-00822',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Married',
@@ -10431,7 +10431,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 34.61,
             ],
             [
-                'student_number' => '20-00010',
+                'student_id' => '20-00010',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -10452,7 +10452,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 76.91,
             ],
             [
-                'student_number' => '20-00783',
+                'student_id' => '20-00783',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -10473,7 +10473,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.24,
             ],
             [
-                'student_number' => '24-00747',
+                'student_id' => '24-00747',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -10494,7 +10494,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '24-00441',
+                'student_id' => '24-00441',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -10515,7 +10515,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.25,
             ],
             [
-                'student_number' => '24-00532',
+                'student_id' => '24-00532',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -10536,7 +10536,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 42.62,
             ],
             [
-                'student_number' => '23-00844',
+                'student_id' => '23-00844',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -10557,7 +10557,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.35,
             ],
             [
-                'student_number' => '22-00986',
+                'student_id' => '22-00986',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -10578,7 +10578,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 87.68,
             ],
             [
-                'student_number' => '24-00003',
+                'student_id' => '24-00003',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -10599,7 +10599,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.44,
             ],
             [
-                'student_number' => '21-00784',
+                'student_id' => '21-00784',
                 'sex' => 'Male',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -10620,7 +10620,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '21-00199',
+                'student_id' => '21-00199',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -10641,7 +10641,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00109',
+                'student_id' => '22-00109',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -10662,7 +10662,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.15,
             ],
             [
-                'student_number' => '20-00253',
+                'student_id' => '20-00253',
                 'sex' => 'Female',
                 'age' => 27,
                 'civil_status' => 'Single',
@@ -10683,7 +10683,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.41,
             ],
             [
-                'student_number' => '24-00935',
+                'student_id' => '24-00935',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Separated',
@@ -10704,7 +10704,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '23-00694',
+                'student_id' => '23-00694',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -10725,7 +10725,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00164',
+                'student_id' => '20-00164',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -10746,7 +10746,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 78.6,
             ],
             [
-                'student_number' => '22-00190',
+                'student_id' => '22-00190',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -10767,7 +10767,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '24-00955',
+                'student_id' => '24-00955',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -10788,7 +10788,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 88.53,
             ],
             [
-                'student_number' => '23-00058',
+                'student_id' => '23-00058',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -10809,7 +10809,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.59,
             ],
             [
-                'student_number' => '21-00658',
+                'student_id' => '21-00658',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -10830,7 +10830,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.38,
             ],
             [
-                'student_number' => '23-00023',
+                'student_id' => '23-00023',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -10851,7 +10851,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.26,
             ],
             [
-                'student_number' => '22-00933',
+                'student_id' => '22-00933',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -10872,7 +10872,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.17,
             ],
             [
-                'student_number' => '21-00450',
+                'student_id' => '21-00450',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -10893,7 +10893,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 82.97,
             ],
             [
-                'student_number' => '24-00888',
+                'student_id' => '24-00888',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -10914,7 +10914,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.76,
             ],
             [
-                'student_number' => '21-00176',
+                'student_id' => '21-00176',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -10935,7 +10935,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.51,
             ],
             [
-                'student_number' => '23-00059',
+                'student_id' => '23-00059',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -10956,7 +10956,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 81.76,
             ],
             [
-                'student_number' => '22-00191',
+                'student_id' => '22-00191',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -10977,7 +10977,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.7,
             ],
             [
-                'student_number' => '23-00153',
+                'student_id' => '23-00153',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -10998,7 +10998,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.42,
             ],
             [
-                'student_number' => '24-00763',
+                'student_id' => '24-00763',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -11019,7 +11019,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 39.55,
             ],
             [
-                'student_number' => '22-00637',
+                'student_id' => '22-00637',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -11040,7 +11040,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 67.14,
             ],
             [
-                'student_number' => '21-00597',
+                'student_id' => '21-00597',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -11061,7 +11061,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.0,
             ],
             [
-                'student_number' => '22-00395',
+                'student_id' => '22-00395',
                 'sex' => 'Male',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -11082,7 +11082,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.95,
             ],
             [
-                'student_number' => '21-00060',
+                'student_id' => '21-00060',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -11103,7 +11103,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.1,
             ],
             [
-                'student_number' => '23-00342',
+                'student_id' => '23-00342',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -11124,7 +11124,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.26,
             ],
             [
-                'student_number' => '24-00317',
+                'student_id' => '24-00317',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -11145,7 +11145,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.37,
             ],
             [
-                'student_number' => '20-00354',
+                'student_id' => '20-00354',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -11166,7 +11166,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.09,
             ],
             [
-                'student_number' => '20-00695',
+                'student_id' => '20-00695',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -11187,7 +11187,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.53,
             ],
             [
-                'student_number' => '20-00584',
+                'student_id' => '20-00584',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Widowed',
@@ -11208,7 +11208,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.08,
             ],
             [
-                'student_number' => '20-00697',
+                'student_id' => '20-00697',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -11229,7 +11229,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.47,
             ],
             [
-                'student_number' => '23-00317',
+                'student_id' => '23-00317',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -11250,7 +11250,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.25,
             ],
             [
-                'student_number' => '24-00224',
+                'student_id' => '24-00224',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -11271,7 +11271,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.24,
             ],
             [
-                'student_number' => '20-00224',
+                'student_id' => '20-00224',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -11292,7 +11292,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.48,
             ],
             [
-                'student_number' => '21-00328',
+                'student_id' => '21-00328',
                 'sex' => 'Male',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -11313,7 +11313,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 81.73,
             ],
             [
-                'student_number' => '22-00431',
+                'student_id' => '22-00431',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -11334,7 +11334,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.04,
             ],
             [
-                'student_number' => '22-00086',
+                'student_id' => '22-00086',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -11355,7 +11355,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.41,
             ],
             [
-                'student_number' => '21-00550',
+                'student_id' => '21-00550',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -11376,7 +11376,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 75.91,
             ],
             [
-                'student_number' => '23-00592',
+                'student_id' => '23-00592',
                 'sex' => 'Male',
                 'age' => 26,
                 'civil_status' => 'Single',
@@ -11397,7 +11397,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 42.86,
             ],
             [
-                'student_number' => '22-00913',
+                'student_id' => '22-00913',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -11418,7 +11418,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.33,
             ],
             [
-                'student_number' => '23-00002',
+                'student_id' => '23-00002',
                 'sex' => 'Female',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -11439,7 +11439,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.55,
             ],
             [
-                'student_number' => '22-00188',
+                'student_id' => '22-00188',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Separated',
@@ -11460,7 +11460,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.4,
             ],
             [
-                'student_number' => '23-00753',
+                'student_id' => '23-00753',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -11481,7 +11481,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.52,
             ],
             [
-                'student_number' => '24-00736',
+                'student_id' => '24-00736',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -11502,7 +11502,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.97,
             ],
             [
-                'student_number' => '20-00135',
+                'student_id' => '20-00135',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Widowed',
@@ -11523,7 +11523,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.3,
             ],
             [
-                'student_number' => '20-00356',
+                'student_id' => '20-00356',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -11544,7 +11544,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.83,
             ],
             [
-                'student_number' => '24-00267',
+                'student_id' => '24-00267',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -11565,7 +11565,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 32.04,
             ],
             [
-                'student_number' => '24-00638',
+                'student_id' => '24-00638',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -11586,7 +11586,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 77.7,
             ],
             [
-                'student_number' => '23-00418',
+                'student_id' => '23-00418',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -11607,7 +11607,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 84.38,
             ],
             [
-                'student_number' => '24-00027',
+                'student_id' => '24-00027',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -11628,7 +11628,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 42.93,
             ],
             [
-                'student_number' => '24-00341',
+                'student_id' => '24-00341',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -11649,7 +11649,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 76.29,
             ],
             [
-                'student_number' => '23-00834',
+                'student_id' => '23-00834',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -11670,7 +11670,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.67,
             ],
             [
-                'student_number' => '23-00163',
+                'student_id' => '23-00163',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -11691,7 +11691,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.72,
             ],
             [
-                'student_number' => '20-00788',
+                'student_id' => '20-00788',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -11712,7 +11712,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 81.4,
             ],
             [
-                'student_number' => '21-00404',
+                'student_id' => '21-00404',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -11733,7 +11733,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 32.91,
             ],
             [
-                'student_number' => '22-00329',
+                'student_id' => '22-00329',
                 'sex' => 'Male',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -11754,7 +11754,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 80.5,
             ],
             [
-                'student_number' => '21-00315',
+                'student_id' => '21-00315',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -11775,7 +11775,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.37,
             ],
             [
-                'student_number' => '21-00260',
+                'student_id' => '21-00260',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -11796,7 +11796,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 79.37,
             ],
             [
-                'student_number' => '22-00653',
+                'student_id' => '22-00653',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -11817,7 +11817,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '23-00693',
+                'student_id' => '23-00693',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -11838,7 +11838,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.12,
             ],
             [
-                'student_number' => '21-00996',
+                'student_id' => '21-00996',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -11859,7 +11859,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '24-00160',
+                'student_id' => '24-00160',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -11880,7 +11880,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 84.79,
             ],
             [
-                'student_number' => '22-00989',
+                'student_id' => '22-00989',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -11901,7 +11901,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 82.34,
             ],
             [
-                'student_number' => '23-00188',
+                'student_id' => '23-00188',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -11922,7 +11922,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '21-00459',
+                'student_id' => '21-00459',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -11943,7 +11943,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.74,
             ],
             [
-                'student_number' => '23-00447',
+                'student_id' => '23-00447',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Widowed',
@@ -11964,7 +11964,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.03,
             ],
             [
-                'student_number' => '20-00326',
+                'student_id' => '20-00326',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -11985,7 +11985,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.26,
             ],
             [
-                'student_number' => '21-00719',
+                'student_id' => '21-00719',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -12006,7 +12006,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.5,
             ],
             [
-                'student_number' => '21-00240',
+                'student_id' => '21-00240',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -12027,7 +12027,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 79.7,
             ],
             [
-                'student_number' => '21-00360',
+                'student_id' => '21-00360',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -12048,7 +12048,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.29,
             ],
             [
-                'student_number' => '20-00770',
+                'student_id' => '20-00770',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Widowed',
@@ -12069,7 +12069,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 84.07,
             ],
             [
-                'student_number' => '20-00429',
+                'student_id' => '20-00429',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -12090,7 +12090,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 78.96,
             ],
             [
-                'student_number' => '22-00985',
+                'student_id' => '22-00985',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -12111,7 +12111,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 34.18,
             ],
             [
-                'student_number' => '23-00207',
+                'student_id' => '23-00207',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -12132,7 +12132,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.5,
             ],
             [
-                'student_number' => '22-00458',
+                'student_id' => '22-00458',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -12153,7 +12153,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 83.66,
             ],
             [
-                'student_number' => '22-00251',
+                'student_id' => '22-00251',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -12174,7 +12174,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.44,
             ],
             [
-                'student_number' => '20-00494',
+                'student_id' => '20-00494',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -12195,7 +12195,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00994',
+                'student_id' => '20-00994',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -12216,7 +12216,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.76,
             ],
             [
-                'student_number' => '22-00624',
+                'student_id' => '22-00624',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -12237,7 +12237,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 32.27,
             ],
             [
-                'student_number' => '22-00285',
+                'student_id' => '22-00285',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -12258,7 +12258,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 33.34,
             ],
             [
-                'student_number' => '21-00274',
+                'student_id' => '21-00274',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -12279,7 +12279,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.34,
             ],
             [
-                'student_number' => '22-00497',
+                'student_id' => '22-00497',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -12300,7 +12300,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.98,
             ],
             [
-                'student_number' => '20-00731',
+                'student_id' => '20-00731',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -12321,7 +12321,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.98,
             ],
             [
-                'student_number' => '21-00530',
+                'student_id' => '21-00530',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -12342,7 +12342,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.04,
             ],
             [
-                'student_number' => '23-00385',
+                'student_id' => '23-00385',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -12363,7 +12363,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 34.42,
             ],
             [
-                'student_number' => '22-00034',
+                'student_id' => '22-00034',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -12384,7 +12384,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.66,
             ],
             [
-                'student_number' => '20-00420',
+                'student_id' => '20-00420',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Separated',
@@ -12405,7 +12405,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.54,
             ],
             [
-                'student_number' => '24-00261',
+                'student_id' => '24-00261',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -12426,7 +12426,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.27,
             ],
             [
-                'student_number' => '20-00124',
+                'student_id' => '20-00124',
                 'sex' => 'Male',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -12447,7 +12447,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.68,
             ],
             [
-                'student_number' => '20-00192',
+                'student_id' => '20-00192',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -12468,7 +12468,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00498',
+                'student_id' => '20-00498',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -12489,7 +12489,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 40.83,
             ],
             [
-                'student_number' => '20-00921',
+                'student_id' => '20-00921',
                 'sex' => 'Female',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -12510,7 +12510,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 40.22,
             ],
             [
-                'student_number' => '21-00232',
+                'student_id' => '21-00232',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -12531,7 +12531,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.35,
             ],
             [
-                'student_number' => '21-00997',
+                'student_id' => '21-00997',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -12552,7 +12552,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.58,
             ],
             [
-                'student_number' => '24-00353',
+                'student_id' => '24-00353',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -12573,7 +12573,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 34.47,
             ],
             [
-                'student_number' => '20-00162',
+                'student_id' => '20-00162',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -12594,7 +12594,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.53,
             ],
             [
-                'student_number' => '21-00357',
+                'student_id' => '21-00357',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -12615,7 +12615,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.81,
             ],
             [
-                'student_number' => '24-00038',
+                'student_id' => '24-00038',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Married',
@@ -12636,7 +12636,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 76.85,
             ],
             [
-                'student_number' => '23-00532',
+                'student_id' => '23-00532',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -12657,7 +12657,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 34.83,
             ],
             [
-                'student_number' => '21-00923',
+                'student_id' => '21-00923',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -12678,7 +12678,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 83.09,
             ],
             [
-                'student_number' => '24-00140',
+                'student_id' => '24-00140',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -12699,7 +12699,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 40.08,
             ],
             [
-                'student_number' => '22-00626',
+                'student_id' => '22-00626',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Widowed',
@@ -12720,7 +12720,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.62,
             ],
             [
-                'student_number' => '23-00279',
+                'student_id' => '23-00279',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -12741,7 +12741,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.18,
             ],
             [
-                'student_number' => '24-00837',
+                'student_id' => '24-00837',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -12762,7 +12762,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 79.91,
             ],
             [
-                'student_number' => '20-00086',
+                'student_id' => '20-00086',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -12783,7 +12783,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 80.53,
             ],
             [
-                'student_number' => '20-00879',
+                'student_id' => '20-00879',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -12804,7 +12804,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.86,
             ],
             [
-                'student_number' => '22-00359',
+                'student_id' => '22-00359',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -12825,7 +12825,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.13,
             ],
             [
-                'student_number' => '24-00557',
+                'student_id' => '24-00557',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -12846,7 +12846,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 92.0,
             ],
             [
-                'student_number' => '20-00591',
+                'student_id' => '20-00591',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -12867,7 +12867,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.23,
             ],
             [
-                'student_number' => '24-00755',
+                'student_id' => '24-00755',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -12888,7 +12888,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.75,
             ],
             [
-                'student_number' => '22-00587',
+                'student_id' => '22-00587',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -12909,7 +12909,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.78,
             ],
             [
-                'student_number' => '21-00825',
+                'student_id' => '21-00825',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Widowed',
@@ -12930,7 +12930,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.78,
             ],
             [
-                'student_number' => '23-00991',
+                'student_id' => '23-00991',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -12951,7 +12951,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.47,
             ],
             [
-                'student_number' => '20-00851',
+                'student_id' => '20-00851',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Widowed',
@@ -12972,7 +12972,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.97,
             ],
             [
-                'student_number' => '20-00457',
+                'student_id' => '20-00457',
                 'sex' => 'Female',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -12993,7 +12993,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.62,
             ],
             [
-                'student_number' => '21-00318',
+                'student_id' => '21-00318',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -13014,7 +13014,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 42.99,
             ],
             [
-                'student_number' => '23-00304',
+                'student_id' => '23-00304',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -13035,7 +13035,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 81.74,
             ],
             [
-                'student_number' => '20-00321',
+                'student_id' => '20-00321',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Widowed',
@@ -13056,7 +13056,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 42.76,
             ],
             [
-                'student_number' => '21-00090',
+                'student_id' => '21-00090',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -13077,7 +13077,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 34.5,
             ],
             [
-                'student_number' => '21-00383',
+                'student_id' => '21-00383',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -13098,7 +13098,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.5,
             ],
             [
-                'student_number' => '23-00293',
+                'student_id' => '23-00293',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -13119,7 +13119,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 82.97,
             ],
             [
-                'student_number' => '22-00494',
+                'student_id' => '22-00494',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -13140,7 +13140,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 80.1,
             ],
             [
-                'student_number' => '21-00542',
+                'student_id' => '21-00542',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -13161,7 +13161,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '24-00976',
+                'student_id' => '24-00976',
                 'sex' => 'Male',
                 'age' => 27,
                 'civil_status' => 'Single',
@@ -13182,7 +13182,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.31,
             ],
             [
-                'student_number' => '22-00613',
+                'student_id' => '22-00613',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -13203,7 +13203,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00682',
+                'student_id' => '22-00682',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -13224,7 +13224,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.63,
             ],
             [
-                'student_number' => '21-00737',
+                'student_id' => '21-00737',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -13245,7 +13245,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 42.1,
             ],
             [
-                'student_number' => '23-00416',
+                'student_id' => '23-00416',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -13266,7 +13266,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.2,
             ],
             [
-                'student_number' => '22-00859',
+                'student_id' => '22-00859',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -13287,7 +13287,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.41,
             ],
             [
-                'student_number' => '21-00622',
+                'student_id' => '21-00622',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -13308,7 +13308,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 89.41,
             ],
             [
-                'student_number' => '20-00336',
+                'student_id' => '20-00336',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -13329,7 +13329,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.9,
             ],
             [
-                'student_number' => '23-00010',
+                'student_id' => '23-00010',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -13350,7 +13350,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.41,
             ],
             [
-                'student_number' => '21-00024',
+                'student_id' => '21-00024',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -13371,7 +13371,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.91,
             ],
             [
-                'student_number' => '22-00557',
+                'student_id' => '22-00557',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -13392,7 +13392,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.06,
             ],
             [
-                'student_number' => '22-00083',
+                'student_id' => '22-00083',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -13413,7 +13413,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '24-00966',
+                'student_id' => '24-00966',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -13434,7 +13434,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.5,
             ],
             [
-                'student_number' => '22-00379',
+                'student_id' => '22-00379',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -13455,7 +13455,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.72,
             ],
             [
-                'student_number' => '21-00388',
+                'student_id' => '21-00388',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -13476,7 +13476,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 89.43,
             ],
             [
-                'student_number' => '22-00630',
+                'student_id' => '22-00630',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -13497,7 +13497,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 67.82,
             ],
             [
-                'student_number' => '21-00559',
+                'student_id' => '21-00559',
                 'sex' => 'Male',
                 'age' => 29,
                 'civil_status' => 'Single',
@@ -13518,7 +13518,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 81.78,
             ],
             [
-                'student_number' => '24-00715',
+                'student_id' => '24-00715',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -13539,7 +13539,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 33.5,
             ],
             [
-                'student_number' => '23-00996',
+                'student_id' => '23-00996',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -13560,7 +13560,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.42,
             ],
             [
-                'student_number' => '24-00343',
+                'student_id' => '24-00343',
                 'sex' => 'Female',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -13581,7 +13581,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 83.16,
             ],
             [
-                'student_number' => '23-00201',
+                'student_id' => '23-00201',
                 'sex' => 'Male',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -13602,7 +13602,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '24-00739',
+                'student_id' => '24-00739',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -13623,7 +13623,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.19,
             ],
             [
-                'student_number' => '21-00587',
+                'student_id' => '21-00587',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -13644,7 +13644,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.23,
             ],
             [
-                'student_number' => '23-00480',
+                'student_id' => '23-00480',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -13665,7 +13665,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.96,
             ],
             [
-                'student_number' => '23-00422',
+                'student_id' => '23-00422',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -13686,7 +13686,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 42.81,
             ],
             [
-                'student_number' => '21-00336',
+                'student_id' => '21-00336',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -13707,7 +13707,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00831',
+                'student_id' => '20-00831',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Married',
@@ -13728,7 +13728,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.8,
             ],
             [
-                'student_number' => '20-00003',
+                'student_id' => '20-00003',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -13749,7 +13749,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.14,
             ],
             [
-                'student_number' => '23-00417',
+                'student_id' => '23-00417',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -13770,7 +13770,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.37,
             ],
             [
-                'student_number' => '22-00906',
+                'student_id' => '22-00906',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -13791,7 +13791,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 42.86,
             ],
             [
-                'student_number' => '21-00077',
+                'student_id' => '21-00077',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -13812,7 +13812,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.92,
             ],
             [
-                'student_number' => '20-00016',
+                'student_id' => '20-00016',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Widowed',
@@ -13833,7 +13833,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00671',
+                'student_id' => '22-00671',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -13854,7 +13854,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 84.24,
             ],
             [
-                'student_number' => '22-00708',
+                'student_id' => '22-00708',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Separated',
@@ -13875,7 +13875,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00909',
+                'student_id' => '20-00909',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Annulled',
@@ -13896,7 +13896,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 40.42,
             ],
             [
-                'student_number' => '23-00540',
+                'student_id' => '23-00540',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -13917,7 +13917,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.72,
             ],
             [
-                'student_number' => '21-00236',
+                'student_id' => '21-00236',
                 'sex' => 'Female',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -13938,7 +13938,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 40.49,
             ],
             [
-                'student_number' => '21-00239',
+                'student_id' => '21-00239',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Widowed',
@@ -13959,7 +13959,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '21-00140',
+                'student_id' => '21-00140',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -13980,7 +13980,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.45,
             ],
             [
-                'student_number' => '21-00541',
+                'student_id' => '21-00541',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -14001,7 +14001,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.64,
             ],
             [
-                'student_number' => '21-00790',
+                'student_id' => '21-00790',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -14022,7 +14022,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00227',
+                'student_id' => '22-00227',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -14043,7 +14043,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 83.31,
             ],
             [
-                'student_number' => '23-00137',
+                'student_id' => '23-00137',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -14064,7 +14064,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 33.22,
             ],
             [
-                'student_number' => '21-00856',
+                'student_id' => '21-00856',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -14085,7 +14085,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.55,
             ],
             [
-                'student_number' => '22-00039',
+                'student_id' => '22-00039',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -14106,7 +14106,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 40.16,
             ],
             [
-                'student_number' => '23-00954',
+                'student_id' => '23-00954',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -14127,7 +14127,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00568',
+                'student_id' => '20-00568',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -14148,7 +14148,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00308',
+                'student_id' => '20-00308',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -14169,7 +14169,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.78,
             ],
             [
-                'student_number' => '21-00817',
+                'student_id' => '21-00817',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -14190,7 +14190,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 76.37,
             ],
             [
-                'student_number' => '24-00033',
+                'student_id' => '24-00033',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Separated',
@@ -14211,7 +14211,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 78.77,
             ],
             [
-                'student_number' => '22-00417',
+                'student_id' => '22-00417',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -14232,7 +14232,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 71.34,
             ],
             [
-                'student_number' => '20-00873',
+                'student_id' => '20-00873',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -14253,7 +14253,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.85,
             ],
             [
-                'student_number' => '24-00211',
+                'student_id' => '24-00211',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Separated',
@@ -14274,7 +14274,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.0,
             ],
             [
-                'student_number' => '22-00385',
+                'student_id' => '22-00385',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -14295,7 +14295,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 42.81,
             ],
             [
-                'student_number' => '20-00667',
+                'student_id' => '20-00667',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -14316,7 +14316,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00624',
+                'student_id' => '20-00624',
                 'sex' => 'Male',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -14337,7 +14337,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.78,
             ],
             [
-                'student_number' => '23-00358',
+                'student_id' => '23-00358',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -14358,7 +14358,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 33.76,
             ],
             [
-                'student_number' => '24-00800',
+                'student_id' => '24-00800',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -14379,7 +14379,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 89.21,
             ],
             [
-                'student_number' => '23-00983',
+                'student_id' => '23-00983',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -14400,7 +14400,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '21-00703',
+                'student_id' => '21-00703',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -14421,7 +14421,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 87.37,
             ],
             [
-                'student_number' => '22-00915',
+                'student_id' => '22-00915',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -14442,7 +14442,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 87.45,
             ],
             [
-                'student_number' => '21-00188',
+                'student_id' => '21-00188',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -14463,7 +14463,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.69,
             ],
             [
-                'student_number' => '22-00883',
+                'student_id' => '22-00883',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -14484,7 +14484,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 91.66,
             ],
             [
-                'student_number' => '22-00003',
+                'student_id' => '22-00003',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -14505,7 +14505,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.29,
             ],
             [
-                'student_number' => '21-00363',
+                'student_id' => '21-00363',
                 'sex' => 'Male',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -14526,7 +14526,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.25,
             ],
             [
-                'student_number' => '20-00813',
+                'student_id' => '20-00813',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -14547,7 +14547,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.48,
             ],
             [
-                'student_number' => '20-00213',
+                'student_id' => '20-00213',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -14568,7 +14568,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.6,
             ],
             [
-                'student_number' => '24-00150',
+                'student_id' => '24-00150',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -14589,7 +14589,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.05,
             ],
             [
-                'student_number' => '23-00251',
+                'student_id' => '23-00251',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -14610,7 +14610,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.89,
             ],
             [
-                'student_number' => '20-00784',
+                'student_id' => '20-00784',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -14631,7 +14631,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.26,
             ],
             [
-                'student_number' => '23-00639',
+                'student_id' => '23-00639',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -14652,7 +14652,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 34.02,
             ],
             [
-                'student_number' => '23-00003',
+                'student_id' => '23-00003',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -14673,7 +14673,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.49,
             ],
             [
-                'student_number' => '24-00415',
+                'student_id' => '24-00415',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -14694,7 +14694,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 84.56,
             ],
             [
-                'student_number' => '22-00892',
+                'student_id' => '22-00892',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -14715,7 +14715,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 79.7,
             ],
             [
-                'student_number' => '23-00727',
+                'student_id' => '23-00727',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -14736,7 +14736,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00590',
+                'student_id' => '22-00590',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -14757,7 +14757,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00120',
+                'student_id' => '20-00120',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -14778,7 +14778,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '21-00223',
+                'student_id' => '21-00223',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -14799,7 +14799,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 40.39,
             ],
             [
-                'student_number' => '21-00052',
+                'student_id' => '21-00052',
                 'sex' => 'Male',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -14820,7 +14820,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.35,
             ],
             [
-                'student_number' => '21-00267',
+                'student_id' => '21-00267',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -14841,7 +14841,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.59,
             ],
             [
-                'student_number' => '22-00552',
+                'student_id' => '22-00552',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -14862,7 +14862,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.95,
             ],
             [
-                'student_number' => '23-00413',
+                'student_id' => '23-00413',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -14883,7 +14883,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 34.98,
             ],
             [
-                'student_number' => '21-00070',
+                'student_id' => '21-00070',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -14904,7 +14904,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.11,
             ],
             [
-                'student_number' => '24-00733',
+                'student_id' => '24-00733',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -14925,7 +14925,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00739',
+                'student_id' => '20-00739',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -14946,7 +14946,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.44,
             ],
             [
-                'student_number' => '22-00377',
+                'student_id' => '22-00377',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -14967,7 +14967,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.5,
             ],
             [
-                'student_number' => '23-00558',
+                'student_id' => '23-00558',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -14988,7 +14988,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 74.37,
             ],
             [
-                'student_number' => '24-00303',
+                'student_id' => '24-00303',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Married',
@@ -15009,7 +15009,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.36,
             ],
             [
-                'student_number' => '24-00552',
+                'student_id' => '24-00552',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -15030,7 +15030,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 34.83,
             ],
             [
-                'student_number' => '23-00600',
+                'student_id' => '23-00600',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -15051,7 +15051,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 34.62,
             ],
             [
-                'student_number' => '24-00614',
+                'student_id' => '24-00614',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -15072,7 +15072,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.27,
             ],
             [
-                'student_number' => '23-00340',
+                'student_id' => '23-00340',
                 'sex' => 'Female',
                 'age' => 25,
                 'civil_status' => 'Married',
@@ -15093,7 +15093,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.36,
             ],
             [
-                'student_number' => '21-00028',
+                'student_id' => '21-00028',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -15114,7 +15114,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.36,
             ],
             [
-                'student_number' => '22-00021',
+                'student_id' => '22-00021',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -15135,7 +15135,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 83.31,
             ],
             [
-                'student_number' => '20-00617',
+                'student_id' => '20-00617',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -15156,7 +15156,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.19,
             ],
             [
-                'student_number' => '20-00146',
+                'student_id' => '20-00146',
                 'sex' => 'Female',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -15177,7 +15177,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.81,
             ],
             [
-                'student_number' => '20-00340',
+                'student_id' => '20-00340',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -15198,7 +15198,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.6,
             ],
             [
-                'student_number' => '24-00196',
+                'student_id' => '24-00196',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Widowed',
@@ -15219,7 +15219,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 85.12,
             ],
             [
-                'student_number' => '24-00647',
+                'student_id' => '24-00647',
                 'sex' => 'Male',
                 'age' => 26,
                 'civil_status' => 'Widowed',
@@ -15240,7 +15240,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 92.0,
             ],
             [
-                'student_number' => '22-00269',
+                'student_id' => '22-00269',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -15261,7 +15261,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 87.61,
             ],
             [
-                'student_number' => '22-00704',
+                'student_id' => '22-00704',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -15282,7 +15282,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 84.09,
             ],
             [
-                'student_number' => '24-00334',
+                'student_id' => '24-00334',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -15303,7 +15303,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 82.97,
             ],
             [
-                'student_number' => '24-00767',
+                'student_id' => '24-00767',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -15324,7 +15324,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.07,
             ],
             [
-                'student_number' => '23-00845',
+                'student_id' => '23-00845',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Separated',
@@ -15345,7 +15345,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 81.46,
             ],
             [
-                'student_number' => '20-00442',
+                'student_id' => '20-00442',
                 'sex' => 'Female',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -15366,7 +15366,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 66.67,
             ],
             [
-                'student_number' => '23-00375',
+                'student_id' => '23-00375',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Widowed',
@@ -15387,7 +15387,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.75,
             ],
             [
-                'student_number' => '20-00143',
+                'student_id' => '20-00143',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -15408,7 +15408,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '24-00069',
+                'student_id' => '24-00069',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Separated',
@@ -15429,7 +15429,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00726',
+                'student_id' => '22-00726',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -15450,7 +15450,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.94,
             ],
             [
-                'student_number' => '22-00220',
+                'student_id' => '22-00220',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -15471,7 +15471,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.86,
             ],
             [
-                'student_number' => '24-00134',
+                'student_id' => '24-00134',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Annulled',
@@ -15492,7 +15492,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00093',
+                'student_id' => '20-00093',
                 'sex' => 'Male',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -15513,7 +15513,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 34.62,
             ],
             [
-                'student_number' => '22-00037',
+                'student_id' => '22-00037',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -15534,7 +15534,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00511',
+                'student_id' => '22-00511',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -15555,7 +15555,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 74.36,
             ],
             [
-                'student_number' => '23-00089',
+                'student_id' => '23-00089',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -15576,7 +15576,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.98,
             ],
             [
-                'student_number' => '24-00774',
+                'student_id' => '24-00774',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -15597,7 +15597,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.26,
             ],
             [
-                'student_number' => '23-00572',
+                'student_id' => '23-00572',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -15618,7 +15618,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '21-00222',
+                'student_id' => '21-00222',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -15639,7 +15639,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.83,
             ],
             [
-                'student_number' => '24-00640',
+                'student_id' => '24-00640',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -15660,7 +15660,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 82.66,
             ],
             [
-                'student_number' => '23-00868',
+                'student_id' => '23-00868',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Married',
@@ -15681,7 +15681,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.5,
             ],
             [
-                'student_number' => '22-00025',
+                'student_id' => '22-00025',
                 'sex' => 'Male',
                 'age' => 26,
                 'civil_status' => 'Single',
@@ -15702,7 +15702,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.31,
             ],
             [
-                'student_number' => '20-00277',
+                'student_id' => '20-00277',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -15723,7 +15723,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.72,
             ],
             [
-                'student_number' => '21-00424',
+                'student_id' => '21-00424',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -15744,7 +15744,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00042',
+                'student_id' => '22-00042',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -15765,7 +15765,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 32.67,
             ],
             [
-                'student_number' => '22-00627',
+                'student_id' => '22-00627',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -15786,7 +15786,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.48,
             ],
             [
-                'student_number' => '23-00655',
+                'student_id' => '23-00655',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -15807,7 +15807,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '24-00173',
+                'student_id' => '24-00173',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -15828,7 +15828,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.8,
             ],
             [
-                'student_number' => '22-00171',
+                'student_id' => '22-00171',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -15849,7 +15849,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.31,
             ],
             [
-                'student_number' => '20-00611',
+                'student_id' => '20-00611',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -15870,7 +15870,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '24-00862',
+                'student_id' => '24-00862',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -15891,7 +15891,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00714',
+                'student_id' => '22-00714',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -15912,7 +15912,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 39.61,
             ],
             [
-                'student_number' => '22-00505',
+                'student_id' => '22-00505',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -15933,7 +15933,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.4,
             ],
             [
-                'student_number' => '20-00880',
+                'student_id' => '20-00880',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -15954,7 +15954,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 73.84,
             ],
             [
-                'student_number' => '24-00031',
+                'student_id' => '24-00031',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Separated',
@@ -15975,7 +15975,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 78.77,
             ],
             [
-                'student_number' => '21-00519',
+                'student_id' => '21-00519',
                 'sex' => 'Male',
                 'age' => 26,
                 'civil_status' => 'Widowed',
@@ -15996,7 +15996,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 92.0,
             ],
             [
-                'student_number' => '23-00053',
+                'student_id' => '23-00053',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -16017,7 +16017,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.48,
             ],
             [
-                'student_number' => '22-00131',
+                'student_id' => '22-00131',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -16038,7 +16038,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 79.79,
             ],
             [
-                'student_number' => '22-00411',
+                'student_id' => '22-00411',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -16059,7 +16059,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.17,
             ],
             [
-                'student_number' => '23-00685',
+                'student_id' => '23-00685',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -16080,7 +16080,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.68,
             ],
             [
-                'student_number' => '21-00460',
+                'student_id' => '21-00460',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -16101,7 +16101,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.31,
             ],
             [
-                'student_number' => '23-00987',
+                'student_id' => '23-00987',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -16122,7 +16122,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 76.74,
             ],
             [
-                'student_number' => '23-00699',
+                'student_id' => '23-00699',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -16143,7 +16143,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.37,
             ],
             [
-                'student_number' => '22-00047',
+                'student_id' => '22-00047',
                 'sex' => 'Male',
                 'age' => 24,
                 'civil_status' => 'Annulled',
@@ -16164,7 +16164,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00992',
+                'student_id' => '22-00992',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -16185,7 +16185,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 89.43,
             ],
             [
-                'student_number' => '24-00643',
+                'student_id' => '24-00643',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -16206,7 +16206,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '24-00044',
+                'student_id' => '24-00044',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -16227,7 +16227,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00187',
+                'student_id' => '20-00187',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -16248,7 +16248,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 76.94,
             ],
             [
-                'student_number' => '22-00358',
+                'student_id' => '22-00358',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Annulled',
@@ -16269,7 +16269,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.69,
             ],
             [
-                'student_number' => '23-00776',
+                'student_id' => '23-00776',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Separated',
@@ -16290,7 +16290,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.84,
             ],
             [
-                'student_number' => '24-00463',
+                'student_id' => '24-00463',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -16311,7 +16311,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00997',
+                'student_id' => '20-00997',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -16332,7 +16332,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.92,
             ],
             [
-                'student_number' => '20-00645',
+                'student_id' => '20-00645',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -16353,7 +16353,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.11,
             ],
             [
-                'student_number' => '20-00950',
+                'student_id' => '20-00950',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -16374,7 +16374,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.4,
             ],
             [
-                'student_number' => '24-00712',
+                'student_id' => '24-00712',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -16395,7 +16395,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '21-00613',
+                'student_id' => '21-00613',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -16416,7 +16416,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00211',
+                'student_id' => '20-00211',
                 'sex' => 'Female',
                 'age' => 27,
                 'civil_status' => 'Single',
@@ -16437,7 +16437,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 40.19,
             ],
             [
-                'student_number' => '20-00440',
+                'student_id' => '20-00440',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -16458,7 +16458,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 83.82,
             ],
             [
-                'student_number' => '22-00804',
+                'student_id' => '22-00804',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -16479,7 +16479,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 40.83,
             ],
             [
-                'student_number' => '21-00561',
+                'student_id' => '21-00561',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -16500,7 +16500,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 83.34,
             ],
             [
-                'student_number' => '20-00690',
+                'student_id' => '20-00690',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -16521,7 +16521,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 71.34,
             ],
             [
-                'student_number' => '23-00541',
+                'student_id' => '23-00541',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -16542,7 +16542,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00783',
+                'student_id' => '22-00783',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -16563,7 +16563,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.97,
             ],
             [
-                'student_number' => '23-00957',
+                'student_id' => '23-00957',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -16584,7 +16584,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 91.57,
             ],
             [
-                'student_number' => '20-00376',
+                'student_id' => '20-00376',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -16605,7 +16605,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 34.89,
             ],
             [
-                'student_number' => '24-00344',
+                'student_id' => '24-00344',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -16626,7 +16626,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '23-00772',
+                'student_id' => '23-00772',
                 'sex' => 'Male',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -16647,7 +16647,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00178',
+                'student_id' => '22-00178',
                 'sex' => 'Female',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -16668,7 +16668,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.25,
             ],
             [
-                'student_number' => '22-00127',
+                'student_id' => '22-00127',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -16689,7 +16689,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.82,
             ],
             [
-                'student_number' => '21-00201',
+                'student_id' => '21-00201',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -16710,7 +16710,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.78,
             ],
             [
-                'student_number' => '24-00065',
+                'student_id' => '24-00065',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -16731,7 +16731,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '24-00987',
+                'student_id' => '24-00987',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -16752,7 +16752,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.7,
             ],
             [
-                'student_number' => '20-00496',
+                'student_id' => '20-00496',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -16773,7 +16773,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.67,
             ],
             [
-                'student_number' => '20-00244',
+                'student_id' => '20-00244',
                 'sex' => 'Female',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -16794,7 +16794,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.23,
             ],
             [
-                'student_number' => '24-00184',
+                'student_id' => '24-00184',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -16815,7 +16815,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.17,
             ],
             [
-                'student_number' => '20-00123',
+                'student_id' => '20-00123',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -16836,7 +16836,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.62,
             ],
             [
-                'student_number' => '22-00658',
+                'student_id' => '22-00658',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Widowed',
@@ -16857,7 +16857,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 42.76,
             ],
             [
-                'student_number' => '23-00244',
+                'student_id' => '23-00244',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -16878,7 +16878,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.97,
             ],
             [
-                'student_number' => '23-00177',
+                'student_id' => '23-00177',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -16899,7 +16899,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.27,
             ],
             [
-                'student_number' => '23-00962',
+                'student_id' => '23-00962',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -16920,7 +16920,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 84.09,
             ],
             [
-                'student_number' => '23-00303',
+                'student_id' => '23-00303',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -16941,7 +16941,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 83.66,
             ],
             [
-                'student_number' => '23-00145',
+                'student_id' => '23-00145',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -16962,7 +16962,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.04,
             ],
             [
-                'student_number' => '24-00721',
+                'student_id' => '24-00721',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -16983,7 +16983,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 80.76,
             ],
             [
-                'student_number' => '22-00688',
+                'student_id' => '22-00688',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -17004,7 +17004,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.78,
             ],
             [
-                'student_number' => '24-00132',
+                'student_id' => '24-00132',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -17025,7 +17025,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 83.29,
             ],
             [
-                'student_number' => '24-00176',
+                'student_id' => '24-00176',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -17046,7 +17046,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 39.56,
             ],
             [
-                'student_number' => '23-00524',
+                'student_id' => '23-00524',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Married',
@@ -17067,7 +17067,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 34.55,
             ],
             [
-                'student_number' => '21-00516',
+                'student_id' => '21-00516',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Married',
@@ -17088,7 +17088,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.32,
             ],
             [
-                'student_number' => '23-00052',
+                'student_id' => '23-00052',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -17109,7 +17109,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 34.83,
             ],
             [
-                'student_number' => '21-00362',
+                'student_id' => '21-00362',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Separated',
@@ -17130,7 +17130,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '21-00647',
+                'student_id' => '21-00647',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -17151,7 +17151,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '21-00171',
+                'student_id' => '21-00171',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -17172,7 +17172,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.68,
             ],
             [
-                'student_number' => '22-00225',
+                'student_id' => '22-00225',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -17193,7 +17193,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 42.19,
             ],
             [
-                'student_number' => '24-00855',
+                'student_id' => '24-00855',
                 'sex' => 'Female',
                 'age' => 28,
                 'civil_status' => 'Married',
@@ -17214,7 +17214,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 79.95,
             ],
             [
-                'student_number' => '20-00899',
+                'student_id' => '20-00899',
                 'sex' => 'Female',
                 'age' => 26,
                 'civil_status' => 'Single',
@@ -17235,7 +17235,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '23-00865',
+                'student_id' => '23-00865',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -17256,7 +17256,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 42.38,
             ],
             [
-                'student_number' => '24-00914',
+                'student_id' => '24-00914',
                 'sex' => 'Male',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -17277,7 +17277,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.78,
             ],
             [
-                'student_number' => '22-00876',
+                'student_id' => '22-00876',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -17298,7 +17298,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.26,
             ],
             [
-                'student_number' => '24-00574',
+                'student_id' => '24-00574',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -17319,7 +17319,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.5,
             ],
             [
-                'student_number' => '21-00425',
+                'student_id' => '21-00425',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -17340,7 +17340,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.4,
             ],
             [
-                'student_number' => '22-00684',
+                'student_id' => '22-00684',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -17361,7 +17361,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00756',
+                'student_id' => '20-00756',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -17382,7 +17382,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.88,
             ],
             [
-                'student_number' => '20-00618',
+                'student_id' => '20-00618',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -17403,7 +17403,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.17,
             ],
             [
-                'student_number' => '24-00396',
+                'student_id' => '24-00396',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -17424,7 +17424,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 82.06,
             ],
             [
-                'student_number' => '21-00166',
+                'student_id' => '21-00166',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -17445,7 +17445,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.11,
             ],
             [
-                'student_number' => '22-00650',
+                'student_id' => '22-00650',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -17466,7 +17466,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 75.25,
             ],
             [
-                'student_number' => '22-00089',
+                'student_id' => '22-00089',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -17487,7 +17487,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '23-00320',
+                'student_id' => '23-00320',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -17508,7 +17508,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 33.25,
             ],
             [
-                'student_number' => '20-00782',
+                'student_id' => '20-00782',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -17529,7 +17529,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 75.88,
             ],
             [
-                'student_number' => '23-00689',
+                'student_id' => '23-00689',
                 'sex' => 'Male',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -17550,7 +17550,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 92.0,
             ],
             [
-                'student_number' => '21-00691',
+                'student_id' => '21-00691',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Widowed',
@@ -17571,7 +17571,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '21-00430',
+                'student_id' => '21-00430',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -17592,7 +17592,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 39.77,
             ],
             [
-                'student_number' => '24-00743',
+                'student_id' => '24-00743',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -17613,7 +17613,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.53,
             ],
             [
-                'student_number' => '24-00059',
+                'student_id' => '24-00059',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -17634,7 +17634,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '21-00021',
+                'student_id' => '21-00021',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -17655,7 +17655,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.11,
             ],
             [
-                'student_number' => '23-00322',
+                'student_id' => '23-00322',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -17676,7 +17676,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 42.41,
             ],
             [
-                'student_number' => '23-00062',
+                'student_id' => '23-00062',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -17697,7 +17697,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.5,
             ],
             [
-                'student_number' => '20-00483',
+                'student_id' => '20-00483',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -17718,7 +17718,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.94,
             ],
             [
-                'student_number' => '23-00395',
+                'student_id' => '23-00395',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -17739,7 +17739,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 80.74,
             ],
             [
-                'student_number' => '21-00181',
+                'student_id' => '21-00181',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Widowed',
@@ -17760,7 +17760,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00781',
+                'student_id' => '22-00781',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -17781,7 +17781,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 34.58,
             ],
             [
-                'student_number' => '22-00053',
+                'student_id' => '22-00053',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -17802,7 +17802,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.66,
             ],
             [
-                'student_number' => '24-00769',
+                'student_id' => '24-00769',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -17823,7 +17823,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 75.18,
             ],
             [
-                'student_number' => '21-00192',
+                'student_id' => '21-00192',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -17844,7 +17844,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.66,
             ],
             [
-                'student_number' => '22-00635',
+                'student_id' => '22-00635',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -17865,7 +17865,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.25,
             ],
             [
-                'student_number' => '21-00145',
+                'student_id' => '21-00145',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -17886,7 +17886,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 85.64,
             ],
             [
-                'student_number' => '20-00165',
+                'student_id' => '20-00165',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -17907,7 +17907,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '23-00482',
+                'student_id' => '23-00482',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -17928,7 +17928,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 32.26,
             ],
             [
-                'student_number' => '21-00826',
+                'student_id' => '21-00826',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Widowed',
@@ -17949,7 +17949,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 82.27,
             ],
             [
-                'student_number' => '22-00720',
+                'student_id' => '22-00720',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Widowed',
@@ -17970,7 +17970,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 89.44,
             ],
             [
-                'student_number' => '23-00338',
+                'student_id' => '23-00338',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -17991,7 +17991,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 75.69,
             ],
             [
-                'student_number' => '20-00691',
+                'student_id' => '20-00691',
                 'sex' => 'Female',
                 'age' => 25,
                 'civil_status' => 'Married',
@@ -18012,7 +18012,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00661',
+                'student_id' => '22-00661',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -18033,7 +18033,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 81.97,
             ],
             [
-                'student_number' => '22-00443',
+                'student_id' => '22-00443',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Married',
@@ -18054,7 +18054,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 81.91,
             ],
             [
-                'student_number' => '24-00275',
+                'student_id' => '24-00275',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -18075,7 +18075,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.71,
             ],
             [
-                'student_number' => '23-00779',
+                'student_id' => '23-00779',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -18096,7 +18096,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 92.0,
             ],
             [
-                'student_number' => '24-00246',
+                'student_id' => '24-00246',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -18117,7 +18117,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 92.0,
             ],
             [
-                'student_number' => '23-00867',
+                'student_id' => '23-00867',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -18138,7 +18138,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 80.51,
             ],
             [
-                'student_number' => '22-00213',
+                'student_id' => '22-00213',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -18159,7 +18159,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '21-00152',
+                'student_id' => '21-00152',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -18180,7 +18180,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 81.74,
             ],
             [
-                'student_number' => '22-00755',
+                'student_id' => '22-00755',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -18201,7 +18201,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.16,
             ],
             [
-                'student_number' => '24-00218',
+                'student_id' => '24-00218',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -18222,7 +18222,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.98,
             ],
             [
-                'student_number' => '22-00441',
+                'student_id' => '22-00441',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -18243,7 +18243,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 39.95,
             ],
             [
-                'student_number' => '23-00158',
+                'student_id' => '23-00158',
                 'sex' => 'Female',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -18264,7 +18264,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.68,
             ],
             [
-                'student_number' => '24-00354',
+                'student_id' => '24-00354',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Married',
@@ -18285,7 +18285,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 85.38,
             ],
             [
-                'student_number' => '22-00571',
+                'student_id' => '22-00571',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -18306,7 +18306,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.37,
             ],
             [
-                'student_number' => '21-00732',
+                'student_id' => '21-00732',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -18327,7 +18327,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 91.57,
             ],
             [
-                'student_number' => '22-00391',
+                'student_id' => '22-00391',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -18348,7 +18348,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 42.59,
             ],
             [
-                'student_number' => '23-00169',
+                'student_id' => '23-00169',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -18369,7 +18369,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.47,
             ],
             [
-                'student_number' => '24-00084',
+                'student_id' => '24-00084',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -18390,7 +18390,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '23-00046',
+                'student_id' => '23-00046',
                 'sex' => 'Female',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -18411,7 +18411,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.02,
             ],
             [
-                'student_number' => '23-00311',
+                'student_id' => '23-00311',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -18432,7 +18432,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.84,
             ],
             [
-                'student_number' => '23-00139',
+                'student_id' => '23-00139',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -18453,7 +18453,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00703',
+                'student_id' => '22-00703',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -18474,7 +18474,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 82.91,
             ],
             [
-                'student_number' => '22-00015',
+                'student_id' => '22-00015',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -18495,7 +18495,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.75,
             ],
             [
-                'student_number' => '24-00016',
+                'student_id' => '24-00016',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -18516,7 +18516,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 74.9,
             ],
             [
-                'student_number' => '24-00185',
+                'student_id' => '24-00185',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -18537,7 +18537,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 32.67,
             ],
             [
-                'student_number' => '20-00150',
+                'student_id' => '20-00150',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -18558,7 +18558,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 32.03,
             ],
             [
-                'student_number' => '22-00144',
+                'student_id' => '22-00144',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -18579,7 +18579,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.84,
             ],
             [
-                'student_number' => '24-00138',
+                'student_id' => '24-00138',
                 'sex' => 'Male',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -18600,7 +18600,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.38,
             ],
             [
-                'student_number' => '20-00582',
+                'student_id' => '20-00582',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -18621,7 +18621,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 34.62,
             ],
             [
-                'student_number' => '22-00765',
+                'student_id' => '22-00765',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -18642,7 +18642,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00792',
+                'student_id' => '22-00792',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -18663,7 +18663,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 74.37,
             ],
             [
-                'student_number' => '21-00482',
+                'student_id' => '21-00482',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -18684,7 +18684,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00383',
+                'student_id' => '22-00383',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -18705,7 +18705,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 78.69,
             ],
             [
-                'student_number' => '21-00273',
+                'student_id' => '21-00273',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Widowed',
@@ -18726,7 +18726,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00426',
+                'student_id' => '22-00426',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -18747,7 +18747,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.54,
             ],
             [
-                'student_number' => '21-00882',
+                'student_id' => '21-00882',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -18768,7 +18768,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.94,
             ],
             [
-                'student_number' => '24-00781',
+                'student_id' => '24-00781',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Married',
@@ -18789,7 +18789,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.59,
             ],
             [
-                'student_number' => '21-00332',
+                'student_id' => '21-00332',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -18810,7 +18810,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.79,
             ],
             [
-                'student_number' => '22-00746',
+                'student_id' => '22-00746',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -18831,7 +18831,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.16,
             ],
             [
-                'student_number' => '21-00777',
+                'student_id' => '21-00777',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -18852,7 +18852,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 32.24,
             ],
             [
-                'student_number' => '23-00875',
+                'student_id' => '23-00875',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -18873,7 +18873,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 92.0,
             ],
             [
-                'student_number' => '20-00249',
+                'student_id' => '20-00249',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -18894,7 +18894,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 88.99,
             ],
             [
-                'student_number' => '22-00638',
+                'student_id' => '22-00638',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -18915,7 +18915,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.81,
             ],
             [
-                'student_number' => '24-00604',
+                'student_id' => '24-00604',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -18936,7 +18936,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.36,
             ],
             [
-                'student_number' => '22-00952',
+                'student_id' => '22-00952',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -18957,7 +18957,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.49,
             ],
             [
-                'student_number' => '22-00001',
+                'student_id' => '22-00001',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -18978,7 +18978,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.09,
             ],
             [
-                'student_number' => '24-00420',
+                'student_id' => '24-00420',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -18999,7 +18999,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.57,
             ],
             [
-                'student_number' => '22-00274',
+                'student_id' => '22-00274',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -19020,7 +19020,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.3,
             ],
             [
-                'student_number' => '23-00773',
+                'student_id' => '23-00773',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -19041,7 +19041,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00447',
+                'student_id' => '20-00447',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -19062,7 +19062,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.22,
             ],
             [
-                'student_number' => '22-00981',
+                'student_id' => '22-00981',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -19083,7 +19083,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.23,
             ],
             [
-                'student_number' => '22-00896',
+                'student_id' => '22-00896',
                 'sex' => 'Female',
                 'age' => 26,
                 'civil_status' => 'Single',
@@ -19104,7 +19104,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.71,
             ],
             [
-                'student_number' => '21-00411',
+                'student_id' => '21-00411',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -19125,7 +19125,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 71.32,
             ],
             [
-                'student_number' => '24-00391',
+                'student_id' => '24-00391',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -19146,7 +19146,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.02,
             ],
             [
-                'student_number' => '21-00063',
+                'student_id' => '21-00063',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -19167,7 +19167,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.29,
             ],
             [
-                'student_number' => '24-00958',
+                'student_id' => '24-00958',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -19188,7 +19188,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 86.12,
             ],
             [
-                'student_number' => '20-00970',
+                'student_id' => '20-00970',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -19209,7 +19209,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '23-00897',
+                'student_id' => '23-00897',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -19230,7 +19230,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.75,
             ],
             [
-                'student_number' => '23-00984',
+                'student_id' => '23-00984',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -19251,7 +19251,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 79.39,
             ],
             [
-                'student_number' => '22-00024',
+                'student_id' => '22-00024',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -19272,7 +19272,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 33.76,
             ],
             [
-                'student_number' => '23-00312',
+                'student_id' => '23-00312',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -19293,7 +19293,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 40.25,
             ],
             [
-                'student_number' => '24-00893',
+                'student_id' => '24-00893',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -19314,7 +19314,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.04,
             ],
             [
-                'student_number' => '22-00961',
+                'student_id' => '22-00961',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -19335,7 +19335,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 75.28,
             ],
             [
-                'student_number' => '23-00814',
+                'student_id' => '23-00814',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -19356,7 +19356,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.9,
             ],
             [
-                'student_number' => '24-00020',
+                'student_id' => '24-00020',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -19377,7 +19377,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.15,
             ],
             [
-                'student_number' => '21-00892',
+                'student_id' => '21-00892',
                 'sex' => 'Female',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -19398,7 +19398,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.75,
             ],
             [
-                'student_number' => '21-00572',
+                'student_id' => '21-00572',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -19419,7 +19419,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 34.87,
             ],
             [
-                'student_number' => '24-00387',
+                'student_id' => '24-00387',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -19440,7 +19440,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.99,
             ],
             [
-                'student_number' => '24-00931',
+                'student_id' => '24-00931',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -19461,7 +19461,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 40.9,
             ],
             [
-                'student_number' => '22-00528',
+                'student_id' => '22-00528',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -19482,7 +19482,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.54,
             ],
             [
-                'student_number' => '20-00775',
+                'student_id' => '20-00775',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -19503,7 +19503,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 73.77,
             ],
             [
-                'student_number' => '20-00327',
+                'student_id' => '20-00327',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -19524,7 +19524,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 71.32,
             ],
             [
-                'student_number' => '24-00906',
+                'student_id' => '24-00906',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -19545,7 +19545,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.66,
             ],
             [
-                'student_number' => '23-00911',
+                'student_id' => '23-00911',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -19566,7 +19566,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.07,
             ],
             [
-                'student_number' => '22-00841',
+                'student_id' => '22-00841',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -19587,7 +19587,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 84.63,
             ],
             [
-                'student_number' => '21-00395',
+                'student_id' => '21-00395',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -19608,7 +19608,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '22-00641',
+                'student_id' => '22-00641',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Married',
@@ -19629,7 +19629,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.16,
             ],
             [
-                'student_number' => '22-00927',
+                'student_id' => '22-00927',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -19650,7 +19650,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.89,
             ],
             [
-                'student_number' => '22-00835',
+                'student_id' => '22-00835',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -19671,7 +19671,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 32.39,
             ],
             [
-                'student_number' => '22-00306',
+                'student_id' => '22-00306',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -19692,7 +19692,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.61,
             ],
             [
-                'student_number' => '24-00056',
+                'student_id' => '24-00056',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -19713,7 +19713,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 91.57,
             ],
             [
-                'student_number' => '23-00843',
+                'student_id' => '23-00843',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -19734,7 +19734,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.11,
             ],
             [
-                'student_number' => '23-00479',
+                'student_id' => '23-00479',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -19755,7 +19755,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.55,
             ],
             [
-                'student_number' => '24-00571',
+                'student_id' => '24-00571',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -19776,7 +19776,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '23-00675',
+                'student_id' => '23-00675',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -19797,7 +19797,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.67,
             ],
             [
-                'student_number' => '24-00778',
+                'student_id' => '24-00778',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -19818,7 +19818,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 32.75,
             ],
             [
-                'student_number' => '20-00106',
+                'student_id' => '20-00106',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -19839,7 +19839,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '24-00793',
+                'student_id' => '24-00793',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -19860,7 +19860,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 72.77,
             ],
             [
-                'student_number' => '24-00425',
+                'student_id' => '24-00425',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -19881,7 +19881,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '21-00051',
+                'student_id' => '21-00051',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -19902,7 +19902,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.35,
             ],
             [
-                'student_number' => '21-00289',
+                'student_id' => '21-00289',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -19923,7 +19923,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.57,
             ],
             [
-                'student_number' => '20-00566',
+                'student_id' => '20-00566',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -19944,7 +19944,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.83,
             ],
             [
-                'student_number' => '20-00980',
+                'student_id' => '20-00980',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -19965,7 +19965,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.23,
             ],
             [
-                'student_number' => '23-00872',
+                'student_id' => '23-00872',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -19986,7 +19986,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 39.71,
             ],
             [
-                'student_number' => '20-00295',
+                'student_id' => '20-00295',
                 'sex' => 'Male',
                 'age' => 26,
                 'civil_status' => 'Single',
@@ -20007,7 +20007,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.31,
             ],
             [
-                'student_number' => '23-00258',
+                'student_id' => '23-00258',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Widowed',
@@ -20028,7 +20028,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 45.97,
             ],
             [
-                'student_number' => '24-00901',
+                'student_id' => '24-00901',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -20049,7 +20049,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 87.25,
             ],
             [
-                'student_number' => '24-00644',
+                'student_id' => '24-00644',
                 'sex' => 'Male',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -20070,7 +20070,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00128',
+                'student_id' => '20-00128',
                 'sex' => 'Female',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -20091,7 +20091,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00285',
+                'student_id' => '20-00285',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -20112,7 +20112,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 76.69,
             ],
             [
-                'student_number' => '20-00444',
+                'student_id' => '20-00444',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -20133,7 +20133,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '24-00734',
+                'student_id' => '24-00734',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -20154,7 +20154,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00741',
+                'student_id' => '20-00741',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -20175,7 +20175,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 39.71,
             ],
             [
-                'student_number' => '21-00584',
+                'student_id' => '21-00584',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -20196,7 +20196,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 85.13,
             ],
             [
-                'student_number' => '20-00129',
+                'student_id' => '20-00129',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -20217,7 +20217,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 37.86,
             ],
             [
-                'student_number' => '20-00373',
+                'student_id' => '20-00373',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -20238,7 +20238,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.01,
             ],
             [
-                'student_number' => '20-00114',
+                'student_id' => '20-00114',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -20259,7 +20259,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 41.91,
             ],
             [
-                'student_number' => '20-00121',
+                'student_id' => '20-00121',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -20280,7 +20280,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 83.69,
             ],
             [
-                'student_number' => '20-00715',
+                'student_id' => '20-00715',
                 'sex' => 'Female',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -20301,7 +20301,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 83.16,
             ],
             [
-                'student_number' => '23-00373',
+                'student_id' => '23-00373',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -20322,7 +20322,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 83.66,
             ],
             [
-                'student_number' => '24-00186',
+                'student_id' => '24-00186',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -20343,7 +20343,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 75.52,
             ],
             [
-                'student_number' => '21-00032',
+                'student_id' => '21-00032',
                 'sex' => 'Male',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -20364,7 +20364,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 80.91,
             ],
             [
-                'student_number' => '22-00502',
+                'student_id' => '22-00502',
                 'sex' => 'Male',
                 'age' => 26,
                 'civil_status' => 'Single',
@@ -20385,7 +20385,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 87.07,
             ],
             [
-                'student_number' => '22-00218',
+                'student_id' => '22-00218',
                 'sex' => 'Female',
                 'age' => 26,
                 'civil_status' => 'Single',
@@ -20406,7 +20406,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.01,
             ],
             [
-                'student_number' => '23-00648',
+                'student_id' => '23-00648',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -20427,7 +20427,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 85.01,
             ],
             [
-                'student_number' => '23-00786',
+                'student_id' => '23-00786',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -20448,7 +20448,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 89.59,
             ],
             [
-                'student_number' => '20-00543',
+                'student_id' => '20-00543',
                 'sex' => 'Male',
                 'age' => 25,
                 'civil_status' => 'Single',
@@ -20469,7 +20469,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 44.26,
             ],
             [
-                'student_number' => '20-00684',
+                'student_id' => '20-00684',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Widowed',
@@ -20490,7 +20490,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.58,
             ],
             [
-                'student_number' => '20-00052',
+                'student_id' => '20-00052',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -20511,7 +20511,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.49,
             ],
             [
-                'student_number' => '20-00752',
+                'student_id' => '20-00752',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -20532,7 +20532,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 86.9,
             ],
             [
-                'student_number' => '23-00421',
+                'student_id' => '23-00421',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -20553,7 +20553,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 32.05,
             ],
             [
-                'student_number' => '20-00795',
+                'student_id' => '20-00795',
                 'sex' => 'Male',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -20574,7 +20574,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 48.1,
             ],
             [
-                'student_number' => '21-00416',
+                'student_id' => '21-00416',
                 'sex' => 'Male',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -20595,7 +20595,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '21-00033',
+                'student_id' => '21-00033',
                 'sex' => 'Female',
                 'age' => 22,
                 'civil_status' => 'Single',
@@ -20616,7 +20616,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 84.53,
             ],
             [
-                'student_number' => '23-00886',
+                'student_id' => '23-00886',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -20637,7 +20637,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 49.0,
             ],
             [
-                'student_number' => '20-00088',
+                'student_id' => '20-00088',
                 'sex' => 'Female',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -20658,7 +20658,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 46.11,
             ],
             [
-                'student_number' => '23-00234',
+                'student_id' => '23-00234',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -20679,7 +20679,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 81.34,
             ],
             [
-                'student_number' => '20-00854',
+                'student_id' => '20-00854',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -20700,7 +20700,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 82.89,
             ],
             [
-                'student_number' => '23-00386',
+                'student_id' => '23-00386',
                 'sex' => 'Male',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -20721,7 +20721,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 42.2,
             ],
             [
-                'student_number' => '23-00633',
+                'student_id' => '23-00633',
                 'sex' => 'Male',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -20742,7 +20742,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 43.16,
             ],
             [
-                'student_number' => '23-00022',
+                'student_id' => '23-00022',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -20763,7 +20763,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 79.72,
             ],
             [
-                'student_number' => '20-00918',
+                'student_id' => '20-00918',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -20784,7 +20784,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.36,
             ],
             [
-                'student_number' => '23-00965',
+                'student_id' => '23-00965',
                 'sex' => 'Male',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -20805,7 +20805,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 30.36,
             ],
             [
-                'student_number' => '22-00419',
+                'student_id' => '22-00419',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -20826,7 +20826,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 36.97,
             ],
             [
-                'student_number' => '20-00403',
+                'student_id' => '20-00403',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
@@ -20847,7 +20847,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.34,
             ],
             [
-                'student_number' => '23-00871',
+                'student_id' => '23-00871',
                 'sex' => 'Female',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -20868,7 +20868,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 79.72,
             ],
             [
-                'student_number' => '22-00568',
+                'student_id' => '22-00568',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Single',
@@ -20889,7 +20889,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 47.7,
             ],
             [
-                'student_number' => '20-00053',
+                'student_id' => '20-00053',
                 'sex' => 'Female',
                 'age' => 23,
                 'civil_status' => 'Single',
@@ -20910,7 +20910,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.06,
             ],
             [
-                'student_number' => '24-00531',
+                'student_id' => '24-00531',
                 'sex' => 'Female',
                 'age' => 19,
                 'civil_status' => 'Single',
@@ -20931,7 +20931,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 38.1,
             ],
             [
-                'student_number' => '20-00345',
+                'student_id' => '20-00345',
                 'sex' => 'Female',
                 'age' => 24,
                 'civil_status' => 'Single',
@@ -20952,7 +20952,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 68.59,
             ],
             [
-                'student_number' => '20-00132',
+                'student_id' => '20-00132',
                 'sex' => 'Male',
                 'age' => 18,
                 'civil_status' => 'Widowed',
@@ -20973,7 +20973,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 31.61,
             ],
             [
-                'student_number' => '24-00848',
+                'student_id' => '24-00848',
                 'sex' => 'Female',
                 'age' => 20,
                 'civil_status' => 'Single',
@@ -20994,7 +20994,7 @@ class DatasetSeeder extends Seeder
                 'hard_skill_ave' => 35.17,
             ],
             [
-                'student_number' => '23-00573',
+                'student_id' => '23-00573',
                 'sex' => 'Female',
                 'age' => 21,
                 'civil_status' => 'Single',
