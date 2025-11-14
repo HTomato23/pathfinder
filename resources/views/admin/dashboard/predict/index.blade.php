@@ -174,7 +174,7 @@
                         <template x-for="client in clients" :key="client.id">
                             <tr>
                                 <td x-text="client.id"></td>
-                                <td x-text="client.student_id"></td>
+                                <td x-text="client.student_id || 'N/A'"></td>
                                 <td>
                                     <div class="flex items-center gap-3">
                                         <div class="avatar avatar-placeholder no-print">
@@ -190,8 +190,8 @@
                                         </div>
                                     </div>
                                 </td>
-                                <td x-text="client.program"></td>
-                                <td x-text="client.year_level"></td>
+                                <td x-text="client.program || 'N/A'"></td>
+                                <td x-text="client.year_level || 'N/A'"></td>
                                 <td>
                                    <x-ui.badge
                                         class="whitespace-nowrap"

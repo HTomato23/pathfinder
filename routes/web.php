@@ -48,48 +48,6 @@ Route::middleware('guest.client')->group(function () {
     Route::post('/contact/send', [ContactController::class, 'send'])->name('contact.send');
 });
 
-Route::get('/debug-verification', function () {
-    $user = \App\Models\User::first();
-
-    if (!$user) {
-        return 'No users found';
-    }
-
-    // Generate a test verification URL
-    $testUrl = \Illuminate\Support\Facades\URL::temporarySignedRoute(
-        'verification.verify',
-        now()->addMinutes(60),
-        [
-            'id' => $user->id,
-            'hash' => sha1($user->email)
-        ]
-    );
-
-    return [
-        'config_app_url' => config('app.url'),
-        'config_app_key' => substr(config('app.key'), 0, 30) . '...',
-        'config_app_env' => config('app.env'),
-        'request_url' => request()->url(),
-        'request_root' => request()->root(),
-        'generated_verification_url' => $testUrl,
-        'url_has_railway_domain' => str_contains($testUrl, 'railway.app'),
-        'route_exists' => \Illuminate\Support\Facades\Route::has('verification.verify'),
-        'click_to_test' => $testUrl,
-    ];
-});
-
-Route::get('/test-signed-url', function () {
-    $user = \App\Models\User::first();
-
-    $url = \Illuminate\Support\Facades\URL::temporarySignedRoute(
-        'verification.verify',
-        now()->addMinutes(60),
-        ['id' => $user->id, 'hash' => sha1($user->email)]
-    );
-
-    return redirect($url);
-});
-
 // Client Authentication Routes
 Route::prefix('/auth')->group(function () {
     Route::middleware('guest.client')->group(function () {
