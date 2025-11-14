@@ -161,7 +161,7 @@
                                 <p class="text-sm">{{ $client->second_choice ?? 'N/A' }}</p>
                             </div>
                             <div>
-                                <label class="text-gray-600 text-sm">CPGA</label>
+                                <label class="text-gray-600 text-sm">CGPA</label>
                                 <p class="text-sm">{{ $client->CPGA ?? 'N/A' }}</p>
                             </div>
                             <div>
