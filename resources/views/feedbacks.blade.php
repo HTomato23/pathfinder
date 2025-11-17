@@ -79,8 +79,8 @@
                             </div>
 
                             <!-- Comment -->
-                            <p class="text-sm leading-relaxed line-clamp-4 break-words" 
-                                x-text="feedback.comment ? '\"' + feedback.comment + '\"' : 'No comment provided'">
+                            <p class="text-sm leading-relaxed" 
+                                x-text="feedback.comment">
                             </p>
 
                             <!-- Time Badge -->

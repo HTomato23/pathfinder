@@ -243,7 +243,7 @@
                                 </div>
 
                                 <!-- Comment -->
-                                <p class="text-sm leading-relaxed line-clamp-4">
+                                <p class="text-sm leading-relaxed">
                                     "{{ $feedback->comment }}"
                                 </p>
 
