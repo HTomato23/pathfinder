@@ -188,10 +188,10 @@
      <!-- User Feedback Section -->
     <div class="w-[85%] mx-auto py-10">
         <div class="flex flex-col justify-center gap-5">
-            <div class="reveal text-3xl sm:text-5xl text-center font-semibold font-poppins uppercase bg-gradient-to-r from-green-700 via-emerald-600 to-green-500 bg-clip-text text-transparent">
+            <div class="text-3xl sm:text-5xl text-center font-semibold font-poppins uppercase bg-gradient-to-r from-green-700 via-emerald-600 to-green-500 bg-clip-text text-transparent">
                 What Our Users Say
             </div>
-            <p class="reveal text-center text-sm sm:text-base opacity-70 max-w-2xl mx-auto">
+            <p class="text-center text-sm sm:text-base opacity-70 max-w-2xl mx-auto">
                 Real experiences from students and professionals who found their path with Pathfinder
             </p>
 
