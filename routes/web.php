@@ -223,7 +223,7 @@ Route::prefix('dashboard')->group(function () {
             Route::patch('/{feedback}/update', [FeedbackClientController::class, 'update']);
 
             // Delete Feedback
-            Route::delete('/{feedback}/delete', [FeedbackClientController::class, 'delete']);
+            Route::delete('/{feedback}/delete', [FeedbackClientController::class, 'destroy']);
         });
 
         // Client Browse Routes

@@ -156,7 +156,7 @@
                         <p class="text-xs opacity-70">Click on the stars to rate (1-5)</p>
 
                         <!-- Action Buttons -->
-                        <div class="flex flex-col-reverse sm:flex-row gap-2 mt-6">
+                        <div class="flex justify-end gap-2 mt-6">
                             <button 
                                 type="button" 
                                 class="btn btn-ghost w-full sm:w-auto"

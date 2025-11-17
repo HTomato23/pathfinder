@@ -233,7 +233,7 @@ class User extends Authenticatable implements MustVerifyEmail
 
     public function feedback(): HasMany
     {
-        return $this->hasMany(Comment::class);
+        return $this->hasMany(UserFeedback::class);
     }
 
 

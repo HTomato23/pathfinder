@@ -42,7 +42,7 @@ class FeedbackClientController extends Controller
         return redirect()->back()->with('success', 'Feedback created successfully!');
     }
 
-    public function show(User $feedback)
+    public function show(UserFeedback $feedback)
     {
         return response()
             ->view('dashboard.feedback.show', ['feedback' => $feedback])
