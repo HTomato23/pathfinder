@@ -141,7 +141,51 @@
         </div>
     </div>
 
-    <!-- User Feedback Section -->
+    <!-- Have more question? -->
+    <div class="w-[85%] mx-auto py-10">
+        <div class="flex flex-col justify-center gap-5">
+            <h1 class="text-3xl sm:text-5xl text-center font-semibold font-poppins uppercase bg-gradient-to-r from-green-700 via-emerald-600 to-green-500 bg-clip-text text-transparent">have more question?</h1>
+            <div class="join join-vertical bg-base-100 max-w-5xl w-full mx-auto">
+                <div class="reveal-stagger collapse collapse-arrow join-item border-base-300 border-b">
+                    <input type="radio" name="faq" />
+                    <div class="collapse-title font-semibold">What is Pathfinder?</div>
+                    <div class="collapse-content text-sm">Pathfinder is a platform designed to help students and job seekers discover career paths, take skill assessments, and access personalized growth tools.</div>
+                </div>
+
+                <div class="reveal-stagger collapse collapse-arrow join-item border-base-300 border-b">
+                    <input type="radio" name="faq" />
+                    <div class="collapse-title font-semibold">Is Pathfinder free to use?</div>
+                    <div class="collapse-content text-sm">Yes, Pathfinder offers core features for free, including account creation, assessments, and basic career insights.</div>
+                </div>
+
+                <div class="reveal-stagger collapse collapse-arrow join-item border-base-300 border-b">
+                    <input type="radio" name="faq" />
+                    <div class="collapse-title font-semibold">How do I take an assessment?</div>
+                    <div class="collapse-content text-sm">After signing up, simply go to your dashboard and click "Start Assessment" to begin your personalized career quiz.</div>
+                </div>
+
+                <div class="reveal-stagger collapse collapse-arrow join-item border-base-300 border-b">
+                    <input type="radio" name="faq" />
+                    <div class="collapse-title font-semibold">What happens after I take the assessment?</div>
+                    <div class="collapse-content text-sm">You'll receive tailored recommendations, including career suggestions, learning paths, and your skill profile.</div>
+                </div>
+
+                <div class="reveal-stagger collapse collapse-arrow join-item border-base-300 border-b">
+                    <input type="radio" name="faq" />
+                    <div class="collapse-title font-semibold">Can I retake the assessment?</div>
+                    <div class="collapse-content text-sm">Yes, you can retake the assessment anytime to reflect your growth or changing interests.</div>
+                </div>
+
+                <div class="reveal-stagger collapse collapse-arrow join-item border-base-300 border-b">
+                    <input type="radio" name="faq" />
+                    <div class="collapse-title font-semibold">How do I track my progress?</div>
+                    <div class="collapse-content text-sm">Your dashboard includes a progress section that visualizes your learning milestones and career readiness indicators.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- User Feedback Section -->
     <div class="w-[85%] mx-auto py-10">
         <div class="flex flex-col justify-center gap-5">
             <div class="text-3xl sm:text-5xl text-center font-semibold font-poppins uppercase bg-gradient-to-r from-green-700 via-emerald-600 to-green-500 bg-clip-text text-transparent">
@@ -217,59 +261,13 @@
                 <!-- View All Button (if more than 6 feedbacks) -->
                 @if($feedbacks->count() > 6)
                     <div class="flex justify-center mt-8">
-                        <a href="{{ route('login') }}" class="btn btn-outline btn-primary rounded-full">
+                        <a href="{{ route('login') }}" class="btn btn-outline btn-success rounded-full">
                             View All Feedback
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                            </svg>
+                             <x-heroicon-o-arrow-long-right class="w-5 h-5"/>
                         </a>
                     </div>
                 @endif
             @endif
-        </div>
-    </div>
-    
-    <!-- Have more question? -->
-    <div class="w-[85%] mx-auto py-10">
-        <div class="flex flex-col justify-center gap-5">
-            <h1 class="text-3xl sm:text-5xl text-center font-semibold font-poppins uppercase bg-gradient-to-r from-green-700 via-emerald-600 to-green-500 bg-clip-text text-transparent">have more question?</h1>
-            <div class="join join-vertical bg-base-100 max-w-5xl w-full mx-auto">
-                <div class="reveal-stagger collapse collapse-arrow join-item border-base-300 border-b">
-                    <input type="radio" name="faq" />
-                    <div class="collapse-title font-semibold">What is Pathfinder?</div>
-                    <div class="collapse-content text-sm">Pathfinder is a platform designed to help students and job seekers discover career paths, take skill assessments, and access personalized growth tools.</div>
-                </div>
-
-                <div class="reveal-stagger collapse collapse-arrow join-item border-base-300 border-b">
-                    <input type="radio" name="faq" />
-                    <div class="collapse-title font-semibold">Is Pathfinder free to use?</div>
-                    <div class="collapse-content text-sm">Yes, Pathfinder offers core features for free, including account creation, assessments, and basic career insights.</div>
-                </div>
-
-                <div class="reveal-stagger collapse collapse-arrow join-item border-base-300 border-b">
-                    <input type="radio" name="faq" />
-                    <div class="collapse-title font-semibold">How do I take an assessment?</div>
-                    <div class="collapse-content text-sm">After signing up, simply go to your dashboard and click "Start Assessment" to begin your personalized career quiz.</div>
-                </div>
-
-                <div class="reveal-stagger collapse collapse-arrow join-item border-base-300 border-b">
-                    <input type="radio" name="faq" />
-                    <div class="collapse-title font-semibold">What happens after I take the assessment?</div>
-                    <div class="collapse-content text-sm">You'll receive tailored recommendations, including career suggestions, learning paths, and your skill profile.</div>
-                </div>
-
-                <div class="reveal-stagger collapse collapse-arrow join-item border-base-300 border-b">
-                    <input type="radio" name="faq" />
-                    <div class="collapse-title font-semibold">Can I retake the assessment?</div>
-                    <div class="collapse-content text-sm">Yes, you can retake the assessment anytime to reflect your growth or changing interests.</div>
-                </div>
-
-                <div class="reveal-stagger collapse collapse-arrow join-item border-base-300 border-b">
-                    <input type="radio" name="faq" />
-                    <div class="collapse-title font-semibold">How do I track my progress?</div>
-                    <div class="collapse-content text-sm">Your dashboard includes a progress section that visualizes your learning milestones and career readiness indicators.</div>
-                </div>
-            </div>
         </div>
     </div>
 
