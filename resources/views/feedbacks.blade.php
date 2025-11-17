@@ -37,7 +37,7 @@
 
                 <template x-for="feedback in feedbacks" :key="feedback.id">
                     <div x-cloak :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'" 
-                         class="reveal-stagger card bg-base-100 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                         class="reveal-stagger card bg-base-100 shadow-sm hover:shadow-md transition-all duration-300 transform hover:scale-105">
                         <div class="card-body">
                             <!-- User Info -->
                             <div class="flex items-center gap-3 mb-3">
@@ -79,9 +79,9 @@
                             </div>
 
                             <!-- Comment -->
-                            <div class="flex-1">
-                                <p class="text-sm leading-relaxed line-clamp-4 break-words" x-text="'\"' + feedback.comment + '\"'"></p>
-                            </div>
+                            <p class="text-sm leading-relaxed line-clamp-4 break-words" 
+                                x-text="feedback.comment ? '\"' + feedback.comment + '\"' : 'No comment provided'">
+                            </p>
 
                             <!-- Time Badge -->
                             <div class="card-actions justify-end mt-3">
