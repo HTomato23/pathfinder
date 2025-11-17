@@ -26,6 +26,7 @@ use App\Http\Controllers\Client\ConsultationClientController;
 use App\Http\Controllers\Client\SoftSkillTestClientController;
 use App\Http\Controllers\Client\PersonalityTestClientController;
 use App\Http\Controllers\Client\EmailClientVerificationController;
+use App\Http\Controllers\Client\FeedbackClientController;
 use App\Http\Controllers\Client\PersonalExperienceClientController;
 
 /* ===========================
@@ -204,6 +205,25 @@ Route::prefix('dashboard')->group(function () {
             // Comment
             Route::get('/', [CommentClientController::class, 'index'])->name('dashboard.comment')
                 ->middleware('summary');
+        });
+
+        // Client Feedback Routes
+        Route::prefix('feedback')->group(function () {
+            // Index Feedback
+            Route::get('/', [FeedbackClientController::class, 'index'])->name('dashboard.feedback')
+                ->middleware('summary');
+
+            // Store Feedback
+            Route::post('/', [FeedbackClientController::class, 'store'])->name('dashboard.feedback.store');
+
+            // Show Feedback
+            Route::get('/{feedback}', [FeedbackClientController::class, 'show']);
+
+            // Update Feedback
+            Route::patch('/{feedback}/update', [FeedbackClientController::class, 'update']);
+
+            // Delete Feedback
+            Route::delete('/{feedback}/delete', [FeedbackClientController::class, 'delete']);
         });
 
         // Client Browse Routes

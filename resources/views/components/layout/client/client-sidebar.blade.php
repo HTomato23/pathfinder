@@ -111,6 +111,14 @@
             </x-ui.nav-link>
         </li>
 
+        {{-- Feedback --}}
+        <li>
+            <x-ui.nav-link href="{{ route('dashboard.feedback') }}" :active="request()->routeIs('dashboard.feedback')">
+                 <x-heroicon-o-star class="w-5 h-5"/>
+                <span>Feedback</span>
+            </x-ui.nav-link>
+        </li>
+
         {{-- Browse Jobs --}}
         <li>
             <x-ui.nav-link href="{{ route('browse.jobs') }}" :active="request()->routeIs('browse.jobs')">

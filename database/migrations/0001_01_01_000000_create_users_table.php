@@ -540,6 +540,14 @@ return new class extends Migration
             $table->timestamps();
         });
 
+        Schema::create('users_feedback', function (Blueprint $table) {
+            $table->id();
+            $table->foreignIdFor(App\Models\User::class)->constrained('users', 'id')->onDelete('cascade');
+            $table->text('comment');
+            $table->integer('rating');
+            $table->timestamps();
+        });
+
         Schema::create('password_reset_tokens', function (Blueprint $table) {
             $table->string('email')->primary();
             $table->string('token');
