@@ -45,7 +45,26 @@ class ProfileClientController extends Controller
             ],
             'section' => ['required', 'regex:/^[A-Z]{4}-\d[A-Z]$/'],
             'year_level' => ['required', 'in:1st Year,2nd Year,3rd Year,4th Year'],
-            'batch_year' => ['required', 'regex:/^\d{4}-\d{4}$/'],
+            'batch_year' => [
+                'required',
+                'regex:/^\d{4}-\d{4}$/',
+                function ($attribute, $value, $fail) {
+                    [$firstYear, $secondYear] = array_map('intval', explode('-', $value));
+
+                    if ($firstYear < 2022) {
+                        $fail('The batch year must start from 2022 onwards.');
+                    }
+
+                    if ($secondYear !== $firstYear + 1) {
+                        $fail('The batch year format must be consecutive years (e.g., 2022-2023).');
+                    }
+
+                    $currentYear = (int)date('Y');
+                    if ($firstYear > $currentYear) {
+                        $fail('The batch year cannot be in the future.');
+                    }
+                },
+            ],
             'graduation_year' => ['required', 'regex:/^\d{4}$/'],
             'first_choice' => ['nullable', 'regex:/^[a-zA-ZñÑ\s]+$/'],
             'second_choice' => ['nullable', 'regex:/^[a-zA-ZñÑ\s]+$/']

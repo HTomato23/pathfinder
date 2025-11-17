@@ -40,6 +40,11 @@
                 return input.replace(/[^a-zA-ZñÑ\s.'-]/g, ''); 
             },
 
+            age: '',
+            sanitizeAge(input) {
+                return input.replace(/[^0-9]/g, '');
+            },
+
             dream: '',
             first_choice: '',
             second_choice: '',
@@ -77,7 +82,34 @@
                     input = input.slice(0, 4) + '-' + input.slice(4);
                 }
 
-                return input.slice(0, 9);
+                input = input.slice(0, 9);
+                
+                // Validate that first year is 2022 or later
+                if (input.length >= 4) {
+                    const firstYear = parseInt(input.slice(0, 4));
+                    
+                    // If less than 2022, reset to 2022
+                    if (firstYear < 2022) {
+                        input = '2022';
+                    }
+                    
+                    // Optional: Prevent future years beyond current year
+                    const currentYear = new Date().getFullYear();
+                    if (firstYear > currentYear) {
+                        input = currentYear.toString();
+                    }
+                    
+                    // Optional: Validate second year is firstYear + 1
+                    if (input.length === 9) {
+                        const secondYear = parseInt(input.slice(5, 9));
+                        const expectedSecondYear = firstYear + 1;
+                        if (secondYear !== expectedSecondYear) {
+                            input = input.slice(0, 5) + expectedSecondYear;
+                        }
+                    }
+                }
+                
+                return input;
             },
 
             graduationYear: '',
@@ -151,7 +183,7 @@
                         {{-- Age --}}
                         <div class="flex w-full flex-col">
                             <x-ui.form-label required>Age:</x-ui.form-label>
-                            <x-ui.form-input class="validator" type="number" name="age" placeholder="e.g 17" maxlength="2" @keydown="if(['e','E','+','-'].includes($event.key)) $event.preventDefault()" required />
+                            <x-ui.form-input class="validator" type="text" name="age" placeholder="e.g 17" x-model="age" @input="age = sanitizeAge($event.target.value)" maxlength="3" required />
                             <p class="validator-hint hidden">
                                 Input your age
                             </p>
@@ -187,7 +219,7 @@
                     </p>
 
                     <x-ui.form-label class="mb-1">What career do you aspire to pursue?</x-ui.form-label>
-                    <x-ui.form-input class="validator" type="text" name="dream" placeholder="Career goal" x-model="dream" @input="dream = sanitizeInput(dream)" />
+                    <x-ui.form-input class="validator" type="text" name="dream" placeholder="Career goal" x-model="dream" @input="dream = sanitizeInput($event.target.value)" />
                     <p class="validator-hint hidden">
                         Tell us about your career goal.                    
                     </p>
@@ -302,10 +334,10 @@
                     </div>
 
                     <x-ui.form-label class="mb-1">First choice:</x-ui.form-label>
-                    <x-ui.form-input class="validator" type="text" name="first_choice" placeholder="Course" x-model="first_choice" @input="first_choice = sanitizeInput(first_choice)" />
+                    <x-ui.form-input class="validator" type="text" name="first_choice" placeholder="Course" x-model="first_choice" @input="first_choice = sanitizeInput($event.target.value)" />
 
                     <x-ui.form-label class="mb-1">Second choice:</x-ui.form-label>
-                    <x-ui.form-input class="validator" type="text" name="second_choice" placeholder="Course" x-model="second_choice" @input="second_choice = sanitizeInput(second_choice)" />
+                    <x-ui.form-input class="validator" type="text" name="second_choice" placeholder="Course" x-model="second_choice" @input="second_choice = sanitizeInput($event.target.value)" />
                 </fieldset>
             </div>
         </div>
