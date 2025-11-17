@@ -13,12 +13,13 @@ class FeedbackClientController extends Controller
     public function index()
     {
         // Fetch feedback for the logged-in user
-        $feedbacks = UserFeedback::where('user_id', Auth::id())
+        $feedbacks = UserFeedback::with('user') // ✅ Add this line
+            ->where('user_id', Auth::id())
             ->orderBy('created_at', 'desc')
             ->get();
 
         return response()
-            ->view('dashboard.feedback.index', ['feedbacks' => $feedbacks]) // ← Pass data to view
+            ->view('dashboard.feedback.index', ['feedbacks' => $feedbacks])
             ->header('Cache-Control', 'no-cache, no-store, must-revalidate')
             ->header('Pragma', 'no-cache')
             ->header('Expires', '0');
