@@ -53,7 +53,8 @@ Route::prefix('/auth')->group(function () {
     Route::middleware('guest.client')->group(function () {
         // Client Session
         Route::get('/', [SessionClientController::class, 'show'])->name('show.loginClient');
-        Route::post('/', [SessionClientController::class, 'store'])->name('login');
+        Route::post('/', [SessionClientController::class, 'store'])->name('login')
+            ->middleware('throttle:5,5');
 
         // Client Register
         Route::get('/register', [RegisterClientController::class, 'create'])->name('show.registerClient');

@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
+use Illuminate\Http\Request;
+use Illuminate\Http\Exceptions\ThrottleRequestsException;
 
 return Application::configure(basePath: dirname(__DIR__))
     ->withRouting(
@@ -32,5 +34,31 @@ return Application::configure(basePath: dirname(__DIR__))
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions): void {
-        //
+        // Handle throttle exceptions with custom messages
+        $exceptions->render(function (ThrottleRequestsException $e, Request $request) {
+            // Login throttle message
+            if ($request->is('login') || $request->is('/')) {
+                $seconds = $e->getHeaders()['Retry-After'] ?? 60;
+                $minutes = ceil($seconds / 60);
+
+                return back()->withErrors([
+                    'email' => "Too many login attempts. Please try again in {$minutes} minute(s)."
+                ])->withInput($request->only('email'));
+            }
+
+            // Register throttle message
+            if ($request->is('register')) {
+                $seconds = $e->getHeaders()['Retry-After'] ?? 60;
+                $minutes = ceil($seconds / 60);
+
+                return back()->withErrors([
+                    'throttle' => "Too many registration attempts. Please try again in {$minutes} minute(s)."
+                ])->withInput($request->except('password', 'password_confirmation'));
+            }
+
+            // Default throttle message for other routes
+            return back()->withErrors([
+                'throttle' => 'Too many attempts. Please slow down and try again later.'
+            ]);
+        });
     })->create();
