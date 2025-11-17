@@ -4,8 +4,6 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
-use Illuminate\Http\Request;
-use Illuminate\Http\Exceptions\ThrottleRequestsException;
 
 return Application::configure(basePath: dirname(__DIR__))
     ->withRouting(
@@ -34,15 +32,5 @@ return Application::configure(basePath: dirname(__DIR__))
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions): void {
-        // Handle throttle exceptions for login
-        $exceptions->render(function (ThrottleRequestsException $e, Request $request) {
-            if ($request->is('login') || $request->is('/')) {
-                $seconds = $e->getHeaders()['Retry-After'] ?? 60;
-                $minutes = ceil($seconds / 60);
-
-                return back()->withErrors([
-                    'email' => "Too many login attempts. Please try again in {$minutes} minute(s)."
-                ])->withInput($request->only('email'));
-            }
-        });
+        //
     })->create();

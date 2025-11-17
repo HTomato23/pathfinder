@@ -44,11 +44,13 @@ Route::prefix('admin/auth')->group(function () {
     Route::middleware('guest.admin')->group(function () {
         // Admin Session
         Route::get('/', [SessionAdminController::class, 'show'])->name('show.login');
-        Route::post('/', [SessionAdminController::class, 'store'])->name('admin.login');
+        Route::post('/', [SessionAdminController::class, 'store'])->name('admin.login')
+            ->middleware('throttle:5,5');
 
         // Admin Forgot Password
         Route::get('/forgotpassword', [ForgotAdminController::class, 'show'])->name('admin.auth.forgotpassword');
-        Route::post('/forgotpassword', [ForgotAdminController::class, 'sendEmail'])->name('admin.auth.forgotpassword.send');
+        Route::post('/forgotpassword', [ForgotAdminController::class, 'sendEmail'])->name('admin.auth.forgotpassword.send')
+            ->middleware('throttle:3,1');
 
         // Admin Reset Password
         Route::get('/resetpassword/{token}', [ResetAdminController::class, 'show'])->name('admin.auth.resetpassword');
