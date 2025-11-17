@@ -192,7 +192,7 @@
                 What Our Users Say
             </div>
             <p class="text-center text-sm sm:text-base opacity-70 max-w-2xl mx-auto">
-                Real experiences from students and professionals who found their path with Pathfinder
+                Real experiences from students who found their path with Pathfinder
             </p>
 
             @if($feedbacks->isEmpty())
