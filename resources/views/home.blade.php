@@ -188,16 +188,16 @@
      <!-- User Feedback Section -->
     <div class="w-[85%] mx-auto py-10">
         <div class="flex flex-col justify-center gap-5">
-            <div class="text-3xl sm:text-5xl text-center font-semibold font-poppins uppercase bg-gradient-to-r from-green-700 via-emerald-600 to-green-500 bg-clip-text text-transparent">
+            <div class="reveal text-3xl sm:text-5xl text-center font-semibold font-poppins uppercase bg-gradient-to-r from-green-700 via-emerald-600 to-green-500 bg-clip-text text-transparent">
                 What Our Users Say
             </div>
-            <p class="text-center text-sm sm:text-base opacity-70 max-w-2xl mx-auto">
+            <p class="reveal text-center text-sm sm:text-base opacity-70 max-w-2xl mx-auto">
                 Real experiences from students and professionals who found their path with Pathfinder
             </p>
 
             @if($feedbacks->isEmpty())
                 <!-- Empty State -->
-                <div class="reveal-stagger flex flex-col items-center justify-center py-12">
+                <div class="reveal flex flex-col items-center justify-center py-12">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 opacity-30 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                     </svg>
