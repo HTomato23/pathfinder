@@ -261,7 +261,7 @@
                 <!-- View All Button (if more than 6 feedbacks) -->
                 @if($feedbacks->count() > 6)
                     <div class="flex justify-center mt-8">
-                        <a href="{{ route('login') }}" class="btn btn-outline btn-success rounded-full">
+                        <a href="{{ route('feedbacks') }}" class="btn btn-outline btn-success rounded-full">
                             View All Feedback
                              <x-heroicon-o-arrow-long-right class="w-5 h-5"/>
                         </a>

@@ -11,7 +11,7 @@
             What Our Users Say
         </div>
         <p class="text-center text-base sm:text-lg opacity-70 mt-4 max-w-3xl mx-auto">
-            Real experiences from students and professionals who found their path with Pathfinder
+            Real experiences from students who found their path with Pathfinder
         </p>
     </div>
 
