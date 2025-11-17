@@ -3,13 +3,20 @@
     <main class="flex flex-col gap-6 p-5 xl:ml-[256px]">
         <x-layout.client.client-navbar page="Feedback"></x-layout.client.client-navbar>
 
-         <div x-cloak :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'" class="shadow-sm rounded-sm p-10 w-full">
-            <div class="flex justify-end">
-                <x-ui.button x-bind:class="$store.theme.isDark() ? 'btn-soft' : ''" color="primary" onclick="my_modal_1.showModal()">Create</x-ui.button>
-            </div>
-         </div>
+        <!-- Create Button - Responsive -->
+        <div class="flex justify-end">
+            <x-ui.button 
+                x-bind:class="$store.theme.isDark() ? 'btn-soft' : ''" 
+                color="primary" 
+                onclick="my_modal_1.showModal()"
+                class="w-full sm:w-auto"
+            >
+                <x-heroicon-o-plus class="w-5 h-5"/>
+                Create Feedback
+            </x-ui.button>
+        </div>
 
-        <!-- Feedback -->
+        <!-- Feedback Grid -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
             @forelse ($feedbacks as $item)
                 <div x-cloak :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'" class="card bg-base-100 shadow-md hover:shadow-lg transition-shadow">
@@ -87,7 +94,7 @@
                             </svg>
                             <h3 class="text-xl font-bold">No Feedback Yet</h3>
                             <p class="text-sm opacity-70 max-w-md mt-2">
-                                You haven't submitted any feedback yet.
+                                You haven't submitted any feedback yet. Click the button above to create your first feedback.
                             </p>
                         </div>
                     </div>
@@ -95,21 +102,21 @@
             @endforelse
         </div>
 
+        <!-- Create Feedback Modal -->
         <dialog id="my_modal_1" class="modal">
-            <div class="modal-box font-outfit">
-                <div class="flex items-center gap-2 text-primary">
+            <div class="modal-box font-outfit w-11/12 max-w-2xl">
+                <div class="flex items-center gap-2 text-primary mb-4">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 shrink-0 stroke-current" fill="none" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
                     </svg>
                     <h3 class="text-lg font-bold">Create Feedback</h3>
                 </div>
+
                 <form method="POST" action="{{ route('dashboard.feedback.store') }}" 
                     x-data="{ 
                         submitting: false,
                         rating: '',
-                        sanitizeRating(input) {
-                            return input.replace(/[^0-9]/g, '');
-                        }, 
+                        comment: ''
                     }" 
                     @submit.prevent="if (!submitting) { submitting = true; $el.submit(); }">
 
@@ -117,26 +124,57 @@
 
                     <fieldset class="fieldset">
 
+                        <!-- Comment -->
                         <x-ui.form-label required>Feedback:</x-ui.form-label>
-                        <textarea class="textarea textarea-primary w-full h-[100px] resize-none" name="comment" placeholder="Feedback or comment..."></textarea>
-                        <p class="text-gray-500">>Please provide your feedback or comments.</p>
-
-                        <x-ui.form-label required>Rating:</x-ui.form-label>
-                        <x-ui.form-input class="validator" type="text" name="rating" placeholder="e.g 5" x-model="rating" @input="rating = sanitizeRating($event.target.value)" maxlength="1" required />
-                        <p class="validator-hint hidden">
-                            Input your rating
+                        <textarea 
+                            class="textarea textarea-primary w-full h-[120px] resize-none" 
+                            name="comment" 
+                            placeholder="Share your thoughts, suggestions, or experience..."
+                            x-model="comment"
+                            maxlength="1000"
+                            required
+                        ></textarea>
+                        <p class="text-xs opacity-70 mt-1">
+                            <span x-text="comment.length"></span>/1000 characters
                         </p>
 
-                        <!-- Submit Button -->
-                        <x-ui.button 
-                            type="submit" 
-                            color="primary" 
-                            class="mt-4"
-                            x-bind:disabled="submitting" 
-                        >
-                            <span x-show="!submitting">Create</span>
-                            <span x-show="submitting" style="display: none">Creating <span class="loading loading-dots loading-xs"></span></span>
-                        </x-ui.button>
+                        <!-- Rating with Stars -->
+                        <x-ui.form-label required class="mt-4">Rating:</x-ui.form-label>
+                        <div class="flex items-center gap-3 mb-2">
+                            <div class="rating rating-lg">
+                                @for($i = 1; $i <= 5; $i++)
+                                    <input 
+                                        type="radio" 
+                                        name="rating" 
+                                        value="{{ $i }}"
+                                        class="mask mask-star-2 bg-orange-400"
+                                        required
+                                    />
+                                @endfor
+                            </div>
+                        </div>
+                        <p class="text-xs opacity-70">Click on the stars to rate (1-5)</p>
+
+                        <!-- Action Buttons -->
+                        <div class="flex flex-col-reverse sm:flex-row gap-2 mt-6">
+                            <button 
+                                type="button" 
+                                class="btn btn-ghost w-full sm:w-auto"
+                                onclick="my_modal_1.close()"
+                                x-bind:disabled="submitting"
+                            >
+                                Cancel
+                            </button>
+                            <x-ui.button 
+                                type="submit" 
+                                color="primary" 
+                                class="w-full sm:w-auto"
+                                x-bind:disabled="submitting" 
+                            >
+                                <span x-show="!submitting">Submit Feedback</span>
+                                <span x-show="submitting" style="display: none">Submitting <span class="loading loading-dots loading-xs"></span></span>
+                            </x-ui.button>
+                        </div>
                     </fieldset>
                 </form>
             </div>
