@@ -10,7 +10,7 @@
         <div class="reveal text-4xl sm:text-5xl lg:text-7xl text-center font-semibold font-poppins bg-gradient-to-r from-green-700 via-emerald-600 to-green-500 bg-clip-text text-transparent p-3">
             What Our Users Say
         </div>
-        <p class="text-center text-base sm:text-lg opacity-70 mt-4 max-w-3xl mx-auto">
+        <p class="reveal text-center text-base sm:text-lg opacity-70 mt-4 max-w-3xl mx-auto">
             Real experiences from students who found their path with Pathfinder
         </p>
     </div>
