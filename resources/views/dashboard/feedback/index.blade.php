@@ -3,7 +3,22 @@
     <main class="flex flex-col gap-6 p-5 xl:ml-[256px]">
         <x-layout.client.client-navbar page="Feedback"></x-layout.client.client-navbar>
 
-        <!-- Create Button - Responsive -->
+        {{-- Success message --}}
+        @if (session('success'))
+            <div class="fixed bottom-4 right-4 z-50 space-y-2 w-[90%] sm:max-w-md">
+                <x-ui.alert type="success" message="{{ session('success') }}" class="mb-3" />
+            </div>
+        @endif
+
+        {{-- Get all errors --}}
+        @if ($errors->any())
+            <div class="fixed bottom-4 right-4 z-50 space-y-2 w-[90%] sm:max-w-md">
+                @foreach ($errors->all() as $error)
+                    <x-ui.alert type="error" message="{{ $error }}" class="mb-2" />
+                @endforeach
+            </div>
+        @endif
+
         <div class="flex justify-end">
             <x-ui.button 
                 x-bind:class="$store.theme.isDark() ? 'btn-soft' : ''" 

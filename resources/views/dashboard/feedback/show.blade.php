@@ -3,14 +3,30 @@
     <main class="flex flex-col gap-6 p-5 xl:ml-[256px]">
         <x-layout.client.client-navbar page="Feedback"></x-layout.client.client-navbar>
 
+        {{-- Success message --}}
+        @if (session('success'))
+            <div class="fixed bottom-4 right-4 z-50 space-y-2 w-[90%] sm:max-w-md">
+                <x-ui.alert type="success" message="{{ session('success') }}" class="mb-3" />
+            </div>
+        @endif
+
+        {{-- Get all errors --}}
+        @if ($errors->any())
+            <div class="fixed bottom-4 right-4 z-50 space-y-2 w-[90%] sm:max-w-md">
+                @foreach ($errors->all() as $error)
+                    <x-ui.alert type="error" message="{{ $error }}" class="mb-2" />
+                @endforeach
+            </div>
+        @endif
+
         <!-- Feedback Detail Card -->
-        <div x-cloak :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'" class="card bg-base-100 shadow-xl">
+        <div x-cloak :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'" class="card bg-base-100 shadow-sm">
             <div class="card-body">
                 <!-- Header Section -->
                 <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
                     <div class="flex items-center gap-4">
                         <div class="avatar avatar-placeholder">
-                            <div class="bg-primary text-primary-content w-16 rounded-full">
+                            <div class="bg-neutral text-neutral-content w-16 rounded-full">
                                 <span class="text-xl">{{ substr($feedback->user->first_name, 0, 1) }}{{ substr($feedback->user->last_name, 0, 1) }}</span>
                             </div>
                         </div>
@@ -23,7 +39,7 @@
                     <!-- Action Buttons -->
                     <div class="flex gap-2">
                         <button 
-                            onclick="edit_modal.showModal()" 
+                            onclick="my_modal_1.showModal()" 
                             class="btn btn-sm btn-primary"
                             x-bind:class="$store.theme.isDark() ? 'btn-soft' : ''"
                         >
@@ -33,7 +49,7 @@
                             Edit
                         </button>
                         <button 
-                            onclick="delete_modal.showModal()" 
+                            onclick="my_modal_2.showModal()" 
                             class="btn btn-sm btn-error"
                         >
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -106,7 +122,7 @@
         </div>
 
         <!-- Edit Feedback Modal -->
-        <dialog id="edit_modal" class="modal">
+        <dialog id="my_modal_1" class="modal">
             <div class="modal-box font-outfit w-11/12 max-w-2xl">
                 <div class="flex items-center gap-2 text-primary mb-4">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 shrink-0 stroke-current" fill="none" viewBox="0 0 24 24">
@@ -188,7 +204,7 @@
         </dialog>
 
         <!-- Delete Confirmation Modal -->
-        <dialog id="delete_modal" class="modal">
+        <dialog id="my_modal_2" class="modal">
             <div class="modal-box">
                 <div class="flex items-center gap-2 text-error mb-4">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 shrink-0 stroke-current" fill="none" viewBox="0 0 24 24">

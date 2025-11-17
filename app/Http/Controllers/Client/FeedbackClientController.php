@@ -76,6 +76,8 @@ class FeedbackClientController extends Controller
 
         $feedback->delete();
 
-        return redirect()->back()->with('success', 'Feedback deleted successfully!');
+        return redirect()
+            ->route('dashboard.feedback')
+            ->with('success', "Successfully deleted feedback.");
     }
 }
