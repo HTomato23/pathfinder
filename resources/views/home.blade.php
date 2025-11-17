@@ -211,7 +211,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
                     @foreach($feedbacks->take(6) as $feedback)
                         <div :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'" 
-                            class="reveal-stagger card bg-base-100 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105 font-outfit">
+                            class="reveal-stagger card bg-base-100 shadow-sm hover:shadow-lg transition-all duration-300 transform hover:scale-105 font-outfit">
                             <div class="card-body">
                                 <!-- User Info -->
                                 <div class="flex items-center gap-3 mb-3">

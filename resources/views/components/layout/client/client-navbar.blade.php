@@ -88,7 +88,7 @@
 
                 {{-- Feedback --}}
                 <li>
-                    <a href="{{ route('dashboard.feedback') }}" class="{{ request()->routeIs('dashboard.feedback') ? 'menu-active' : '' }}">
+                    <a href="{{ route('dashboard.feedback') }}" class="{{ request()->routeIs('dashboard/feedback/*') ? 'menu-active' : '' }}">
                         <x-heroicon-o-star class="w-4 h-4"/> Feedback
                     </a>
                 </li>

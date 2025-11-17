@@ -113,7 +113,7 @@
 
         {{-- Feedback --}}
         <li>
-            <x-ui.nav-link href="{{ route('dashboard.feedback') }}" :active="request()->routeIs('dashboard.feedback')">
+            <x-ui.nav-link href="{{ route('dashboard.feedback') }}" :active="request()->routeIs('dashboard.feedback') || request()->is('dashboard/feedback/*')">
                  <x-heroicon-o-star class="w-5 h-5"/>
                 <span>Feedback</span>
             </x-ui.nav-link>
