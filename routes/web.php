@@ -62,7 +62,8 @@ Route::prefix('/auth')->group(function () {
 
         // Client Forgot Password
         Route::get('/forgotpassword', [ForgotClientController::class, 'show'])->name('auth.forgotpassword');
-        Route::post('/forgotpassword', [ForgotClientController::class, 'sendEmail'])->name('auth.forgotpassword.send');
+        Route::post('/forgotpassword', [ForgotClientController::class, 'sendEmail'])->name('auth.forgotpassword.send')
+            ->middleware('throttle:3,1');
 
         // Client Reset Password
         Route::get('/resetpassword/{token}', [ResetClientController::class, 'show'])->name('auth.resetpassword');
