@@ -31,7 +31,7 @@
                             </div>
                         </div>
                         <div>
-                            <h2 class="text-2xl font-bold">{{ $feedback->user->first_name }} {{ $feedback->user->last_name }}</h2>
+                            <h2 class="text-lg font-bold">{{ $feedback->user->first_name }} {{ $feedback->user->last_name }}</h2>
                             <p class="text-sm opacity-60">User Feedback</p>
                         </div>
                     </div>

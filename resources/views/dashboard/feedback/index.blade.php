@@ -34,7 +34,7 @@
         <!-- Feedback Grid -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
             @forelse ($feedbacks as $item)
-                <div x-cloak :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'" class="card bg-base-100 shadow-md hover:shadow-lg transition-shadow">
+                <div x-cloak :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'" class="card bg-base-100 shadow-sm hover:shadow-md transition-shadow">
                     <div class="card-body">
                         <!-- Header -->
                         <div class="flex items-start justify-between gap-4 mb-3">
