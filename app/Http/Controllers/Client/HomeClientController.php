@@ -23,8 +23,11 @@ class HomeClientController extends Controller
 
     public function feedbacks(Request $request)
     {
-        // Start query with eager loading
-        $query = UserFeedback::with('user')
+        // Start query with eager loading - select only safe fields
+        $query = UserFeedback::with(['user' => function ($query) {
+            $query->select('id', 'first_name', 'last_name');
+        }])
+            ->select('id', 'user_id', 'comment', 'rating', 'created_at', 'updated_at')
             ->orderBy('created_at', 'desc');
 
         // Get paginated results (12 per page for grid layout)
