@@ -10,7 +10,10 @@ class HomeClientController extends Controller
 {
     public function index()
     {
-        $feedbacks = UserFeedback::with('user')
+        $feedbacks = UserFeedback::with(['user' => function ($query) {
+            $query->select('id', 'first_name', 'last_name');
+        }])
+            ->select('id', 'user_id', 'comment', 'rating', 'created_at', 'updated_at')
             ->orderBy('created_at', 'desc')
             ->get();
 
