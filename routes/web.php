@@ -27,6 +27,7 @@ use App\Http\Controllers\Client\SoftSkillTestClientController;
 use App\Http\Controllers\Client\PersonalityTestClientController;
 use App\Http\Controllers\Client\EmailClientVerificationController;
 use App\Http\Controllers\Client\FeedbackClientController;
+use App\Http\Controllers\Client\HomeClientController;
 use App\Http\Controllers\Client\PersonalExperienceClientController;
 
 /* ===========================
@@ -37,7 +38,7 @@ use App\Http\Controllers\Client\PersonalExperienceClientController;
 
 Route::middleware('guest.client')->group(function () {
     // Public static pages
-    Route::view('/', 'home')->name('home');
+    Route::get('/', [HomeClientController::class, 'index'])->name('home');
     Route::view('/about', 'about')->name('about');
     Route::view('/contact', 'contact')->name('contact');
     Route::get('/blogs', [BlogsClientController::class, 'index'])->name('blogs');

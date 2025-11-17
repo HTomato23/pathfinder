@@ -46,7 +46,7 @@
                                 </div>
                                 <div>
                                     <p class="font-semibold text-sm">{{ $item->user->first_name }} {{ $item->user->last_name }}</p>
-                                    <p class="text-xs opacity-60">User</p>
+                                    <p class="text-xs opacity-60">User Feedback</p>
                                 </div>
                             </div>
                             <div class="text-right">

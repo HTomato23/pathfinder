@@ -141,6 +141,94 @@
         </div>
     </div>
 
+    <!-- User Feedback Section -->
+    <div class="w-[85%] mx-auto py-10">
+        <div class="flex flex-col justify-center gap-5">
+            <div class="text-3xl sm:text-5xl text-center font-semibold font-poppins uppercase bg-gradient-to-r from-green-700 via-emerald-600 to-green-500 bg-clip-text text-transparent">
+                What Our Users Say
+            </div>
+            <p class="text-center text-sm sm:text-base opacity-70 max-w-2xl mx-auto">
+                Real experiences from students and professionals who found their path with Pathfinder
+            </p>
+
+            @if($feedbacks->isEmpty())
+                <!-- Empty State -->
+                <div class="reveal-stagger flex flex-col items-center justify-center py-12">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 opacity-30 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                    </svg>
+                    <h3 class="text-xl font-bold">No Feedback Yet</h3>
+                    <p class="text-sm opacity-70 max-w-md mt-2 text-center">
+                        Be the first to share your experience with Pathfinder!
+                    </p>
+                </div>
+            @else
+                <!-- Feedback Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
+                    @foreach($feedbacks->take(6) as $feedback)
+                        <div :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'" 
+                            class="reveal-stagger card bg-base-100 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105 font-outfit">
+                            <div class="card-body">
+                                <!-- User Info -->
+                                <div class="flex items-center gap-3 mb-3">
+                                    <div class="avatar avatar-placeholder">
+                                        <div class="bg-green-700 text-white w-12 rounded-full">
+                                            <span class="text-sm">{{ substr($feedback->user->first_name, 0, 1) }}{{ substr($feedback->user->last_name, 0, 1) }}</span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="font-semibold text-sm">{{ $feedback->user->first_name }} {{ $feedback->user->last_name }}</p>
+                                        <p class="text-xs opacity-60">{{ $feedback->created_at->format('M j, Y') }}</p>
+                                    </div>
+                                </div>
+
+                                <!-- Rating -->
+                                <div class="flex items-center gap-2 mb-3">
+                                    <div class="rating rating-sm">
+                                        @for($i = 1; $i <= 5; $i++)
+                                            <input 
+                                                type="radio" 
+                                                name="rating-{{ $feedback->id }}" 
+                                                class="mask mask-star-2 bg-orange-400" 
+                                                {{ $feedback->rating == $i ? 'checked' : '' }}
+                                                disabled 
+                                            />
+                                        @endfor
+                                    </div>
+                                    <span class="text-xs font-semibold">({{ $feedback->rating }}/5)</span>
+                                </div>
+
+                                <!-- Comment -->
+                                <p class="text-sm leading-relaxed line-clamp-4">
+                                    "{{ $feedback->comment }}"
+                                </p>
+
+                                <!-- Time Badge -->
+                                <div class="card-actions justify-end mt-3">
+                                    <div class="badge badge-ghost badge-sm">
+                                        {{ $feedback->created_at->diffForHumans() }}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    @endforeach
+                </div>
+
+                <!-- View All Button (if more than 6 feedbacks) -->
+                @if($feedbacks->count() > 6)
+                    <div class="flex justify-center mt-8">
+                        <a href="{{ route('login') }}" class="btn btn-outline btn-primary rounded-full">
+                            View All Feedback
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                            </svg>
+                        </a>
+                    </div>
+                @endif
+            @endif
+        </div>
+    </div>
+    
     <!-- Have more question? -->
     <div class="w-[85%] mx-auto py-10">
         <div class="flex flex-col justify-center gap-5">
