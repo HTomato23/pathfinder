@@ -3,6 +3,12 @@
     <main class="flex flex-col gap-6 p-5 xl:ml-[256px]">
         <x-layout.client.client-navbar page="Feedback"></x-layout.client.client-navbar>
 
+         <div x-cloak :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'" class="shadow-sm rounded-sm p-10 w-full">
+            <div class="flex justify-end">
+                <x-ui.button x-bind:class="$store.theme.isDark() ? 'btn-soft' : ''" color="primary" onclick="my_modal_1.showModal()">Create</x-ui.button>
+            </div>
+         </div>
+
         <!-- Feedback -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
             @forelse ($feedbacks as $item)
@@ -88,5 +94,55 @@
                 </div>
             @endforelse
         </div>
+
+        <dialog id="my_modal_1" class="modal">
+            <div class="modal-box font-outfit">
+                <div class="flex items-center gap-2 text-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 shrink-0 stroke-current" fill="none" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <h3 class="text-lg font-bold">Create Feedback</h3>
+                </div>
+                <form method="POST" action="{{ route('dashboard.feedback.store') }}" 
+                    x-data="{ 
+                        submitting: false,
+                        rating: '',
+                        sanitizeRating(input) {
+                            return input.replace(/[^0-9]/g, '');
+                        }, 
+                    }" 
+                    @submit.prevent="if (!submitting) { submitting = true; $el.submit(); }">
+
+                    @csrf
+
+                    <fieldset class="fieldset">
+
+                        <x-ui.form-label required>Feedback:</x-ui.form-label>
+                        <textarea class="textarea textarea-primary w-full h-[100px] resize-none" name="comment" placeholder="Feedback or comment..."></textarea>
+                        <p class="text-gray-500">>Please provide your feedback or comments.</p>
+
+                        <x-ui.form-label required>Rating:</x-ui.form-label>
+                        <x-ui.form-input class="validator" type="text" name="rating" placeholder="e.g 5" x-model="rating" @input="rating = sanitizeRating($event.target.value)" maxlength="1" required />
+                        <p class="validator-hint hidden">
+                            Input your rating
+                        </p>
+
+                        <!-- Submit Button -->
+                        <x-ui.button 
+                            type="submit" 
+                            color="primary" 
+                            class="mt-4"
+                            x-bind:disabled="submitting" 
+                        >
+                            <span x-show="!submitting">Create</span>
+                            <span x-show="submitting" style="display: none">Creating <span class="loading loading-dots loading-xs"></span></span>
+                        </x-ui.button>
+                    </fieldset>
+                </form>
+            </div>
+            <form method="dialog" class="modal-backdrop">
+                <button>close</button>
+            </form>
+        </dialog>
     </main>
 </x-layout.client>

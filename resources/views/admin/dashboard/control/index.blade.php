@@ -312,7 +312,6 @@
                 <button>close</button>
             </form>
         </dialog>
-        
     </main>
     
 
