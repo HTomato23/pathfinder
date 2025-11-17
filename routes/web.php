@@ -43,6 +43,7 @@ Route::middleware('guest.client')->group(function () {
     Route::view('/contact', 'contact')->name('contact');
     Route::get('/blogs', [BlogsClientController::class, 'index'])->name('blogs');
     Route::get('/blogs/{blog}', [BlogsClientController::class, 'show']);
+    Route::get('/feedbacks', [HomeClientController::class, 'feedbacks'])->name('feedbacks');
     Route::view('/terms', 'terms')->name('terms');
     Route::view('/privacy', 'privacy')->name('privacy');
 

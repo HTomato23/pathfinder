@@ -5,6 +5,7 @@
         <a href="{{ route('about') }}" class="transition-colors duration-300 hover:text-green-700 cursor-pointer font-outfit">About</a>
         <a href="{{ route('contact') }}" class="transition-colors duration-300 hover:text-green-700 cursor-pointer font-outfit">Contact</a>
         <a href="{{ route('blogs') }}" class="transition-colors duration-300 hover:text-green-700 cursor-pointer font-outfit">Blogs</a>
+        <a href="{{ route('feedbacks') }}" class="transition-colors duration-300 hover:text-green-700 cursor-pointer font-outfit">Feedback</a>
     </nav>
 
     <nav>

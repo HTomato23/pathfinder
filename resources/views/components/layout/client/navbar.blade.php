@@ -27,6 +27,9 @@
             <li>
                 <x-ui.nav-link href="{{ route('blogs') }}" :active="request()->routeIs('blogs')">Blogs</x-ui.nav-link>
             </li>
+            <li>
+                <x-ui.nav-link href="{{ route('feedbacks') }}" :active="request()->routeIs('feedbacks')">Feedback</x-ui.nav-link>
+            </li>
         </ul>
     </div>
     <div class="navbar-end">
@@ -47,6 +50,9 @@
                 </li>
                 <li>
                     <x-ui.nav-link href="{{ route('blogs') }}" :active="request()->routeIs('blogs')">Blogs</x-ui.nav-link>
+                </li>
+                <li>
+                    <x-ui.nav-link href="{{ route('feedbacks') }}" :active="request()->routeIs('feedbacks')">Feedback</x-ui.nav-link>
                 </li>
                 <li>
                     <x-ui.nav-link href="{{ route('login') }}" :active="request()->routeIs('login')">Sign in</x-ui.nav-link>
