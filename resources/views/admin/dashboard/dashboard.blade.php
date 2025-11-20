@@ -10,7 +10,7 @@
             </div>
         @endif
 
-        <div class="flex flex-col lg:flex-row gap-2 justify-between">
+        <div class="flex flex-col xl:flex-row gap-2 justify-between">
             <div x-cloak :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'" class="flex flex-col gap-3 p-5 w-full rounded-sm shadow-sm">
                 <div class="flex items-center gap-2">
                     <h1 class="text-md font-medium">Control Management</h1>
