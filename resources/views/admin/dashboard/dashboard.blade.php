@@ -10,8 +10,8 @@
             </div>
         @endif
 
-        <div class="flex flex-col xl:flex-row gap-2 justify-between">
-            <div x-cloak :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'" class="flex flex-col gap-3 p-5 w-full rounded-sm shadow-sm">
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-2">
+            <div x-cloak :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'" class="flex flex-col gap-3 p-5 rounded-sm shadow-sm">
                 <div class="flex items-center gap-2">
                     <h1 class="text-md font-medium">Control Management</h1>
                 </div>
@@ -22,7 +22,7 @@
                     <a href="{{ route('admin.dashboard.control') }}" class="btn btn-sm btn-outline btn-primary">Manage</a>
                 </div>
             </div>
-            <div x-cloak :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'" class="flex flex-col gap-3 p-5 w-full rounded-sm shadow-sm">
+            <div x-cloak :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'" class="flex flex-col gap-3 p-5 rounded-sm shadow-sm">
                 <div class="flex items-center gap-2">
                     <h1 class="text-md font-medium">Client Management</h1>
                 </div>
@@ -33,7 +33,7 @@
                     <a href="{{ route('admin.dashboard.client') }}" class="btn btn-sm btn-outline btn-primary">Manage</a>
                 </div>
             </div>
-            <div x-cloak :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'" class="flex flex-col gap-3 p-5 w-full rounded-sm shadow-sm">
+            <div x-cloak :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'" class="flex flex-col gap-3 p-5 rounded-sm shadow-sm">
                 <div class="flex items-center gap-2">
                     <h1 class="text-md font-medium">Blog Management</h1>
                 </div>
@@ -44,7 +44,7 @@
                     <a href="{{ route('admin.dashboard.blogs') }}" class="btn btn-sm btn-outline btn-primary">Manage</a>
                 </div>
             </div>
-            <div x-cloak :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'" class="flex flex-col gap-3 p-5 w-full rounded-sm shadow-sm">
+            <div x-cloak :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'" class="flex flex-col gap-3 p-5 rounded-sm shadow-sm">
                 <div class="flex items-center gap-2">
                     <h1 class="text-md font-medium">System Demo</h1>
                 </div>
