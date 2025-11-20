@@ -27,7 +27,7 @@
                     <h1 class="text-md font-medium">Client Management</h1>
                 </div>
                 <div class="flex lg:h-[70px]">
-                    <p class="text-sm text-gray-500">Oversee student accounts efficiently. Monitor their career assessment results, information, and system engagement.</p>
+                    <p class="text-sm text-gray-500">Oversee student accounts efficiently. Monitor their career assessment results and information.</p>
                 </div>
                 <div class="flex gap-2">
                     <a href="{{ route('admin.dashboard.client') }}" class="btn btn-sm btn-outline btn-primary">Manage</a>
