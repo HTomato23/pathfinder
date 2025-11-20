@@ -20,13 +20,50 @@
             <div class="flex flex-col justify-center w-full gap-3 font-outfit">
                 <h1 class="text-3xl font-semibold md:text-4xl"><span class="bg-gradient-to-r from-green-700 via-emerald-600 to-green-500 bg-clip-text text-transparent">Pathfinder: </span>Guiding You Toward a Clearer Path and Success.</h1>
                 <p>Explore future possibilities with confidence. Pathfinder helps you visualize goals, align skills, and unlock opportunities made for you.</p>
-                <a href="{{ route('login') }}" class="btn text-white !bg-green-800 hover:opacity-90 rounded-full border-0 w-full md:w-1/2 lg:w-1/3 xl:w-1/4"> Get Started <span aria-hidden="true">&rarr;</span> </a>
+                <div class="flex flex-col sm:flex-row gap-3">
+                    <a href="{{ route('login') }}" class="btn text-white !bg-green-800 hover:opacity-90 rounded-full border-0 w-full md:w-1/2 lg:w-1/3 xl:w-1/4"> 
+                        Get Started <span aria-hidden="true">&rarr;</span> 
+                    </a>
+                    <button onclick="video_modal.showModal()" class="btn btn-outline btn-success rounded-full border-0 w-full md:w-1/2 lg:w-1/3 xl:w-1/4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        Watch Demo
+                    </button>
+                </div>
             </div>
             <div class="reveal flex items-center w-full">
                 <img src="{{ asset('images/svg/education.svg') }}" alt="educationSVG" />
             </div>
         </div>
     </main>
+
+    {{-- Video Modal --}}
+    <dialog id="video_modal" class="modal">
+        <div class="modal-box max-w-4xl w-full">
+            <form method="dialog">
+                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+            </form>
+            <h3 class="font-bold text-lg mb-4">Pathfinder Demo</h3>
+            <div class="aspect-video w-full">
+                <video id="demo_video" class="w-full h-full rounded-lg" controls>
+                    <source src="{{ asset('videos/user.mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        <form method="dialog" class="modal-backdrop">
+            <button onclick="document.getElementById('demo_video').pause();">close</button>
+        </form>
+    </dialog>
+
+    <script>
+        // Pause video when modal is closed
+        document.getElementById('video_modal').addEventListener('close', function() {
+            document.getElementById('demo_video').pause();
+        });
+    </script>
 
     <!-- How it works? -->
     <div>
