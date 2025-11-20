@@ -44,7 +44,50 @@
                     <a href="{{ route('admin.dashboard.blogs') }}" class="btn btn-sm btn-outline btn-primary">Manage</a>
                 </div>
             </div>
+            <div x-cloak :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'" class="flex flex-col gap-3 p-5 w-full rounded-sm shadow-sm">
+                <div class="flex items-center gap-2">
+                    <h1 class="text-md font-medium">System Demo</h1>
+                </div>
+                <div class="flex lg:h-[70px]">
+                    <p class="text-sm text-gray-500">Watch a comprehensive video tutorial on how to use and navigate the admin dashboard effectively.</p>
+                </div>
+                <div class="flex gap-2">
+                    <button onclick="admin_video_modal.showModal()" class="btn btn-sm btn-outline btn-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        Watch Demo
+                    </button>
+                </div>
+            </div>
         </div>
+
+        {{-- Admin Video Modal --}}
+        <dialog id="admin_video_modal" class="modal">
+            <div class="modal-box max-w-4xl w-full">
+                <form method="dialog">
+                    <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                </form>
+                <h3 class="font-bold text-lg mb-4">Admin Dashboard Tutorial</h3>
+                <div class="aspect-video w-full">
+                    <video id="admin_demo_video" class="w-full h-full rounded-lg" controls>
+                        <source src="{{ asset('videos/admin.mp4') }}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            <form method="dialog" class="modal-backdrop">
+                <button onclick="document.getElementById('admin_demo_video').pause();">close</button>
+            </form>
+        </dialog>
+
+        <script>
+            // Pause video when modal is closed
+            document.getElementById('admin_video_modal').addEventListener('close', function() {
+                document.getElementById('admin_demo_video').pause();
+            });
+        </script>
 
         <!-- Dashboard Statistics -->
         <div x-cloak :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'"
