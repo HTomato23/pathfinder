@@ -16,7 +16,7 @@
                     <h1 class="text-md font-medium">Control Management</h1>
                 </div>
                 <div class="flex lg:h-[70px]">
-                    <p class="text-sm text-gray-500">Manage and monitor all admin accounts within the system. Super Admins have the authority to create and control other admin users.</p>
+                    <p class="text-sm text-gray-500">Manage admin accounts within the system. Super Admins have the authority to create and control other admin users.</p>
                 </div>
                 <div class="flex gap-2">
                     <a href="{{ route('admin.dashboard.control') }}" class="btn btn-sm btn-outline btn-primary">Manage</a>
@@ -27,7 +27,7 @@
                     <h1 class="text-md font-medium">Client Management</h1>
                 </div>
                 <div class="flex lg:h-[70px]">
-                    <p class="text-sm text-gray-500">Oversee and manage all student accounts efficiently. Monitor their career assessment results, information, and system engagement.</p>
+                    <p class="text-sm text-gray-500">Oversee student accounts efficiently. Monitor their career assessment results, information, and system engagement.</p>
                 </div>
                 <div class="flex gap-2">
                     <a href="{{ route('admin.dashboard.client') }}" class="btn btn-sm btn-outline btn-primary">Manage</a>
