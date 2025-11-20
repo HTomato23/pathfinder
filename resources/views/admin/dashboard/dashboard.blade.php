@@ -15,7 +15,7 @@
                 <div class="flex items-center gap-2">
                     <h1 class="text-md font-medium">Control Management</h1>
                 </div>
-                <div class="flex min-h-[70px]">
+                <div class="flex lg:h-[70px]">
                     <p class="text-sm text-gray-500">Manage and monitor all admin accounts within the system. Super Admins have the authority to create and control other admin users.</p>
                 </div>
                 <div class="flex gap-2">
@@ -26,7 +26,7 @@
                 <div class="flex items-center gap-2">
                     <h1 class="text-md font-medium">Client Management</h1>
                 </div>
-                <div class="flex min-h-[70px]">
+                <div class="flex lg:h-[70px]">
                     <p class="text-sm text-gray-500">Oversee and manage all student accounts efficiently. Monitor their career assessment results, information, and system engagement.</p>
                 </div>
                 <div class="flex gap-2">
@@ -37,7 +37,7 @@
                 <div class="flex items-center gap-2">
                     <h1 class="text-md font-medium">Blog Management</h1>
                 </div>
-                <div class="flex min-h-[70px]">
+                <div class="flex lg:h-[70px]">
                     <p class="text-sm text-gray-500">Oversee products, track orders, manage inventory, and handle transactions — to store running efficiently.</p>
                 </div>
                 <div class="flex gap-2">
@@ -48,7 +48,7 @@
                 <div class="flex items-center gap-2">
                     <h1 class="text-md font-medium">System Demo</h1>
                 </div>
-                <div class="flex min-h-[70px]">
+                <div class="flex lg:h-[70px]">
                     <p class="text-sm text-gray-500">Watch a comprehensive video tutorial on how to use and navigate the admin dashboard effectively.</p>
                 </div>
                 <div class="flex gap-2">
