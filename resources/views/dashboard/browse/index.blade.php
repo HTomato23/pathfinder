@@ -1,7 +1,7 @@
 <x-layout.client title="Browse Jobs">
-    <x-layout.client.client-sidebar></x-layout.client.client-sidebar>
+    <x-layout.client.client-sidebar />
     <main class="flex flex-col gap-6 p-5 xl:ml-[256px]" x-data="jobTable()" x-init="init()">
-        <x-layout.client.client-navbar page="Browse Jobs"></x-layout.client.client-navbar>
+        <x-layout.client.client-navbar page="Browse Jobs" />
 
         <div class="relative">
             <!-- Loading Overlay -->

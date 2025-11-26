@@ -1,7 +1,7 @@
 <x-layout.app title="Appearance">
-    <x-layout.admin.admin-sidebar></x-layout.admin.admin-sidebar>
+    <x-layout.admin.admin-sidebar />
     <main class="flex flex-col gap-6 p-5 xl:ml-[256px]">
-        <x-layout.admin.admin-navbar page="Appearance"></x-layout.admin.admin-navbar>
+        <x-layout.admin.admin-navbar page="Appearance" />
 
         <div x-cloak :class="$store.theme.isDark() ? 'bg-base-200' : 'bg-base-100'" class="shadow-sm rounded-sm p-10 w-full">
             <div class="flex flex-wrap gap-5 justify-between">

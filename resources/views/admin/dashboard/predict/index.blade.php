@@ -1,7 +1,7 @@
 <x-layout.app title="Predict & Analysis">
-    <x-layout.admin.admin-sidebar></x-layout.admin.admin-sidebar>
+    <x-layout.admin.admin-sidebar />
     <main class="flex flex-col gap-6 p-5 xl:ml-[256px]" x-data="clientTable()" x-init="init()">
-        <x-layout.admin.admin-navbar page="Predict & Analysis"></x-layout.admin.admin-navbar>
+        <x-layout.admin.admin-navbar page="Predict & Analysis" />
         
         {{-- Success message --}}
         @if (session('success'))

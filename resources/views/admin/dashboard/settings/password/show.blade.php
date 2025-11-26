@@ -1,7 +1,7 @@
 <x-layout.app title="Change Password">
-    <x-layout.admin.admin-sidebar></x-layout.admin.admin-sidebar>
+    <x-layout.admin.admin-sidebar />
     <main class="flex flex-col gap-6 p-5 xl:ml-[256px]">
-        <x-layout.admin.admin-navbar page="Change Password"></x-layout.admin.admin-navbar>
+        <x-layout.admin.admin-navbar page="Change Password" />
 
         @php
             $admin = Auth::guard('admin')->user();

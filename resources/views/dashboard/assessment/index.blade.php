@@ -1,7 +1,7 @@
 <x-layout.client title="Assessment">
-    <x-layout.client.client-sidebar></x-layout.client.client-sidebar>
+    <x-layout.client.client-sidebar />
     <main class="flex flex-col gap-6 p-5 xl:ml-[256px]">
-        <x-layout.client.client-navbar page="Assessment"></x-layout.client.client-navbar>
+        <x-layout.client.client-navbar page="Assessment" />
 
         {{-- Cancel message --}}
         @if (session('warning'))

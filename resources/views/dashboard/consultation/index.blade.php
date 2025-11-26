@@ -1,7 +1,7 @@
 <x-layout.client title="Consultation">
-    <x-layout.client.client-sidebar></x-layout.client.client-sidebar>
+    <x-layout.client.client-sidebar />
     <main class="flex flex-col gap-6 p-5 xl:ml-[256px]"">
-        <x-layout.client.client-navbar page="Consultation"></x-layout.client.client-navbar>
+        <x-layout.client.client-navbar page="Consultation" />
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             @foreach ($consultation as $item)

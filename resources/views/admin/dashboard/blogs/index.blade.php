@@ -1,7 +1,7 @@
 <x-layout.app title="Blogs">
-    <x-layout.admin.admin-sidebar></x-layout.admin.admin-sidebar>
+    <x-layout.admin.admin-sidebar />
     <main class="flex flex-col gap-6 p-5 xl:ml-[256px]" x-data="blogTable()" x-init="init()">
-        <x-layout.admin.admin-navbar page="Blogs"></x-layout.admin.admin-navbar>
+        <x-layout.admin.admin-navbar page="Blogs" />
 
         {{-- Success message --}}
         @if (session('success'))

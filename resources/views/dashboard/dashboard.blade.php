@@ -16,9 +16,9 @@
     @endif
 
     @if (Auth::user()->is_completed)
-        <x-layout.client.client-sidebar></x-layout.client.client-sidebar>
+        <x-layout.client.client-sidebar />
         <main class="flex flex-col gap-6 p-5 xl:ml-[256px]">
-            <x-layout.client.client-navbar page="Dashboard"></x-layout.client.client-navbar>
+            <x-layout.client.client-navbar page="Dashboard" />
 
             @php
                 $client = Auth::user();

@@ -1,5 +1,5 @@
 <x-layout.client title="Register">
-    <x-layout.client.navbar></x-layout.client.navbar>
+    <x-layout.client.navbar />
       <main class="font-outfit fixed inset-0 mt-10 z-10">
 
         <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">

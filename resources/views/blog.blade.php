@@ -1,5 +1,5 @@
 <x-layout.client title="Blog">
-    <x-layout.client.navbar></x-layout.client.navbar>
+    <x-layout.client.navbar />
 
     @php
         $initials = $blog->author ? strtoupper(substr($blog->author->first_name, 0, 1)) . strtoupper(substr($blog->author->last_name, 0, 1)) : 'AT';
@@ -79,5 +79,5 @@
     </div>
 
     {{-- Footer --}}
-    <x-layout.client.footer></x-layout.client.footer>
+    <x-layout.client.footer />
 </x-layout.client>

@@ -1,5 +1,5 @@
 <x-layout.client title="Feedbacks">
-    <x-layout.client.navbar></x-layout.client.navbar>
+    <x-layout.client.navbar />
 
     <div class="absolute right-0 top-0 -z-10 transform-gpu overflow-hidden blur-3xl sm:top-10" aria-hidden="true">
         <div class="relative left-[calc(50%-8rem)] aspect-[1155/678] w-[36rem] -translate-x-1/2 rotate-[25deg] bg-gradient-to-tr from-[#34d399] to-[#65a30d] opacity-30 dark:opacity-20 sm:left-[calc(50%-26rem)] sm:w-[72rem]" style="clip-path: polygon(20% 10%, 40% 0%, 70% 15%, 85% 35%, 95% 60%, 80% 80%, 60% 90%, 30% 100%, 15% 80%, 5% 50%)"></div>
@@ -131,7 +131,7 @@
     </div>
 
     {{-- Footer --}}
-    <x-layout.client.footer></x-layout.client.footer>
+    <x-layout.client.footer />
 
     <script>
         function feedbackTable() {

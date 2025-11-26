@@ -1,7 +1,7 @@
 <x-layout.app title="Job Portal Details">
-    <x-layout.admin.admin-sidebar></x-layout.admin.admin-sidebar>
+    <x-layout.admin.admin-sidebar />
     <main class="flex flex-col gap-6 p-5 xl:ml-[256px]">
-        <x-layout.admin.admin-navbar page="Job Portal"></x-layout.admin.admin-navbar>
+        <x-layout.admin.admin-navbar page="Job Portal" />
 
         {{-- Success message --}}
         @if (session('success'))

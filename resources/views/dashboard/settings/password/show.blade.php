@@ -1,8 +1,8 @@
 <x-layout.client title="Change Password">
-    <x-layout.client.client-sidebar></x-layout.client.client-sidebar>
+    <x-layout.client.client-sidebar />
     <main class="flex flex-col gap-6 p-5 lg xl:ml-[256px]">
         
-        <x-layout.client.client-navbar page="Change Password"></x-layout.client.client-navbar>
+        <x-layout.client.client-navbar page="Change Password" />
 
         @php
             $client = Auth::user();

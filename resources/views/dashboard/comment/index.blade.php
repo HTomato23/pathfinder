@@ -1,7 +1,7 @@
 <x-layout.client title="Comments">
-    <x-layout.client.client-sidebar></x-layout.client.client-sidebar>
+    <x-layout.client.client-sidebar />
     <main class="flex flex-col gap-6 p-5 xl:ml-[256px]">
-        <x-layout.client.client-navbar page="Comments"></x-layout.client.client-navbar>
+        <x-layout.client.client-navbar page="Comments" />
 
         <!-- Comments Grid -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">

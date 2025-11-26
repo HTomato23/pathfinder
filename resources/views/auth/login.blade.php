@@ -1,5 +1,5 @@
 <x-layout.client title="Sign In">
-    <x-layout.client.navbar></x-layout.client.navbar>
+    <x-layout.client.navbar />
      <main class="font-outfit grid min-h-screen place-items-center px-4">
 
         <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">

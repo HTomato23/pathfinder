@@ -1,7 +1,7 @@
 <x-layout.app title="Authors">
-    <x-layout.admin.admin-sidebar></x-layout.admin.admin-sidebar>
+    <x-layout.admin.admin-sidebar />
     <main class="flex flex-col gap-6 p-5 xl:ml-[256px]" x-data="authorTable()" x-init="init()">
-        <x-layout.admin.admin-navbar page="Authors"></x-layout.admin.admin-navbar>
+        <x-layout.admin.admin-navbar page="Authors" />
 
         @php
             $initials = $author ? strtoupper(substr($author->first_name, 0, 1)) . strtoupper(substr($author->last_name, 0, 1)) : 'AT';

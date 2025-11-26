@@ -1,7 +1,7 @@
 <x-layout.app title="Create Blog">
-    <x-layout.admin.admin-sidebar></x-layout.admin.admin-sidebar>
+    <x-layout.admin.admin-sidebar />
     <main class="flex flex-col gap-6 p-5 xl:ml-[256px]" x-init="init()">
-        <x-layout.admin.admin-navbar page="Create Blog"></x-layout.admin.admin-navbar>
+        <x-layout.admin.admin-navbar page="Create Blog" />
 
         {{-- Get all errors --}}
         @if ($errors->any())

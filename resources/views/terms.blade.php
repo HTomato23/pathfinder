@@ -1,5 +1,5 @@
 <x-layout.client title="Terms of Service">
-    <x-layout.client.navbar></x-layout.client.navbar>
+    <x-layout.client.navbar />
 
     <div class="flex min-h-full items-center justify-center p-3">
         <div x-cloak :class="$store.theme.isDark() ? 'bg-base-200' : ''" class="max-w-4xl p-10 mt-20">
@@ -120,5 +120,5 @@
     </div>
 
     {{-- Footer --}}
-    <x-layout.client.footer></x-layout.client.footer>
+    <x-layout.client.footer />
 </x-layout.client>

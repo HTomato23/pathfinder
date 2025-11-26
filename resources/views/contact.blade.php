@@ -1,5 +1,5 @@
 <x-layout.client title="Contact">
-    <x-layout.client.navbar></x-layout.client.navbar>
+    <x-layout.client.navbar />
 
     {{-- Background gradient bubbles - FIXED --}}
     <div class="absolute inset-x-0 top-10 -z-10 transform-gpu overflow-hidden blur-3xl sm:top-0" aria-hidden="true">
@@ -122,5 +122,5 @@
     </div>
 
     {{-- Footer --}}
-    <x-layout.client.footer></x-layout.client.footer>
+    <x-layout.client.footer />
 </x-layout.client>
